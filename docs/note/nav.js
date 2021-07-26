@@ -16,6 +16,7 @@ const sidebarStructure = {
   ],
   'JavaScript 语言': [
     //
+    './top-levelAwait.md',
   ],
   'Node.js 和 NPM': [
     //

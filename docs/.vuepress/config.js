@@ -53,7 +53,7 @@ const config = {
       link: 'https://github.com/MuBai1104',
     },
     blogger: {
-      avatar: 'https://avatars.githubusercontent.com/u/5526096?s=400',
+      avatar: 'https://tva1.sinaimg.cn/large/008i3skNly1gsueeuixx5j31400u0433.jpg',
       name: 'MuBai1104',
       slogan: '略懂点前端',
     },
@@ -67,15 +67,13 @@ const config = {
       ],
     },
     footer: {
-      createYear: 2019,
+      createYear: 2021,
       copyrightInfo:
         'MuBai1104 | <a href="https://github.com/MuBai1104/erdong-notes/blob/master/LICENSE" target="_blank">MIT License</a>',
     },
 
     bodyBgImg: [
-      // 'https://images.unsplash.com/photo-1542416409-400da26855b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80',
-      // 'https://images.unsplash.com/photo-1561160767-6bbd75de51b8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2851&q=80',
-      'https://images.unsplash.com/photo-1483653085484-eb63c9f02547?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
+      'https://images.unsplash.com/photo-1561160767-6bbd75de51b8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2851&q=80',
     ],
     bodyBgImgOpacity: 0.1,
 
@@ -86,7 +84,6 @@ const config = {
 
     nav: [
       { text: '指南', link: '/note/typescript' },
-      { text: '资料', link: '/note/my-reading' },
       { text: '关于我', link: '/about/' },
       { text: '归档', link: '/archives/' },
     ],

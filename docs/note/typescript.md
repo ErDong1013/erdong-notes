@@ -1,7 +1,7 @@
 ---
 title: typescript
 date: 2021-07-26 14:00:49
-permalink: /pages/4083dc/
+permalink: /pages/typeScript/
 categories:
   - note
 tags:
