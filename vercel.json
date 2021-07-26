@@ -1,0 +1,27 @@
+{
+    "github": {
+        "silent": true
+    },
+    "redirects": [
+        {
+            "source": "/note/typescript.html",
+            "destination": "/note/typescript.html",
+            "statusCode": 301
+        },
+        {
+            "source": "/note/typescript",
+            "destination": "/note/typescript.html",
+            "statusCode": 301
+        },
+        {
+            "source": "/note/fe-development-cookbook.html",
+            "destination": "/note/typescript.html",
+            "statusCode": 301
+        },
+        {
+            "source": "/note/fe-development-cookbook",
+            "destination": "/note/typescript.html",
+            "statusCode": 301
+        }
+    ]
+}
