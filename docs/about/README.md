@@ -14,16 +14,13 @@ tags:
 
 目前状态
 
+- 3 年前端学习与开发经验，2 年前端工作经验。
 - 技能
   - 略懂点 JS
     - 写过些功能、优化和修复
-    - 做过点架构改进：  
-      公司 40 万行 JS 的老项目  
-      从 ES5/jQuery/Backbone/Underscore/Require.js  
-      到 TS/React Hooks/Redux/RxJS/Ramda/Webpack
+    - 在公司主要负责 H5 频道开发
 - 学习中
   - 修炼 TS
-  - 学习现代化、工程化前端开发
-  - 学习 CS
+  - 工程化前端开发
 - 其他
   - 写文章

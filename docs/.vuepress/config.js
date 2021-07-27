@@ -49,12 +49,12 @@ const config = {
 
   themeConfig: {
     author: {
-      name: 'MuBai1104',
+      name: 'ErDong',
       link: 'https://github.com/MuBai1104',
     },
     blogger: {
       avatar: 'https://tva1.sinaimg.cn/large/008i3skNly1gsueeuixx5j31400u0433.jpg',
-      name: 'MuBai1104',
+      name: 'ErDong',
       slogan: '略懂点前端',
     },
     social: {
@@ -69,7 +69,7 @@ const config = {
     footer: {
       createYear: 2021,
       copyrightInfo:
-        'MuBai1104 | <a href="https://github.com/MuBai1104/erdong-notes/blob/master/LICENSE" target="_blank">MIT License</a>',
+        'ErDong | <a href="https://github.com/MuBai1104/erdong-notes/blob/master/LICENSE" target="_blank">MIT License</a>',
     },
 
     bodyBgImg: [
