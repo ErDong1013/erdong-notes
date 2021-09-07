@@ -45,128 +45,6 @@ export const siteData = {
       "lastUpdated": "Jul 27, 2021 8:09 PM"
     },
     {
-      "title": "标签",
-      "frontmatter": {
-        "tagsPage": true,
-        "title": "标签",
-        "permalink": "/tags/",
-        "article": false
-      },
-      "regularPath": "/@pages/tagsPage.html",
-      "relativePath": "@pages/tagsPage.md",
-      "key": "v-2e8e39a2",
-      "path": "/tags/",
-      "lastUpdated": "Jul 26, 2021 2:08 PM"
-    },
-    {
-      "title": "分类",
-      "frontmatter": {
-        "categoriesPage": true,
-        "title": "分类",
-        "permalink": "/categories/",
-        "article": false
-      },
-      "regularPath": "/@pages/categoriesPage.html",
-      "relativePath": "@pages/categoriesPage.md",
-      "key": "v-0cebcc02",
-      "path": "/categories/",
-      "lastUpdated": "Jul 26, 2021 2:08 PM"
-    },
-    {
-      "title": "归档",
-      "frontmatter": {
-        "archivesPage": true,
-        "title": "归档",
-        "permalink": "/archives/",
-        "article": false
-      },
-      "regularPath": "/@pages/archivesPage.html",
-      "relativePath": "@pages/archivesPage.md",
-      "key": "v-5358e722",
-      "path": "/archives/",
-      "lastUpdated": "Jul 26, 2021 2:08 PM"
-    },
-    {
-      "title": "PlantUML",
-      "frontmatter": {
-        "title": "PlantUML",
-        "date": "2021-09-07T20:53:43.000Z",
-        "permalink": "/pages/plantUml/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/Daily/PlantUML.html",
-      "relativePath": "note/Daily/PlantUML.md",
-      "key": "v-77a4e37c",
-      "path": "/pages/plantUml/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Vuepress 增加 PlantUML 支持",
-          "slug": "vuepress-zeng-jia-plantuml-zhi-chi"
-        }
-      ]
-    },
-    {
-      "title": "todo",
-      "frontmatter": {
-        "title": "todo",
-        "date": "2021-09-07T22:28:49.000Z",
-        "permalink": "/pages/9276fb/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/todo.html",
-      "relativePath": "note/todo.md",
-      "key": "v-9b4c403c",
-      "path": "/pages/9276fb/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "📒 待整理",
-          "slug": "dai-zheng-li"
-        }
-      ]
-    },
-    {
-      "title": "🚗 JavaScript基础篇",
-      "frontmatter": {
-        "title": "🚗 JavaScript基础篇",
-        "date": "2021-09-07T20:02:54.000Z",
-        "permalink": "/pages/javascript/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/JavaScript/JavaScript%E5%9F%BA%E7%A1%80.html",
-      "relativePath": "note/JavaScript/JavaScript基础.md",
-      "key": "v-66f614ac",
-      "path": "/pages/javascript/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "👨🏻‍💻 导图",
-          "slug": "dao-tu"
-        },
-        {
-          "level": 2,
-          "title": "📒 整理",
-          "slug": "zheng-li"
-        }
-      ]
-    },
-    {
       "title": "关于我",
       "frontmatter": {
         "title": "关于我",
@@ -225,7 +103,126 @@ export const siteData = {
           "title": "Stage1",
           "slug": "stage1"
         }
-      ]
+      ],
+      "lastUpdated": "Sep 7, 2021 10:55 PM"
+    },
+    {
+      "title": "PlantUML",
+      "frontmatter": {
+        "title": "PlantUML",
+        "date": "2021-09-07T20:53:43.000Z",
+        "permalink": "/pages/plantUml/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/Daily/PlantUML.html",
+      "relativePath": "note/Daily/PlantUML.md",
+      "key": "v-77a4e37c",
+      "path": "/pages/plantUml/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vuepress 增加 PlantUML 支持",
+          "slug": "vuepress-zeng-jia-plantuml-zhi-chi"
+        }
+      ],
+      "lastUpdated": "Sep 7, 2021 10:55 PM"
+    },
+    {
+      "title": "top-level await",
+      "frontmatter": {
+        "title": "top-level await",
+        "date": "2021-07-26T16:04:15.000Z",
+        "permalink": "/pages/top-level-await/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/top-levelAwait.html",
+      "relativePath": "note/top-levelAwait.md",
+      "key": "v-6a10a6a2",
+      "path": "/pages/top-level-await/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "top-level await",
+          "slug": "top-level-await"
+        },
+        {
+          "level": 3,
+          "title": "1. 在引入 top-level await 之前",
+          "slug": "1.-zai-yin-ru-top-level-await-zhi-qian"
+        },
+        {
+          "level": 3,
+          "title": "2.使用 Export Promise 来代替初始化",
+          "slug": "2.shi-yong-export-promise-lai-dai-ti-chu-shi-hua"
+        },
+        {
+          "level": 3,
+          "title": "3. 使用 top-level await",
+          "slug": "3.-shi-yong-top-level-await"
+        },
+        {
+          "level": 3,
+          "title": "4. 过去",
+          "slug": "4.-guo-qu"
+        },
+        {
+          "level": 3,
+          "title": "5. 现在",
+          "slug": "5.-xian-zai"
+        },
+        {
+          "level": 3,
+          "title": "6. 何时使用",
+          "slug": "6.-he-shi-shi-yong"
+        },
+        {
+          "level": 3,
+          "title": "结尾",
+          "slug": "jie-wei"
+        }
+      ],
+      "lastUpdated": "Sep 7, 2021 10:55 PM"
+    },
+    {
+      "title": "🚗 JavaScript基础篇",
+      "frontmatter": {
+        "title": "🚗 JavaScript基础篇",
+        "date": "2021-09-07T20:02:54.000Z",
+        "permalink": "/pages/javascript/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/JavaScript/JavaScript%E5%9F%BA%E7%A1%80.html",
+      "relativePath": "note/JavaScript/JavaScript基础.md",
+      "key": "v-66f614ac",
+      "path": "/pages/javascript/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "👨🏻‍💻 导图",
+          "slug": "dao-tu"
+        },
+        {
+          "level": 2,
+          "title": "📒 整理",
+          "slug": "zheng-li"
+        }
+      ],
+      "lastUpdated": "Sep 7, 2021 10:55 PM"
     },
     {
       "title": "typescript不完整指南",
@@ -301,14 +298,32 @@ export const siteData = {
           "slug": "can-kao-zi-yuan"
         }
       ],
-      "lastUpdated": "Jul 26, 2021 4:23 PM"
+      "lastUpdated": "Sep 7, 2021 10:55 PM"
     },
     {
-      "title": "top-level await",
+      "title": "JavaScript",
       "frontmatter": {
-        "title": "top-level await",
-        "date": "2021-07-26T16:04:15.000Z",
-        "permalink": "/pages/top-level-await/",
+        "title": "JavaScript",
+        "date": "2021-09-07T23:03:17.000Z",
+        "permalink": "/interview/JavaScript/",
+        "categories": [
+          "interview"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/JavaScript.html",
+      "relativePath": "interview/JavaScript.md",
+      "key": "v-d4b28010",
+      "path": "/interview/JavaScript/"
+    },
+    {
+      "title": "todo",
+      "frontmatter": {
+        "title": "todo",
+        "date": "2021-09-07T22:28:49.000Z",
+        "permalink": "/pages/9276fb/",
         "categories": [
           "note"
         ],
@@ -316,53 +331,59 @@ export const siteData = {
           null
         ]
       },
-      "regularPath": "/note/top-levelAwait.html",
-      "relativePath": "note/top-levelAwait.md",
-      "key": "v-6a10a6a2",
-      "path": "/pages/top-level-await/",
+      "regularPath": "/note/todo.html",
+      "relativePath": "note/todo.md",
+      "key": "v-9b4c403c",
+      "path": "/pages/9276fb/",
       "headers": [
         {
-          "level": 2,
-          "title": "top-level await",
-          "slug": "top-level-await"
-        },
-        {
           "level": 3,
-          "title": "1. 在引入 top-level await 之前",
-          "slug": "1.-zai-yin-ru-top-level-await-zhi-qian"
-        },
-        {
-          "level": 3,
-          "title": "2.使用 Export Promise 来代替初始化",
-          "slug": "2.shi-yong-export-promise-lai-dai-ti-chu-shi-hua"
-        },
-        {
-          "level": 3,
-          "title": "3. 使用 top-level await",
-          "slug": "3.-shi-yong-top-level-await"
-        },
-        {
-          "level": 3,
-          "title": "4. 过去",
-          "slug": "4.-guo-qu"
-        },
-        {
-          "level": 3,
-          "title": "5. 现在",
-          "slug": "5.-xian-zai"
-        },
-        {
-          "level": 3,
-          "title": "6. 何时使用",
-          "slug": "6.-he-shi-shi-yong"
-        },
-        {
-          "level": 3,
-          "title": "结尾",
-          "slug": "jie-wei"
+          "title": "📒 待整理",
+          "slug": "dai-zheng-li"
         }
-      ],
-      "lastUpdated": "Jul 26, 2021 4:23 PM"
+      ]
+    },
+    {
+      "title": "分类",
+      "frontmatter": {
+        "categoriesPage": true,
+        "title": "分类",
+        "permalink": "/categories/",
+        "article": false
+      },
+      "regularPath": "/@pages/categoriesPage.html",
+      "relativePath": "@pages/categoriesPage.md",
+      "key": "v-0cebcc02",
+      "path": "/categories/",
+      "lastUpdated": "Jul 26, 2021 2:08 PM"
+    },
+    {
+      "title": "归档",
+      "frontmatter": {
+        "archivesPage": true,
+        "title": "归档",
+        "permalink": "/archives/",
+        "article": false
+      },
+      "regularPath": "/@pages/archivesPage.html",
+      "relativePath": "@pages/archivesPage.md",
+      "key": "v-5358e722",
+      "path": "/archives/",
+      "lastUpdated": "Jul 26, 2021 2:08 PM"
+    },
+    {
+      "title": "标签",
+      "frontmatter": {
+        "tagsPage": true,
+        "title": "标签",
+        "permalink": "/tags/",
+        "article": false
+      },
+      "regularPath": "/@pages/tagsPage.html",
+      "relativePath": "@pages/tagsPage.md",
+      "key": "v-2e8e39a2",
+      "path": "/tags/",
+      "lastUpdated": "Jul 26, 2021 2:08 PM"
     }
   ],
   "themeConfig": {
@@ -400,6 +421,10 @@ export const siteData = {
         "link": "/note/typescript"
       },
       {
+        "text": "Interview",
+        "link": "/interview/JavaScript"
+      },
+      {
         "text": "关于我",
         "link": "/about/"
       },
@@ -413,6 +438,20 @@ export const siteData = {
     "sidebar": {
       "/note": [
         {
+          "title": "JavaScript 语言",
+          "children": [
+            "/note/JavaScript/JavaScript基础.md"
+          ],
+          "collapsable": false
+        },
+        {
+          "title": "其他语言",
+          "children": [
+            "/note/typescript.md"
+          ],
+          "collapsable": false
+        },
+        {
           "title": "瞎写",
           "children": [
             "/note/top-levelAwait.md",
@@ -420,6 +459,15 @@ export const siteData = {
           ],
           "collapsable": false
         },
+        {
+          "title": "开发生活/杂谈",
+          "children": [
+            "/note/Daily/PlantUML.md"
+          ],
+          "collapsable": false
+        }
+      ],
+      "/interview": [
         {
           "title": "JavaScript 语言",
           "children": [
@@ -431,6 +479,14 @@ export const siteData = {
           "title": "其他语言",
           "children": [
             "/note/typescript.md"
+          ],
+          "collapsable": false
+        },
+        {
+          "title": "瞎写",
+          "children": [
+            "/note/top-levelAwait.md",
+            "/note/context.md"
           ],
           "collapsable": false
         },

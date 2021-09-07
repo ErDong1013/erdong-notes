@@ -21,20 +21,128 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-2e8e39a2",
-    path: "/tags/",
+    name: "v-34c9d17d",
+    path: "/about/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2e8e39a2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-34c9d17d").then(next)
     },
   },
   {
-    path: "/tags/index.html",
-    redirect: "/tags/"
+    path: "/about/index.html",
+    redirect: "/about/"
   },
   {
-    path: "/@pages/tagsPage.html",
-    redirect: "/tags/"
+    name: "v-38fd5eec",
+    path: "/pages/context/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-38fd5eec").then(next)
+    },
+  },
+  {
+    path: "/pages/context/index.html",
+    redirect: "/pages/context/"
+  },
+  {
+    path: "/note/context.html",
+    redirect: "/pages/context/"
+  },
+  {
+    name: "v-77a4e37c",
+    path: "/pages/plantUml/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-77a4e37c").then(next)
+    },
+  },
+  {
+    path: "/pages/plantUml/index.html",
+    redirect: "/pages/plantUml/"
+  },
+  {
+    path: "/note/Daily/PlantUML.html",
+    redirect: "/pages/plantUml/"
+  },
+  {
+    name: "v-6a10a6a2",
+    path: "/pages/top-level-await/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a10a6a2").then(next)
+    },
+  },
+  {
+    path: "/pages/top-level-await/index.html",
+    redirect: "/pages/top-level-await/"
+  },
+  {
+    path: "/note/top-levelAwait.html",
+    redirect: "/pages/top-level-await/"
+  },
+  {
+    name: "v-66f614ac",
+    path: "/pages/javascript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-66f614ac").then(next)
+    },
+  },
+  {
+    path: "/pages/javascript/index.html",
+    redirect: "/pages/javascript/"
+  },
+  {
+    path: "/note/JavaScript/JavaScript基础.html",
+    redirect: "/pages/javascript/"
+  },
+  {
+    name: "v-76ab9602",
+    path: "/pages/typeScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-76ab9602").then(next)
+    },
+  },
+  {
+    path: "/pages/typeScript/index.html",
+    redirect: "/pages/typeScript/"
+  },
+  {
+    path: "/note/typescript.html",
+    redirect: "/pages/typeScript/"
+  },
+  {
+    name: "v-d4b28010",
+    path: "/interview/JavaScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d4b28010").then(next)
+    },
+  },
+  {
+    path: "/interview/JavaScript/index.html",
+    redirect: "/interview/JavaScript/"
+  },
+  {
+    path: "/interview/JavaScript.html",
+    redirect: "/interview/JavaScript/"
+  },
+  {
+    name: "v-9b4c403c",
+    path: "/pages/9276fb/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9b4c403c").then(next)
+    },
+  },
+  {
+    path: "/pages/9276fb/index.html",
+    redirect: "/pages/9276fb/"
+  },
+  {
+    path: "/note/todo.html",
+    redirect: "/pages/9276fb/"
   },
   {
     name: "v-0cebcc02",
@@ -69,112 +177,20 @@ export const routes = [
     redirect: "/archives/"
   },
   {
-    name: "v-77a4e37c",
-    path: "/pages/plantUml/",
+    name: "v-2e8e39a2",
+    path: "/tags/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-77a4e37c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2e8e39a2").then(next)
     },
   },
   {
-    path: "/pages/plantUml/index.html",
-    redirect: "/pages/plantUml/"
+    path: "/tags/index.html",
+    redirect: "/tags/"
   },
   {
-    path: "/note/Daily/PlantUML.html",
-    redirect: "/pages/plantUml/"
-  },
-  {
-    name: "v-9b4c403c",
-    path: "/pages/9276fb/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9b4c403c").then(next)
-    },
-  },
-  {
-    path: "/pages/9276fb/index.html",
-    redirect: "/pages/9276fb/"
-  },
-  {
-    path: "/note/todo.html",
-    redirect: "/pages/9276fb/"
-  },
-  {
-    name: "v-66f614ac",
-    path: "/pages/javascript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-66f614ac").then(next)
-    },
-  },
-  {
-    path: "/pages/javascript/index.html",
-    redirect: "/pages/javascript/"
-  },
-  {
-    path: "/note/JavaScript/JavaScript基础.html",
-    redirect: "/pages/javascript/"
-  },
-  {
-    name: "v-34c9d17d",
-    path: "/about/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-34c9d17d").then(next)
-    },
-  },
-  {
-    path: "/about/index.html",
-    redirect: "/about/"
-  },
-  {
-    name: "v-38fd5eec",
-    path: "/pages/context/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-38fd5eec").then(next)
-    },
-  },
-  {
-    path: "/pages/context/index.html",
-    redirect: "/pages/context/"
-  },
-  {
-    path: "/note/context.html",
-    redirect: "/pages/context/"
-  },
-  {
-    name: "v-76ab9602",
-    path: "/pages/typeScript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-76ab9602").then(next)
-    },
-  },
-  {
-    path: "/pages/typeScript/index.html",
-    redirect: "/pages/typeScript/"
-  },
-  {
-    path: "/note/typescript.html",
-    redirect: "/pages/typeScript/"
-  },
-  {
-    name: "v-6a10a6a2",
-    path: "/pages/top-level-await/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6a10a6a2").then(next)
-    },
-  },
-  {
-    path: "/pages/top-level-await/index.html",
-    redirect: "/pages/top-level-await/"
-  },
-  {
-    path: "/note/top-levelAwait.html",
-    redirect: "/pages/top-level-await/"
+    path: "/@pages/tagsPage.html",
+    redirect: "/tags/"
   },
   {
     path: '*',

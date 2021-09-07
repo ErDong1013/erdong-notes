@@ -84,6 +84,7 @@ const config = {
 
     nav: [
       { text: '指南', link: '/note/typescript' },
+      { text: 'Interview', link: '/interview/JavaScript' },
       { text: '关于我', link: '/about/' },
       { text: '归档', link: '/archives/' },
     ],
@@ -92,8 +93,14 @@ const config = {
     sidebarDepth: 3,
     sidebar: {
       '/note': articleSidebar,
+      '/interview': articleSidebar,
       '/about': false,
     },
+    // Algolia 搜索
+    // algolia: {
+    //   apiKey: '<API_KEY>',
+    //   indexName: '<INDEX_NAME>',
+    // },
   },
 
   plugins: [
