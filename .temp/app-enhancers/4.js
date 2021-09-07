@@ -1,0 +1,1 @@
+export { default } from "/Users/chenxiaodong/Documents/GitHub/erdong-notes/node_modules/_vuepress-plugin-smooth-scroll@0.0.3@vuepress-plugin-smooth-scroll/lib/enhanceApp.js"

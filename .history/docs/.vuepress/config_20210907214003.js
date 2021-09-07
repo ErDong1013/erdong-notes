@@ -133,10 +133,9 @@ const config = {
     extendMarkdown: (md) => {
       md.set({ breaks: true });
       md.use(require('markdown-it-plantuml'), {
-        openMarker: '```plantuml',
-        closeMarker: '```',
+        openMarker: '@startuml',
+        closeMarker: '@enduml',
         diagramName: 'uml',
-        imageFormat: 'svg',
       });
       md.use(require('markdown-it-plantuml'), {
         openMarker: '@startditaa',

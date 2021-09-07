@@ -1,6 +1,6 @@
 ---
 title: top-level await
-date: 2021年07月26日16:04:15
+date: 2021-07-26 16:04:15
 permalink: /pages/top-level-await/
 categories:
   - note

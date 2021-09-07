@@ -136,7 +136,6 @@ const config = {
         openMarker: '```plantuml',
         closeMarker: '```',
         diagramName: 'uml',
-        imageFormat: 'svg',
       });
       md.use(require('markdown-it-plantuml'), {
         openMarker: '@startditaa',

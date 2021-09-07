@@ -2,6 +2,11 @@ const sidebarStructure = {
   '简介': [
     //
   ],
+  '瞎写': [
+    //
+    './top-levelAwait.md',
+    './context.md',
+  ],
   '开发环境': [
     //
   ],
@@ -30,11 +35,6 @@ const sidebarStructure = {
   ],
   '工程化/测试/持续集成': [
     //
-  ],
-  '瞎写': [
-    //
-    './top-levelAwait.md',
-    './context.md',
   ],
   '开发生活/杂谈': [
     //

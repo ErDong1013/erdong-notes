@@ -132,32 +132,7 @@ const config = {
     },
     extendMarkdown: (md) => {
       md.set({ breaks: true });
-      md.use(require('markdown-it-plantuml'), {
-        openMarker: '```plantuml',
-        closeMarker: '```',
-        diagramName: 'uml',
-        imageFormat: 'svg',
-      });
-      md.use(require('markdown-it-plantuml'), {
-        openMarker: '@startditaa',
-        closeMarker: '@endditaa',
-        diagramName: 'ditaa',
-      });
-      md.use(require('markdown-it-plantuml'), {
-        openMarker: '@startgantt',
-        closeMarker: '@endgantt',
-        diagramName: 'gantt',
-      });
-      md.use(require('markdown-it-plantuml'), {
-        openMarker: '@startmindmap',
-        closeMarker: '@endmindmap',
-        diagramName: 'mindmap',
-      });
-      md.use(require('markdown-it-plantuml'), {
-        openMarker: '@startwbs',
-        closeMarker: '@endwbs',
-        diagramName: 'wbs',
-      });
+      md.use(require('markdown-it-plantuml'));
       md.use(markdownItAttrs, {
         leftDelimiter: '{',
         rightDelimiter: '}',

@@ -1,5 +1,5 @@
 ---
-title: typescript
+title: typescript不完整指南
 date: 2021-07-26 14:00:49
 permalink: /pages/typeScript/
 categories:
