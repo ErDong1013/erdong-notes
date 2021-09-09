@@ -42,69 +42,11 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-f3fec70e",
       "path": "/",
-      "lastUpdated": "Jul 27, 2021 8:09 PM"
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {
-        "title": "关于我",
-        "date": "2021-07-26T13:44:36.000Z",
-        "permalink": "/about/",
-        "categories": [
-          "about"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-34c9d17d",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "我自己",
-          "slug": "wo-zi-ji"
-        }
-      ],
-      "lastUpdated": "Jul 27, 2021 8:09 PM"
-    },
-    {
-      "title": "优化使用context带来的不必要渲染问题",
-      "frontmatter": {
-        "title": "优化使用context带来的不必要渲染问题",
-        "date": "2021-08-06T20:08:37.000Z",
-        "permalink": "/pages/context/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/context.html",
-      "relativePath": "note/context.md",
-      "key": "v-38fd5eec",
-      "path": "/pages/context/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "预览",
-          "slug": "yu-lan"
-        },
-        {
-          "level": 2,
-          "title": "说明",
-          "slug": "shuo-ming"
-        },
-        {
-          "level": 2,
-          "title": "Stage1",
-          "slug": "stage1"
-        }
-      ],
-      "lastUpdated": "Sep 7, 2021 10:55 PM"
+      "lastUpdated": "7/27/2021, 8:09:54 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
     },
     {
       "title": "PlantUML",
@@ -127,71 +69,52 @@ export const siteData = {
         {
           "level": 2,
           "title": "Vuepress 增加 PlantUML 支持",
-          "slug": "vuepress-zeng-jia-plantuml-zhi-chi"
+          "slug": "vuepress-zeng-jia-plantuml-zhi-chi",
+          "normalizedTitle": "vuepress 增加 plantuml 支持",
+          "charIndex": 2
         }
       ],
-      "lastUpdated": "Sep 7, 2021 10:55 PM"
+      "lastUpdated": "9/7/2021, 10:55:52 PM",
+      "headersStr": "Vuepress 增加 PlantUML 支持",
+      "content": "# Vuepress 增加 PlantUML 支持\n\n# 插件安装\n\nyarn add -D markdown-it-plantuml\n\n\n编辑Vuepress的配置文件.config.js，增加插件的配置：\n\nmodule.exports = {\n  ...\n  extendMarkdown: md => {\n    md.set({ breaks: true })\n    md.use(require('markdown-it-plantuml'))\n  },\n  ...\n}\n\n\n# 测试\n\n@startmindmap\n* root node\n\t* some first level node\n\t\t* second level node\n\t\t* another second level node\n\t* another first level node\n@endmindmap\n\n\n参考：https://plantuml.com/zh/mindmap-diagram",
+      "normalizedContent": "# vuepress 增加 plantuml 支持\n\n# 插件安装\n\nyarn add -d markdown-it-plantuml\n\n\n编辑vuepress的配置文件.config.js，增加插件的配置：\n\nmodule.exports = {\n  ...\n  extendmarkdown: md => {\n    md.set({ breaks: true })\n    md.use(require('markdown-it-plantuml'))\n  },\n  ...\n}\n\n\n# 测试\n\n@startmindmap\n* root node\n\t* some first level node\n\t\t* second level node\n\t\t* another second level node\n\t* another first level node\n@endmindmap\n\n\n参考：https://plantuml.com/zh/mindmap-diagram",
+      "charsets": {
+        "cjk": true
+      }
     },
     {
-      "title": "top-level await",
+      "title": "关于我",
       "frontmatter": {
-        "title": "top-level await",
-        "date": "2021-07-26T16:04:15.000Z",
-        "permalink": "/pages/top-level-await/",
+        "title": "关于我",
+        "date": "2021-07-26T13:44:36.000Z",
+        "permalink": "/about/",
         "categories": [
-          "note"
+          "about"
         ],
         "tags": [
           null
         ]
       },
-      "regularPath": "/note/top-levelAwait.html",
-      "relativePath": "note/top-levelAwait.md",
-      "key": "v-6a10a6a2",
-      "path": "/pages/top-level-await/",
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-34c9d17d",
+      "path": "/about/",
       "headers": [
         {
           "level": 2,
-          "title": "top-level await",
-          "slug": "top-level-await"
-        },
-        {
-          "level": 3,
-          "title": "1. 在引入 top-level await 之前",
-          "slug": "1.-zai-yin-ru-top-level-await-zhi-qian"
-        },
-        {
-          "level": 3,
-          "title": "2.使用 Export Promise 来代替初始化",
-          "slug": "2.shi-yong-export-promise-lai-dai-ti-chu-shi-hua"
-        },
-        {
-          "level": 3,
-          "title": "3. 使用 top-level await",
-          "slug": "3.-shi-yong-top-level-await"
-        },
-        {
-          "level": 3,
-          "title": "4. 过去",
-          "slug": "4.-guo-qu"
-        },
-        {
-          "level": 3,
-          "title": "5. 现在",
-          "slug": "5.-xian-zai"
-        },
-        {
-          "level": 3,
-          "title": "6. 何时使用",
-          "slug": "6.-he-shi-shi-yong"
-        },
-        {
-          "level": 3,
-          "title": "结尾",
-          "slug": "jie-wei"
+          "title": "我自己",
+          "slug": "wo-zi-ji",
+          "normalizedTitle": "我自己",
+          "charIndex": 14
         }
       ],
-      "lastUpdated": "Sep 7, 2021 10:55 PM"
+      "lastUpdated": "7/27/2021, 8:09:54 PM",
+      "headersStr": "我自己",
+      "content": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 JS\n     * 写过些功能、优化和修复\n     * 在公司主要负责 H5 频道开发\n * 学习中\n   * 修炼 TS\n   * 工程化前端开发\n * 其他\n   * 写文章",
+      "normalizedContent": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 js\n     * 写过些功能、优化和修复\n     * 在公司主要负责 h5 频道开发\n * 学习中\n   * 修炼 ts\n   * 工程化前端开发\n * 其他\n   * 写文章",
+      "charsets": {
+        "cjk": true
+      }
     },
     {
       "title": "🚗 JavaScript基础篇",
@@ -214,91 +137,25 @@ export const siteData = {
         {
           "level": 2,
           "title": "👨🏻‍💻 导图",
-          "slug": "dao-tu"
+          "slug": "dao-tu",
+          "normalizedTitle": "👨🏻‍💻 导图",
+          "charIndex": 2
         },
         {
           "level": 2,
           "title": "📒 整理",
-          "slug": "zheng-li"
+          "slug": "zheng-li",
+          "normalizedTitle": "📒 整理",
+          "charIndex": 17
         }
       ],
-      "lastUpdated": "Sep 7, 2021 10:55 PM"
-    },
-    {
-      "title": "typescript不完整指南",
-      "frontmatter": {
-        "title": "typescript不完整指南",
-        "date": "2021-07-26T14:00:49.000Z",
-        "permalink": "/pages/typeScript/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/typescript.html",
-      "relativePath": "note/typescript.md",
-      "key": "v-76ab9602",
-      "path": "/pages/typeScript/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1、为什么要学习 TypeScript",
-          "slug": "1-wei-shi-me-yao-xue-xi-typescript"
-        },
-        {
-          "level": 2,
-          "title": "2、基础类型",
-          "slug": "2-ji-chu-lei-xing"
-        },
-        {
-          "level": 2,
-          "title": "3、枚举",
-          "slug": "3-mei-ju"
-        },
-        {
-          "level": 2,
-          "title": "4、函数 Function",
-          "slug": "4-han-shu-function"
-        },
-        {
-          "level": 2,
-          "title": "5、断言",
-          "slug": "5-duan-yan"
-        },
-        {
-          "level": 2,
-          "title": "6、接口 interface",
-          "slug": "6-jie-kou-interface"
-        },
-        {
-          "level": 2,
-          "title": "7、类 Class",
-          "slug": "7-lei-class"
-        },
-        {
-          "level": 2,
-          "title": "8、泛类 generic",
-          "slug": "8-fan-lei-generic"
-        },
-        {
-          "level": 2,
-          "title": "9、高级类型",
-          "slug": "9-gao-ji-lei-xing"
-        },
-        {
-          "level": 2,
-          "title": "10、tsconfig.json",
-          "slug": "10-tsconfig.json"
-        },
-        {
-          "level": 2,
-          "title": "参考资源",
-          "slug": "can-kao-zi-yuan"
-        }
-      ],
-      "lastUpdated": "Sep 7, 2021 10:55 PM"
+      "lastUpdated": "9/7/2021, 10:55:52 PM",
+      "headersStr": "👨🏻‍💻 导图 📒 整理",
+      "content": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * JavaScript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 作用域链\n\n * JavaScript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/Blog/issues/6\n\n# 闭包\n\n * JavaScript 深入之闭包——冴羽 https://github.com/mqyqingfeng/Blog/issues/9\n\n# this\n\n * JavaScript深入之从ECMAScript规范解读this——冴羽 https://github.com/mqyqingfeng/Blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * JavaScript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/Blog/issues/12\n\n# 原型\n\n * JavaScript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# Promise\n\n * 这一次，彻底弄懂 Promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# Event Loop\n\n * 详解JavaScript中的Event Loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
+      "normalizedContent": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * javascript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 作用域链\n\n * javascript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/blog/issues/6\n\n# 闭包\n\n * javascript 深入之闭包——冴羽 https://github.com/mqyqingfeng/blog/issues/9\n\n# this\n\n * javascript深入之从ecmascript规范解读this——冴羽 https://github.com/mqyqingfeng/blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * javascript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/blog/issues/12\n\n# 原型\n\n * javascript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# promise\n\n * 这一次，彻底弄懂 promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# event loop\n\n * 详解javascript中的event loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
+      "charsets": {
+        "cjk": true
+      }
     },
     {
       "title": "JavaScript",
@@ -316,7 +173,84 @@ export const siteData = {
       "regularPath": "/interview/JavaScript.html",
       "relativePath": "interview/JavaScript.md",
       "key": "v-d4b28010",
-      "path": "/interview/JavaScript/"
+      "path": "/interview/JavaScript/",
+      "lastUpdated": "9/7/2021, 11:26:45 PM",
+      "headersStr": null,
+      "content": "测试",
+      "normalizedContent": "测试",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "优化使用context带来的不必要渲染问题",
+      "frontmatter": {
+        "title": "优化使用context带来的不必要渲染问题",
+        "date": "2021-08-06T20:08:37.000Z",
+        "permalink": "/pages/context/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/context.html",
+      "relativePath": "note/context.md",
+      "key": "v-38fd5eec",
+      "path": "/pages/context/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "预览",
+          "slug": "yu-lan",
+          "normalizedTitle": "预览",
+          "charIndex": 2
+        },
+        {
+          "level": 2,
+          "title": "说明",
+          "slug": "shuo-ming",
+          "normalizedTitle": "说明",
+          "charIndex": 9
+        },
+        {
+          "level": 2,
+          "title": "Stage1",
+          "slug": "stage1",
+          "normalizedTitle": "stage1",
+          "charIndex": 153
+        }
+      ],
+      "lastUpdated": "9/7/2021, 10:55:52 PM",
+      "headersStr": "预览 说明 Stage1",
+      "content": "# 预览\n\n\n# 说明\n\n如何体现出组件是否发生 render\n\nconst getBg = (color) => {\n  return {\n    backgroundColor: `rgba(${color || \"255,1,1\"}, ${Math.random()})`\n  };\n};\n\n\n\n# Stage1\n\nsetState 会让所有子组件更新（因为 createElement 重新执行）\n\nimport React, { useState } from \"react\";\nimport { getBg } from \"../getColor\";\n\nconst Count = (props) => {\n  return <div style={getBg()}>{props.count}</div>;\n};\n\nconst Pure = () => {\n  return <div style={getBg()}>pure</div>;\n};\n\nconst SetCount = (props) => {\n  return (\n    <Button\n      style={getBg()}\n      onClick={() => props.setCount((count) => count + 1)}\n    >\n      SetCount\n    </Button>\n  );\n};\n\nconst Stage1 = () => {\n  const [count, setCount] = useState(0);\n  const [, forceReRender] = useState({});\n  console.log(\"render\");\n  return (\n    <>\n      <Button style={getBg()} onClick={() => forceReRender({})}>\n        FORCE_RE_RENDER\n      </Button>\n      <Count count={count} />\n      <SetCount setCount={setCount} />\n      <Pure />\n    </>\n  );\n};\n\nexport default Stage1;\n\n",
+      "normalizedContent": "# 预览\n\n\n# 说明\n\n如何体现出组件是否发生 render\n\nconst getbg = (color) => {\n  return {\n    backgroundcolor: `rgba(${color || \"255,1,1\"}, ${math.random()})`\n  };\n};\n\n\n\n# stage1\n\nsetstate 会让所有子组件更新（因为 createelement 重新执行）\n\nimport react, { usestate } from \"react\";\nimport { getbg } from \"../getcolor\";\n\nconst count = (props) => {\n  return <div style={getbg()}>{props.count}</div>;\n};\n\nconst pure = () => {\n  return <div style={getbg()}>pure</div>;\n};\n\nconst setcount = (props) => {\n  return (\n    <button\n      style={getbg()}\n      onclick={() => props.setcount((count) => count + 1)}\n    >\n      setcount\n    </button>\n  );\n};\n\nconst stage1 = () => {\n  const [count, setcount] = usestate(0);\n  const [, forcererender] = usestate({});\n  console.log(\"render\");\n  return (\n    <>\n      <button style={getbg()} onclick={() => forcererender({})}>\n        force_re_render\n      </button>\n      <count count={count} />\n      <setcount setcount={setcount} />\n      <pure />\n    </>\n  );\n};\n\nexport default stage1;\n\n",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "xxxxxxxxxx",
+      "frontmatter": {
+        "title": "xxxxxxxxxx",
+        "date": "2021-09-09T21:46:09.000Z",
+        "permalink": "/pages/0088df/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/test.html",
+      "relativePath": "note/test.md",
+      "key": "v-432c973c",
+      "path": "/pages/0088df/",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
     },
     {
       "title": "todo",
@@ -339,23 +273,204 @@ export const siteData = {
         {
           "level": 3,
           "title": "📒 待整理",
-          "slug": "dai-zheng-li"
+          "slug": "dai-zheng-li",
+          "normalizedTitle": "📒 待整理",
+          "charIndex": 2
         }
-      ]
+      ],
+      "headersStr": "📒 待整理",
+      "content": "# 📒 待整理\n\n * vscode 自动格式化md文件，搞得很是郁闷，加入 [markdown] 自定义配置 \"editor.formatOnSave\": false 搞定了。 https://www.cnblogs.com/pengchenggang/p/14917817.html\n * vuepress markdown 拓展 https://blog.dbplayer.org/my-blog/",
+      "normalizedContent": "# 📒 待整理\n\n * vscode 自动格式化md文件，搞得很是郁闷，加入 [markdown] 自定义配置 \"editor.formatonsave\": false 搞定了。 https://www.cnblogs.com/pengchenggang/p/14917817.html\n * vuepress markdown 拓展 https://blog.dbplayer.org/my-blog/",
+      "charsets": {
+        "cjk": true
+      }
     },
     {
-      "title": "分类",
+      "title": "top-level await",
       "frontmatter": {
-        "categoriesPage": true,
-        "title": "分类",
-        "permalink": "/categories/",
-        "article": false
+        "title": "top-level await",
+        "date": "2021-07-26T16:04:15.000Z",
+        "permalink": "/pages/top-level-await/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
       },
-      "regularPath": "/@pages/categoriesPage.html",
-      "relativePath": "@pages/categoriesPage.md",
-      "key": "v-0cebcc02",
-      "path": "/categories/",
-      "lastUpdated": "Jul 26, 2021 2:08 PM"
+      "regularPath": "/note/top-levelAwait.html",
+      "relativePath": "note/top-levelAwait.md",
+      "key": "v-6a10a6a2",
+      "path": "/pages/top-level-await/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "top-level await",
+          "slug": "top-level-await",
+          "normalizedTitle": "top-level await",
+          "charIndex": 2
+        },
+        {
+          "level": 3,
+          "title": "1. 在引入 top-level await 之前",
+          "slug": "1.-zai-yin-ru-top-level-await-zhi-qian",
+          "normalizedTitle": "1. 在引入 top-level await 之前",
+          "charIndex": 350
+        },
+        {
+          "level": 3,
+          "title": "2.使用 Export Promise 来代替初始化",
+          "slug": "2.shi-yong-export-promise-lai-dai-ti-chu-shi-hua",
+          "normalizedTitle": "2.使用 export promise 来代替初始化",
+          "charIndex": 1314
+        },
+        {
+          "level": 3,
+          "title": "3. 使用 top-level await",
+          "slug": "3.-shi-yong-top-level-await",
+          "normalizedTitle": "3. 使用 top-level await",
+          "charIndex": 2208
+        },
+        {
+          "level": 3,
+          "title": "4. 过去",
+          "slug": "4.-guo-qu",
+          "normalizedTitle": "4. 过去",
+          "charIndex": 3002
+        },
+        {
+          "level": 3,
+          "title": "5. 现在",
+          "slug": "5.-xian-zai",
+          "normalizedTitle": "5. 现在",
+          "charIndex": 3285
+        },
+        {
+          "level": 3,
+          "title": "6. 何时使用",
+          "slug": "6.-he-shi-shi-yong",
+          "normalizedTitle": "6. 何时使用",
+          "charIndex": 3448
+        },
+        {
+          "level": 3,
+          "title": "结尾",
+          "slug": "jie-wei",
+          "normalizedTitle": "结尾",
+          "charIndex": 3882
+        }
+      ],
+      "lastUpdated": "9/7/2021, 10:55:52 PM",
+      "headersStr": "top-level await 1. 在引入 top-level await 之前 2.使用 Export Promise 来代替初始化 3. 使用 top-level await 4. 过去 5. 现在 6. 何时使用 结尾",
+      "content": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\nECMAScript 提案 Top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 Stage 3。\n\nTop-level await 允许你将整个 JS 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\n(async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // undefined\nconsole.log('squareOutput-init', squareOutput); // undefined\n\nsetTimeout(\n  () => console.log('doubleOutput-delay', doubleOutput),\n  2000,\n); // 20\nsetTimeout(\n  () => console.log('squareOutput-delay', squareOutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 Export Promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\nexport default (async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n  return { doubleOutput, squareOutput };\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleOutput, squareOutput }) => {\n  console.log('doubleOutput-delay', doubleOutput); // 20\n  console.log('squareOutput-delay', squareOutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestData();\n\ndoubleOutput = double(10);\nsquareOutput = square(10);\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // 20\nconsole.log('squareOutput-init', squareOutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 SyntaxError。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait Promise.resolve(console.log('🎉'));\n// → SyntaxError: await is only valid in async function\n(async function() {\n  await Promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait Promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbConnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jQuery;\ntry {\n  jQuery = await import('https://cdn-a.example.com/jQuery');\n} catch {\n  jQuery = await import('https://cdn-b.example.com/jQuery');\n}\n\n\n希望从 CDN A 加载 JavaScript 库，如果它加载失败，将加载 CDN B\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 Myles Borins 「Top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
+      "normalizedContent": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\necmascript 提案 top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 stage 3。\n\ntop-level await 允许你将整个 js 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\n(async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // undefined\nconsole.log('squareoutput-init', squareoutput); // undefined\n\nsettimeout(\n  () => console.log('doubleoutput-delay', doubleoutput),\n  2000,\n); // 20\nsettimeout(\n  () => console.log('squareoutput-delay', squareoutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 export promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\nexport default (async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n  return { doubleoutput, squareoutput };\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleoutput, squareoutput }) => {\n  console.log('doubleoutput-delay', doubleoutput); // 20\n  console.log('squareoutput-delay', squareoutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestdata();\n\ndoubleoutput = double(10);\nsquareoutput = square(10);\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // 20\nconsole.log('squareoutput-init', squareoutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 syntaxerror。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait promise.resolve(console.log('🎉'));\n// → syntaxerror: await is only valid in async function\n(async function() {\n  await promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbconnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jquery;\ntry {\n  jquery = await import('https://cdn-a.example.com/jquery');\n} catch {\n  jquery = await import('https://cdn-b.example.com/jquery');\n}\n\n\n希望从 cdn a 加载 javascript 库，如果它加载失败，将加载 cdn b\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 myles borins 「top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "typescript不完整指南",
+      "frontmatter": {
+        "title": "typescript不完整指南",
+        "date": "2021-07-26T14:00:49.000Z",
+        "permalink": "/pages/typeScript/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/typescript.html",
+      "relativePath": "note/typescript.md",
+      "key": "v-76ab9602",
+      "path": "/pages/typeScript/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1、为什么要学习 TypeScript",
+          "slug": "1-wei-shi-me-yao-xue-xi-typescript",
+          "normalizedTitle": "1、为什么要学习 typescript",
+          "charIndex": 112
+        },
+        {
+          "level": 2,
+          "title": "2、基础类型",
+          "slug": "2-ji-chu-lei-xing",
+          "normalizedTitle": "2、基础类型",
+          "charIndex": 717
+        },
+        {
+          "level": 2,
+          "title": "3、枚举",
+          "slug": "3-mei-ju",
+          "normalizedTitle": "3、枚举",
+          "charIndex": 1635
+        },
+        {
+          "level": 2,
+          "title": "4、函数 Function",
+          "slug": "4-han-shu-function",
+          "normalizedTitle": "4、函数 function",
+          "charIndex": 2417
+        },
+        {
+          "level": 2,
+          "title": "5、断言",
+          "slug": "5-duan-yan",
+          "normalizedTitle": "5、断言",
+          "charIndex": 2975
+        },
+        {
+          "level": 2,
+          "title": "6、接口 interface",
+          "slug": "6-jie-kou-interface",
+          "normalizedTitle": "6、接口 interface",
+          "charIndex": 3701
+        },
+        {
+          "level": 2,
+          "title": "7、类 Class",
+          "slug": "7-lei-class",
+          "normalizedTitle": "7、类 class",
+          "charIndex": 4186
+        },
+        {
+          "level": 2,
+          "title": "8、泛类 generic",
+          "slug": "8-fan-lei-generic",
+          "normalizedTitle": "8、泛类 generic",
+          "charIndex": 5619
+        },
+        {
+          "level": 2,
+          "title": "9、高级类型",
+          "slug": "9-gao-ji-lei-xing",
+          "normalizedTitle": "9、高级类型",
+          "charIndex": 6623
+        },
+        {
+          "level": 2,
+          "title": "10、tsconfig.json",
+          "slug": "10-tsconfig.json",
+          "normalizedTitle": "10、tsconfig.json",
+          "charIndex": 7622
+        },
+        {
+          "level": 2,
+          "title": "参考资源",
+          "slug": "can-kao-zi-yuan",
+          "normalizedTitle": "参考资源",
+          "charIndex": 10575
+        }
+      ],
+      "lastUpdated": "9/7/2021, 10:55:52 PM",
+      "headersStr": "1、为什么要学习 TypeScript 2、基础类型 3、枚举 4、函数 Function 5、断言 6、接口 interface 7、类 Class 8、泛类 generic 9、高级类型 10、tsconfig.json 参考资源",
+      "content": "TypeScript\n\n> 怎样熟练使用 TypeScript ？\n\n👨‍💻 用了一段时间的 TypeScript,深感 ts 的必要性，结合最近的项目开发经历，整理了一篇关于 typescript 的使用心得\n\n\n# 1、为什么要学习 TypeScript\n\nTypeScript 在推出之初就备受追捧又备受质疑，质疑如下：\n\n * 静态语言会丧失 JavaScript 灵活性\n * TypeScript 必定赴 coffeescript 后尘，会被标准取代\n\n# 优点\n\n * typescript 的超集 JavaScript\n\n\n\n * 静态类型\n   \n   一门语言在编译时报错，那么就是静态语言，如果在运行时报错，那么就是动态语言\n   \n   typescript 就是一门静态类型语言，它能够提前在编译期避免许多 bug，如很恶心的拼写问题等\n\n很多项目，尤其是中大型项目，我们是需要团队多人协作的，那么如何保证协作呢?这个时候可能需要大量的文档和注释，显式类型就是最好的注释，而通过 TypeScript 提供的类型提示功能我们可以非常舒服地调用同伴的代码，由于 TypeScript 的存在我们可以节省大量沟通成本、代码阅读成本等等（各人认为不认同，是对 ts 学习的最大阻碍 🈲）。\n\n# 缺点\n\n * 与实际框架结合会有很多坑\n * 配置学习成本高\n * TypeScript 的类型系统其实比较复杂\n\n# 使用总结\n\n 1. ⌛️ 规避大量低级错误，避免时间浪费，省时\n 2. 💪 减少多人协作项目的成本，大型项目友好，省力\n 3. ❤️ 良好代码提示，不用反复文件跳转或者翻文档，省心\n\n\n# 2、基础类型\n\nundefined | null | boolean | number | bigint | string | symbol | void | object | unknown | never | any\n\n * 布尔类型：boolean\n * 数字类型：number\n * 字符串类型：string\n * 空值：void\n * Null and Undefined：null undefined\n * Symbol 类型：symbol\n\n# 类型声明技巧\n\n * 声明一个 void 类型的只能将它赋值为 undefined 和 null\n   \n   let unusable: void = undefined;\n   \n\n * 没有声明的变量 ts 也会进行类型推到不一定所有的变量都需要声明类型\n   \n   let name = 'xiaodong';\n   // 等价于\n   let name: string = 'xiaodong';\n   \n\n * 联合类型\n   \n   function getString(something: string | number): string {\n     return something.toString();\n   }\n   \n\n * any 类型的使用要慎重，是多人项目协作的大忌，稍有不慎就会变成 anyscript，（本人深有感触 🙄，同事备受摧残 💀 ）\n\n * never 表示那些永远不存在的值，never 是任何类型的子类型，也可以赋值给任何类型\n   \n   // 抛出异常的函数没有返回值\n   function error(message: string): never {\n     throw new Error(message);\n   }\n   \n\n * 数组分为两种类型定义:\n   \n   // 使用泛类\n   const list: Array<number> = [1, 2, 3];\n   // 元素类型后面直接加 []\n   const list: number[] = [1, 2, 3];\n   \n\n\n# 3、枚举\n\n# 数组枚举\n\n当我们声明一个枚举类型，虽然没有赋值，但是它们的值其实是默认数字类型，默认从 0 开始依次累加：\n\nenum Days {\n  Sun,\n  Mon,\n  Tue,\n  Wed,\n  ...\n}\nconsole.log(Days[\"Sun\"]); // 0\n// 反向映射\nconsole.log(Days[0]); // 'Sun'\n\nconsole.log(Days[\"Mon\"]); // 1\nconsole.log(Days[1]); // 'Mon'\n\n\n因此我们给第一个值赋值后面也会根据第一个值进行累加：\n\nenum Days2 {\n  Sun = 7,\n  Mon,\n  Tue = 1,\n  Wed,\n\t...\n}\nconsole.log(Days2[\"Sun\"]); // 7\nconsole.log(Days2[\"Mon\"]); // 8\nconsole.log(Days2[\"Tue\"]); // 1\nconsole.log(Days2[\"Wed\"]); // 2\n\n\n# 字符串枚举\n\nenum Days3 {\n  Sun = 'SUN',\n  Mon = 'MON',\n  Tue = 'TUE',\n  Wed = 'WED',\n\t...\n}\nconsole.log(Days3['Sun'], Days3.MON); // SUN Mon\n\n\n# 枚举的本质\n\n'use strict';\nvar Days3;\n(function(Days3) {\n  Days3['Sun'] = 'SUN';\n  Days3['Mon'] = 'MON';\n  Days3['Tue'] = 'TUE';\n  Days3['Wed'] = 'WED';\n})(Days3 || (Days3 = {}));\n\n\n\n# 4、函数 Function\n\n函数的作用就不在这里过多叙述了，typescript 里函数仍然是主要的定义行为的地方。\n\n# 定义类型函数\n\nconst add = (x: number, y: number) => {\n  return x + y;\n};\n\n\n# 可选参数\n\n❌ 可选参数后面不允许再出现必须参数\n\nconst add = (x: number, y?: number) => {\n  return x + (y ? y : 0);\n};\n\n\n# 默认参数\n\nconst add = (x: number, y: number = 1) => {\n  return x + y;\n};\n\n\n# 剩余参数\n\n// rest 参数只能是最后一个参数，关于 rest 参数,是一个数组\nconst add = (x: number, ...rest: number[]) => {\n  return rest.reduce((x, y) => x + y, x);\n};\nfunction push(array: any[], ...items: any[]) {\n  items.forEach(function(item) {\n    array.push(item);\n  });\n}\n\n\n\n# 5、断言\n\n处使用 ts 可能会遇到一些问题，比如：\n\nconst person = {};\nperson.name = 'xiaodong'; // Error: 'name' ‘{}’\nperson.age = 23; // Error: 'age' ‘{}’\n\n\n由于类型推断，此时 person 的类型就是{},不存在其他属性，开发者知道 person 有这个属性只是一开始没有声明，此时就需要类型断言：\n\n# as 语法\n\ninterface Person {\n  name: string;\n  age: number;\n}\nconst person = {} as Person;\nperson.name = 'xiaodong';\nperson.age = 23;\n\n\n# 尖括号语法\n\ninterface Person {\n  name: string;\n  age: number;\n}\nconst person = <Person>{};\nperson.name = 'xiaodong';\nperson.age = 20;\n\n\n# 双重断言\n\n双重断言有个前提，子类型可以被断言为父类型\n\n双重断言断言可以实现子类型转换为另外一种子类型（ 子类型->父类型->子类型）\n\n❌ 尽量不使用双重断言，会破坏原有类型关系\n\ninterface Person {\n  name: string;\n  age: number;\n}\nconst person = 'xiaodong' as Person; // Error\nconst person = ('xiaodong' as any) as Person; // ok\n\n\n\n# 6、接口 interface\n\n在 ts 中，接口的作用就为你的代码或者第三方代码定义锲约\n\n# 接口的使用\n\n注意：一旦定义了任意属性，那么确定属性和可选属性的类型都必须是它的类型的子集\n\ninterface Person {\n  readonly id: number; // 直读属性\n  name: string;\n  age?: number;\n  say: () => void;\n  // [propName: string]: string; // 错误示范\n  [propName: string]: any; //任意属性\n}\n\nlet xiaodong: Person = {\n  id: 1013, // 只读\n  name: 'ErDong',\n  age: 25,\n  gender: 'GG',\n  say() {\n    console.log('hello');\n  },\n};\n\n\n# 接口继承\n\ninterface VIP extends Person {\n  playBasketball: () => void;\n}\n\n\n\n# 7、类 Class\n\n# 成员属性与静态属性\n\nclass Game {\n  // 静态属性\n  static gName: string = '王者荣耀';\n  // 成员属性\n  playing: string;\n\n  // 构造函数 - 执行初始化操作\n  constructor(type: string) {\n    this.playing = type;\n  }\n\n  // 静态方法\n  static getName(): string {\n    return 'GameName is 王者荣耀';\n  }\n\n  // 成员方法\n  play() {\n    return '玩' + this.playing;\n  }\n}\n\n\n如何解释成员属性与静态属性\n\n'use strict';\nvar Game = /** @class */ (function() {\n  // 构造函数 - 执行初始化操作\n  function Game(type) {\n    this.playing = type;\n  }\n  // 静态方法\n  Game.getName = function() {\n    return 'GameName is 王者荣耀';\n  };\n  // 成员方法\n  Game.prototype.play = function() {\n    return '玩' + this.playing;\n  };\n  // 静态属性\n  Game.gName = '王者荣耀';\n  return Game;\n})();\n\n\n# 访问限定符\n\n# public\n\n修饰的属性或方法是公有的，可以在任何地方被访问到，默认所有的属性和方法都是 public 的\n\n# private （#）\n\n修饰的属性或方法是私有的，不能在声明它的类的外部访问\n\n# protected\n\n修饰的属性或方法是受保护的，它和 private 类似，区别是它在子类中也是允许被访问的\n\n# class 可以作为接口\n\n通常我们会使用 interface 作为接口，实际上类 class 也可以作为接口使用\n\n由于组件需要传入props的类型Props，同时还需要设置 defaultProps，这时候我们使用 class 来作为接口就会方便很多\n\n我们先声明一个类，然后这个类包含 props 所需的类型和初始值：\n\nexport default class Props {\n  public children:\n    | Array<React.ReactElement<any>>\n    | React.ReactElement<any>\n    | never[] = [];\n  public height: number = 181;\n  public bodyWeight: string = '70KG';\n  public handsome: boolean = true;\n  public basketball: () => {};\n}\n\n\n当我们需要设置 props 的初始值事\n\npublic static defaultProps = new Props()\n\n\nProps 的实例就是 defaultProps 的初始值，所有 class 作为类既可以当做接口还可以设置默认值，方便了统一管理，还减少了代码量。\n\n\n# 8、泛类 generic\n\n（图片来源：https://medium.com/better-programming/typescript-generics-90be93d8c292）\n\n泛型就是解决类、接口方法的复用性、以及对不特定数据类型的支持\n\ninterface IStingLength {\n  length: number;\n}\nfunction test<T extends IStingLength>(res: T): T {\n  console.log(res.length); // 12\n  return res;\n}\n\nconst str = 'typescript学习';\n// result 就是 string 类型\nconst result = test<string>(str);\nconsole.log(result); // typescript学习\n\n\n# 多个类型参数\n\nfunction swap<T, U>(tuple: [T, U]): [U, T] {\n  return [tuple[1], tuple[0]];\n}\nswap([0, 'hello']); // ['hello', 0]\n\n\n# 泛类接口\n\ninterface ReturnItemFn<K> {\n  (res: K): K;\n}\nconst returnItem: ReturnItemFn<number> = (res) => res;\n\n\n# 泛型类\n\nclass GenericNumber<T> {\n  zeroValue: T;\n  add: (x: T, y: T) => T;\n}\nlet myGenericNumber = new GenericNumber<number>();\nmyGenericNumber.zeroValue = 0;\nmyGenericNumber.add = function(x, y) {\n  return x + y;\n};\nconsole.log(myGenericNumber.add(20, 10)); // 30\n\n\n# 常见泛类变量\n\n * T（Type）：表示一个 TypeScript 类型\n * K（Key）：表示对象中的键类型\n * V（Value）：表示对象中的值类型\n * E（Element）：表示元素类型\n\n\n# 9、高级类型\n\n# 索引类型\n\n我们需要一个 pick 函数 ，这个函数可以从对象上取出指定属性，实现方法如下\n\n# JavaScript 版本\n\nfunction pick(obj, names) {\n  return names.map((item) => obj[item]);\n}\nconst user = {\n  username: '晓冬',\n  age: 24,\n  height: 181,\n};\nconst res = pick(user, ['username']);\nconsole.log(res); // [\"晓冬\"]\n\n\n# TypeScript 简版\n\ninterface Obj {\n  [key: string]: any;\n}\nfunction pick(obj: Obj, names: string[]) {\n  return names.map((n) => obj[n]);\n}\n\n\n# TypeScript 高级版\n\nfunction pick<T, K extends keyof T>(\n  obj: T,\n  names: K[],\n): T[K][] {\n  return names.map((n) => obj[n]);\n}\nconst res = pick(user, ['username', 'height']);\n\n\n# 映射类型\n\n当我们有一个接口，现在需要把接口所有成员变成可选的，当然我们不可能一个一个在：前添加问号，作为程序猿当然会有更懒的方法，这时候就需要我们的映射了，映射类型的语法：[P in Keys]\n\ntype Partial<T> = {\n  [P in keyof T]?: T[P];\n};\n\n\n# 常见工具类\n\n其实，TypeScript 提供一些工具类型来帮助常见的类型转换。这些类型是全局可见的\n\n# Partial<T>\n\n构造类型 T，并将它所有的属性设置为可选的。它的返回类型表示输入类型的所有子类型。\n\n# Readonly <T>\n\n构造类型 T，并将它所有的属性设置为 readonly，也就是说构造出的类型的属性不能被再次赋值。\n\n# Record<K,T>\n\n构造一个类型，其属性名的类型为 K，属性值的类型为 T。这个工具可用来将某个类型的属性映射到另一个类型上。\n\n……\n\n\n# 10、tsconfig.json\n\n编译选项 （https://www.tslang.cn/docs/handbook/compiler-options.html）\n\n> 引用「深入理解 TypeScript-编译选项」\n\n{\n  \"compilerOptions\": {\n    /* 基本选项 */\n    \"target\": \"es5\",                       // 指定 ECMAScript 目标版本: 'ES3' (default), 'ES5', 'ES6'/'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'\n    \"module\": \"commonjs\",                  // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'\n    \"lib\": [],                             // 指定要包含在编译中的库文件\n    \"allowJs\": true,                       // 允许编译 javascript 文件\n    \"checkJs\": true,                       // 报告 javascript 文件中的错误\n    \"jsx\": \"preserve\",                     // 指定 jsx 代码的生成: 'preserve', 'react-native', or 'react'\n    \"declaration\": true,                   // 生成相应的 '.d.ts' 文件\n    \"sourceMap\": true,                     // 生成相应的 '.map' 文件\n    \"outFile\": \"./\",                       // 将输出文件合并为一个文件\n    \"outDir\": \"./\",                        // 指定输出目录\n    \"rootDir\": \"./\",                       // 用来控制输出目录结构 --outDir.\n    \"removeComments\": true,                // 删除编译后的所有的注释\n    \"noEmit\": true,                        // 不生成输出文件\n    \"importHelpers\": true,                 // 从 tslib 导入辅助工具函数\n    \"isolatedModules\": true,               // 将每个文件做为单独的模块 （与 'ts.transpileModule' 类似）.\n\n    /* 严格的类型检查选项 */\n    \"strict\": true,                        // 启用所有严格类型检查选项\n    \"noImplicitAny\": true,                 // 在表达式和声明上有隐含的 any类型时报错\n    \"strictNullChecks\": true,              // 启用严格的 null 检查\n    \"noImplicitThis\": true,                // 当 this 表达式值为 any 类型的时候，生成一个错误\n    \"alwaysStrict\": true,                  // 以严格模式检查每个模块，并在每个文件里加入 'use strict'\n\n    /* 额外的检查 */\n    \"noUnusedLocals\": true,                // 有未使用的变量时，抛出错误\n    \"noUnusedParameters\": true,            // 有未使用的参数时，抛出错误\n    \"noImplicitReturns\": true,             // 并不是所有函数里的代码都有返回值时，抛出错误\n    \"noFallthroughCasesInSwitch\": true,    // 报告 switch 语句的 fallthrough 错误。（即，不允许 switch 的 case 语句贯穿）\n\n    /* 模块解析选项 */\n    \"moduleResolution\": \"node\",            // 选择模块解析策略： 'node' (Node.js) or 'classic' (TypeScript pre-1.6)\n    \"baseUrl\": \"./\",                       // 用于解析非相对模块名称的基目录\n    \"paths\": {},                           // 模块名到基于 baseUrl 的路径映射的列表\n    \"rootDirs\": [],                        // 根文件夹列表，其组合内容表示项目运行时的结构内容\n    \"typeRoots\": [],                       // 包含类型声明的文件列表\n    \"types\": [],                           // 需要包含的类型声明文件名列表\n    \"allowSyntheticDefaultImports\": true,  // 允许从没有设置默认导出的模块中默认导入。\n\n    /* Source Map Options */\n    \"sourceRoot\": \"./\",                    // 指定调试器应该找到 TypeScript 文件而不是源文件的位置\n    \"mapRoot\": \"./\",                       // 指定调试器应该找到映射文件而不是生成文件的位置\n    \"inlineSourceMap\": true,               // 生成单个 soucemaps 文件，而不是将 sourcemaps 生成不同的文件\n    \"inlineSources\": true,                 // 将代码与 sourcemaps 生成到一个文件中，要求同时设置了 --inlineSourceMap 或 --sourceMap 属性\n\n    /* 其他选项 */\n    \"experimentalDecorators\": true,        // 启用装饰器\n    \"emitDecoratorMetadata\": true          // 为装饰器提供元数据的支持\n  }\n\n\n\n# 参考资源\n\n * 深入理解 TypeScript\n * TypeScript 中文文档\n\n----------------------------------------\n\n/_ TODO _/\n\n更多内容待补充",
+      "normalizedContent": "typescript\n\n> 怎样熟练使用 typescript ？\n\n👨‍💻 用了一段时间的 typescript,深感 ts 的必要性，结合最近的项目开发经历，整理了一篇关于 typescript 的使用心得\n\n\n# 1、为什么要学习 typescript\n\ntypescript 在推出之初就备受追捧又备受质疑，质疑如下：\n\n * 静态语言会丧失 javascript 灵活性\n * typescript 必定赴 coffeescript 后尘，会被标准取代\n\n# 优点\n\n * typescript 的超集 javascript\n\n\n\n * 静态类型\n   \n   一门语言在编译时报错，那么就是静态语言，如果在运行时报错，那么就是动态语言\n   \n   typescript 就是一门静态类型语言，它能够提前在编译期避免许多 bug，如很恶心的拼写问题等\n\n很多项目，尤其是中大型项目，我们是需要团队多人协作的，那么如何保证协作呢?这个时候可能需要大量的文档和注释，显式类型就是最好的注释，而通过 typescript 提供的类型提示功能我们可以非常舒服地调用同伴的代码，由于 typescript 的存在我们可以节省大量沟通成本、代码阅读成本等等（各人认为不认同，是对 ts 学习的最大阻碍 🈲）。\n\n# 缺点\n\n * 与实际框架结合会有很多坑\n * 配置学习成本高\n * typescript 的类型系统其实比较复杂\n\n# 使用总结\n\n 1. ⌛️ 规避大量低级错误，避免时间浪费，省时\n 2. 💪 减少多人协作项目的成本，大型项目友好，省力\n 3. ❤️ 良好代码提示，不用反复文件跳转或者翻文档，省心\n\n\n# 2、基础类型\n\nundefined | null | boolean | number | bigint | string | symbol | void | object | unknown | never | any\n\n * 布尔类型：boolean\n * 数字类型：number\n * 字符串类型：string\n * 空值：void\n * null and undefined：null undefined\n * symbol 类型：symbol\n\n# 类型声明技巧\n\n * 声明一个 void 类型的只能将它赋值为 undefined 和 null\n   \n   let unusable: void = undefined;\n   \n\n * 没有声明的变量 ts 也会进行类型推到不一定所有的变量都需要声明类型\n   \n   let name = 'xiaodong';\n   // 等价于\n   let name: string = 'xiaodong';\n   \n\n * 联合类型\n   \n   function getstring(something: string | number): string {\n     return something.tostring();\n   }\n   \n\n * any 类型的使用要慎重，是多人项目协作的大忌，稍有不慎就会变成 anyscript，（本人深有感触 🙄，同事备受摧残 💀 ）\n\n * never 表示那些永远不存在的值，never 是任何类型的子类型，也可以赋值给任何类型\n   \n   // 抛出异常的函数没有返回值\n   function error(message: string): never {\n     throw new error(message);\n   }\n   \n\n * 数组分为两种类型定义:\n   \n   // 使用泛类\n   const list: array<number> = [1, 2, 3];\n   // 元素类型后面直接加 []\n   const list: number[] = [1, 2, 3];\n   \n\n\n# 3、枚举\n\n# 数组枚举\n\n当我们声明一个枚举类型，虽然没有赋值，但是它们的值其实是默认数字类型，默认从 0 开始依次累加：\n\nenum days {\n  sun,\n  mon,\n  tue,\n  wed,\n  ...\n}\nconsole.log(days[\"sun\"]); // 0\n// 反向映射\nconsole.log(days[0]); // 'sun'\n\nconsole.log(days[\"mon\"]); // 1\nconsole.log(days[1]); // 'mon'\n\n\n因此我们给第一个值赋值后面也会根据第一个值进行累加：\n\nenum days2 {\n  sun = 7,\n  mon,\n  tue = 1,\n  wed,\n\t...\n}\nconsole.log(days2[\"sun\"]); // 7\nconsole.log(days2[\"mon\"]); // 8\nconsole.log(days2[\"tue\"]); // 1\nconsole.log(days2[\"wed\"]); // 2\n\n\n# 字符串枚举\n\nenum days3 {\n  sun = 'sun',\n  mon = 'mon',\n  tue = 'tue',\n  wed = 'wed',\n\t...\n}\nconsole.log(days3['sun'], days3.mon); // sun mon\n\n\n# 枚举的本质\n\n'use strict';\nvar days3;\n(function(days3) {\n  days3['sun'] = 'sun';\n  days3['mon'] = 'mon';\n  days3['tue'] = 'tue';\n  days3['wed'] = 'wed';\n})(days3 || (days3 = {}));\n\n\n\n# 4、函数 function\n\n函数的作用就不在这里过多叙述了，typescript 里函数仍然是主要的定义行为的地方。\n\n# 定义类型函数\n\nconst add = (x: number, y: number) => {\n  return x + y;\n};\n\n\n# 可选参数\n\n❌ 可选参数后面不允许再出现必须参数\n\nconst add = (x: number, y?: number) => {\n  return x + (y ? y : 0);\n};\n\n\n# 默认参数\n\nconst add = (x: number, y: number = 1) => {\n  return x + y;\n};\n\n\n# 剩余参数\n\n// rest 参数只能是最后一个参数，关于 rest 参数,是一个数组\nconst add = (x: number, ...rest: number[]) => {\n  return rest.reduce((x, y) => x + y, x);\n};\nfunction push(array: any[], ...items: any[]) {\n  items.foreach(function(item) {\n    array.push(item);\n  });\n}\n\n\n\n# 5、断言\n\n处使用 ts 可能会遇到一些问题，比如：\n\nconst person = {};\nperson.name = 'xiaodong'; // error: 'name' ‘{}’\nperson.age = 23; // error: 'age' ‘{}’\n\n\n由于类型推断，此时 person 的类型就是{},不存在其他属性，开发者知道 person 有这个属性只是一开始没有声明，此时就需要类型断言：\n\n# as 语法\n\ninterface person {\n  name: string;\n  age: number;\n}\nconst person = {} as person;\nperson.name = 'xiaodong';\nperson.age = 23;\n\n\n# 尖括号语法\n\ninterface person {\n  name: string;\n  age: number;\n}\nconst person = <person>{};\nperson.name = 'xiaodong';\nperson.age = 20;\n\n\n# 双重断言\n\n双重断言有个前提，子类型可以被断言为父类型\n\n双重断言断言可以实现子类型转换为另外一种子类型（ 子类型->父类型->子类型）\n\n❌ 尽量不使用双重断言，会破坏原有类型关系\n\ninterface person {\n  name: string;\n  age: number;\n}\nconst person = 'xiaodong' as person; // error\nconst person = ('xiaodong' as any) as person; // ok\n\n\n\n# 6、接口 interface\n\n在 ts 中，接口的作用就为你的代码或者第三方代码定义锲约\n\n# 接口的使用\n\n注意：一旦定义了任意属性，那么确定属性和可选属性的类型都必须是它的类型的子集\n\ninterface person {\n  readonly id: number; // 直读属性\n  name: string;\n  age?: number;\n  say: () => void;\n  // [propname: string]: string; // 错误示范\n  [propname: string]: any; //任意属性\n}\n\nlet xiaodong: person = {\n  id: 1013, // 只读\n  name: 'erdong',\n  age: 25,\n  gender: 'gg',\n  say() {\n    console.log('hello');\n  },\n};\n\n\n# 接口继承\n\ninterface vip extends person {\n  playbasketball: () => void;\n}\n\n\n\n# 7、类 class\n\n# 成员属性与静态属性\n\nclass game {\n  // 静态属性\n  static gname: string = '王者荣耀';\n  // 成员属性\n  playing: string;\n\n  // 构造函数 - 执行初始化操作\n  constructor(type: string) {\n    this.playing = type;\n  }\n\n  // 静态方法\n  static getname(): string {\n    return 'gamename is 王者荣耀';\n  }\n\n  // 成员方法\n  play() {\n    return '玩' + this.playing;\n  }\n}\n\n\n如何解释成员属性与静态属性\n\n'use strict';\nvar game = /** @class */ (function() {\n  // 构造函数 - 执行初始化操作\n  function game(type) {\n    this.playing = type;\n  }\n  // 静态方法\n  game.getname = function() {\n    return 'gamename is 王者荣耀';\n  };\n  // 成员方法\n  game.prototype.play = function() {\n    return '玩' + this.playing;\n  };\n  // 静态属性\n  game.gname = '王者荣耀';\n  return game;\n})();\n\n\n# 访问限定符\n\n# public\n\n修饰的属性或方法是公有的，可以在任何地方被访问到，默认所有的属性和方法都是 public 的\n\n# private （#）\n\n修饰的属性或方法是私有的，不能在声明它的类的外部访问\n\n# protected\n\n修饰的属性或方法是受保护的，它和 private 类似，区别是它在子类中也是允许被访问的\n\n# class 可以作为接口\n\n通常我们会使用 interface 作为接口，实际上类 class 也可以作为接口使用\n\n由于组件需要传入props的类型props，同时还需要设置 defaultprops，这时候我们使用 class 来作为接口就会方便很多\n\n我们先声明一个类，然后这个类包含 props 所需的类型和初始值：\n\nexport default class props {\n  public children:\n    | array<react.reactelement<any>>\n    | react.reactelement<any>\n    | never[] = [];\n  public height: number = 181;\n  public bodyweight: string = '70kg';\n  public handsome: boolean = true;\n  public basketball: () => {};\n}\n\n\n当我们需要设置 props 的初始值事\n\npublic static defaultprops = new props()\n\n\nprops 的实例就是 defaultprops 的初始值，所有 class 作为类既可以当做接口还可以设置默认值，方便了统一管理，还减少了代码量。\n\n\n# 8、泛类 generic\n\n（图片来源：https://medium.com/better-programming/typescript-generics-90be93d8c292）\n\n泛型就是解决类、接口方法的复用性、以及对不特定数据类型的支持\n\ninterface istinglength {\n  length: number;\n}\nfunction test<t extends istinglength>(res: t): t {\n  console.log(res.length); // 12\n  return res;\n}\n\nconst str = 'typescript学习';\n// result 就是 string 类型\nconst result = test<string>(str);\nconsole.log(result); // typescript学习\n\n\n# 多个类型参数\n\nfunction swap<t, u>(tuple: [t, u]): [u, t] {\n  return [tuple[1], tuple[0]];\n}\nswap([0, 'hello']); // ['hello', 0]\n\n\n# 泛类接口\n\ninterface returnitemfn<k> {\n  (res: k): k;\n}\nconst returnitem: returnitemfn<number> = (res) => res;\n\n\n# 泛型类\n\nclass genericnumber<t> {\n  zerovalue: t;\n  add: (x: t, y: t) => t;\n}\nlet mygenericnumber = new genericnumber<number>();\nmygenericnumber.zerovalue = 0;\nmygenericnumber.add = function(x, y) {\n  return x + y;\n};\nconsole.log(mygenericnumber.add(20, 10)); // 30\n\n\n# 常见泛类变量\n\n * t（type）：表示一个 typescript 类型\n * k（key）：表示对象中的键类型\n * v（value）：表示对象中的值类型\n * e（element）：表示元素类型\n\n\n# 9、高级类型\n\n# 索引类型\n\n我们需要一个 pick 函数 ，这个函数可以从对象上取出指定属性，实现方法如下\n\n# javascript 版本\n\nfunction pick(obj, names) {\n  return names.map((item) => obj[item]);\n}\nconst user = {\n  username: '晓冬',\n  age: 24,\n  height: 181,\n};\nconst res = pick(user, ['username']);\nconsole.log(res); // [\"晓冬\"]\n\n\n# typescript 简版\n\ninterface obj {\n  [key: string]: any;\n}\nfunction pick(obj: obj, names: string[]) {\n  return names.map((n) => obj[n]);\n}\n\n\n# typescript 高级版\n\nfunction pick<t, k extends keyof t>(\n  obj: t,\n  names: k[],\n): t[k][] {\n  return names.map((n) => obj[n]);\n}\nconst res = pick(user, ['username', 'height']);\n\n\n# 映射类型\n\n当我们有一个接口，现在需要把接口所有成员变成可选的，当然我们不可能一个一个在：前添加问号，作为程序猿当然会有更懒的方法，这时候就需要我们的映射了，映射类型的语法：[p in keys]\n\ntype partial<t> = {\n  [p in keyof t]?: t[p];\n};\n\n\n# 常见工具类\n\n其实，typescript 提供一些工具类型来帮助常见的类型转换。这些类型是全局可见的\n\n# partial<t>\n\n构造类型 t，并将它所有的属性设置为可选的。它的返回类型表示输入类型的所有子类型。\n\n# readonly <t>\n\n构造类型 t，并将它所有的属性设置为 readonly，也就是说构造出的类型的属性不能被再次赋值。\n\n# record<k,t>\n\n构造一个类型，其属性名的类型为 k，属性值的类型为 t。这个工具可用来将某个类型的属性映射到另一个类型上。\n\n……\n\n\n# 10、tsconfig.json\n\n编译选项 （https://www.tslang.cn/docs/handbook/compiler-options.html）\n\n> 引用「深入理解 typescript-编译选项」\n\n{\n  \"compileroptions\": {\n    /* 基本选项 */\n    \"target\": \"es5\",                       // 指定 ecmascript 目标版本: 'es3' (default), 'es5', 'es6'/'es2015', 'es2016', 'es2017', or 'esnext'\n    \"module\": \"commonjs\",                  // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'\n    \"lib\": [],                             // 指定要包含在编译中的库文件\n    \"allowjs\": true,                       // 允许编译 javascript 文件\n    \"checkjs\": true,                       // 报告 javascript 文件中的错误\n    \"jsx\": \"preserve\",                     // 指定 jsx 代码的生成: 'preserve', 'react-native', or 'react'\n    \"declaration\": true,                   // 生成相应的 '.d.ts' 文件\n    \"sourcemap\": true,                     // 生成相应的 '.map' 文件\n    \"outfile\": \"./\",                       // 将输出文件合并为一个文件\n    \"outdir\": \"./\",                        // 指定输出目录\n    \"rootdir\": \"./\",                       // 用来控制输出目录结构 --outdir.\n    \"removecomments\": true,                // 删除编译后的所有的注释\n    \"noemit\": true,                        // 不生成输出文件\n    \"importhelpers\": true,                 // 从 tslib 导入辅助工具函数\n    \"isolatedmodules\": true,               // 将每个文件做为单独的模块 （与 'ts.transpilemodule' 类似）.\n\n    /* 严格的类型检查选项 */\n    \"strict\": true,                        // 启用所有严格类型检查选项\n    \"noimplicitany\": true,                 // 在表达式和声明上有隐含的 any类型时报错\n    \"strictnullchecks\": true,              // 启用严格的 null 检查\n    \"noimplicitthis\": true,                // 当 this 表达式值为 any 类型的时候，生成一个错误\n    \"alwaysstrict\": true,                  // 以严格模式检查每个模块，并在每个文件里加入 'use strict'\n\n    /* 额外的检查 */\n    \"nounusedlocals\": true,                // 有未使用的变量时，抛出错误\n    \"nounusedparameters\": true,            // 有未使用的参数时，抛出错误\n    \"noimplicitreturns\": true,             // 并不是所有函数里的代码都有返回值时，抛出错误\n    \"nofallthroughcasesinswitch\": true,    // 报告 switch 语句的 fallthrough 错误。（即，不允许 switch 的 case 语句贯穿）\n\n    /* 模块解析选项 */\n    \"moduleresolution\": \"node\",            // 选择模块解析策略： 'node' (node.js) or 'classic' (typescript pre-1.6)\n    \"baseurl\": \"./\",                       // 用于解析非相对模块名称的基目录\n    \"paths\": {},                           // 模块名到基于 baseurl 的路径映射的列表\n    \"rootdirs\": [],                        // 根文件夹列表，其组合内容表示项目运行时的结构内容\n    \"typeroots\": [],                       // 包含类型声明的文件列表\n    \"types\": [],                           // 需要包含的类型声明文件名列表\n    \"allowsyntheticdefaultimports\": true,  // 允许从没有设置默认导出的模块中默认导入。\n\n    /* source map options */\n    \"sourceroot\": \"./\",                    // 指定调试器应该找到 typescript 文件而不是源文件的位置\n    \"maproot\": \"./\",                       // 指定调试器应该找到映射文件而不是生成文件的位置\n    \"inlinesourcemap\": true,               // 生成单个 soucemaps 文件，而不是将 sourcemaps 生成不同的文件\n    \"inlinesources\": true,                 // 将代码与 sourcemaps 生成到一个文件中，要求同时设置了 --inlinesourcemap 或 --sourcemap 属性\n\n    /* 其他选项 */\n    \"experimentaldecorators\": true,        // 启用装饰器\n    \"emitdecoratormetadata\": true          // 为装饰器提供元数据的支持\n  }\n\n\n\n# 参考资源\n\n * 深入理解 typescript\n * typescript 中文文档\n\n----------------------------------------\n\n/_ todo _/\n\n更多内容待补充",
+      "charsets": {
+        "cjk": true
+      }
     },
     {
       "title": "归档",
@@ -369,7 +484,29 @@ export const siteData = {
       "relativePath": "@pages/archivesPage.md",
       "key": "v-5358e722",
       "path": "/archives/",
-      "lastUpdated": "Jul 26, 2021 2:08 PM"
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
+    },
+    {
+      "title": "分类",
+      "frontmatter": {
+        "categoriesPage": true,
+        "title": "分类",
+        "permalink": "/categories/",
+        "article": false
+      },
+      "regularPath": "/@pages/categoriesPage.html",
+      "relativePath": "@pages/categoriesPage.md",
+      "key": "v-0cebcc02",
+      "path": "/categories/",
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
     },
     {
       "title": "标签",
@@ -383,7 +520,11 @@ export const siteData = {
       "relativePath": "@pages/tagsPage.md",
       "key": "v-2e8e39a2",
       "path": "/tags/",
-      "lastUpdated": "Jul 26, 2021 2:08 PM"
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
     }
   ],
   "themeConfig": {
@@ -438,13 +579,6 @@ export const siteData = {
     "sidebar": {
       "/note": [
         {
-          "title": "JavaScript 语言",
-          "children": [
-            "/note/JavaScript/JavaScript基础.md"
-          ],
-          "collapsable": false
-        },
-        {
           "title": "其他语言",
           "children": [
             "/note/typescript.md"
@@ -468,13 +602,6 @@ export const siteData = {
         }
       ],
       "/interview": [
-        {
-          "title": "JavaScript 语言",
-          "children": [
-            "/note/JavaScript/JavaScript基础.md"
-          ],
-          "collapsable": false
-        },
         {
           "title": "其他语言",
           "children": [

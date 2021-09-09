@@ -16,7 +16,6 @@ const sidebarStructure = {
   ],
   'JavaScript 语言': [
     //
-    './JavaScript/JavaScript基础.md',
   ],
   'Node.js 和 NPM': [
     //

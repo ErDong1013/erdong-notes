@@ -105,6 +105,7 @@ const config = {
 
   plugins: [
     [
+      'fulltext-search',
       '@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {

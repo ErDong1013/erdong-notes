@@ -16,13 +16,18 @@ tags:
 	* 执行上下文
 	* 作用域链
 	* 闭包
+		* 应用场景
 	* this
 	* call/apply/bind
 	* 原型
 	* 继承
 	* 深浅拷贝
 	* Promise
+		* Promise.all、race、allSettled
+		* 概念、 手写
+		* promise实现请求并发个数限制
 	* Event Loop
+		* 宏任务与微任务的区别
 @endmindmap
 ```
 
