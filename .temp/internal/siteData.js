@@ -17,6 +17,136 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "关于我",
+      "frontmatter": {
+        "title": "关于我",
+        "date": "2021-07-26T13:44:36.000Z",
+        "permalink": "/about/",
+        "categories": [
+          "about"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-34c9d17d",
+      "path": "/about/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我自己",
+          "slug": "wo-zi-ji",
+          "normalizedTitle": "我自己",
+          "charIndex": 14
+        }
+      ],
+      "lastUpdated": "7/27/2021, 8:09:54 PM",
+      "headersStr": "我自己",
+      "content": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 JS\n     * 写过些功能、优化和修复\n     * 在公司主要负责 H5 频道开发\n * 学习中\n   * 修炼 TS\n   * 工程化前端开发\n * 其他\n   * 写文章",
+      "normalizedContent": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 js\n     * 写过些功能、优化和修复\n     * 在公司主要负责 h5 频道开发\n * 学习中\n   * 修炼 ts\n   * 工程化前端开发\n * 其他\n   * 写文章",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "Integration",
+      "frontmatter": {
+        "title": "Integration",
+        "date": "2021-09-07T23:03:17.000Z",
+        "permalink": "/interview/Integration/",
+        "categories": [
+          "interview"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/Integration.html",
+      "relativePath": "interview/Integration.md",
+      "key": "v-8435e3fc",
+      "path": "/interview/Integration/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "JavaScript",
+          "slug": "javascript",
+          "normalizedTitle": "javascript",
+          "charIndex": 16
+        },
+        {
+          "level": 3,
+          "title": "react",
+          "slug": "react",
+          "normalizedTitle": "react",
+          "charIndex": 536
+        },
+        {
+          "level": 3,
+          "title": "redux",
+          "slug": "redux",
+          "normalizedTitle": "redux",
+          "charIndex": 1109
+        },
+        {
+          "level": 3,
+          "title": "webpack",
+          "slug": "webpack",
+          "normalizedTitle": "webpack",
+          "charIndex": 1184
+        },
+        {
+          "level": 3,
+          "title": "工程化",
+          "slug": "gong-cheng-hua",
+          "normalizedTitle": "工程化",
+          "charIndex": 1604
+        },
+        {
+          "level": 3,
+          "title": "性能优化",
+          "slug": "xing-neng-you-hua",
+          "normalizedTitle": "性能优化",
+          "charIndex": 1940
+        },
+        {
+          "level": 3,
+          "title": "杂项",
+          "slug": "za-xiang",
+          "normalizedTitle": "杂项",
+          "charIndex": 2350
+        },
+        {
+          "level": 3,
+          "title": "移动端 H5",
+          "slug": "yi-dong-duan-h5",
+          "normalizedTitle": "移动端 h5",
+          "charIndex": 3155
+        },
+        {
+          "level": 3,
+          "title": "安全",
+          "slug": "an-quan",
+          "normalizedTitle": "安全",
+          "charIndex": 3363
+        },
+        {
+          "level": 3,
+          "title": "手写",
+          "slug": "shou-xie",
+          "normalizedTitle": "手写",
+          "charIndex": 3444
+        }
+      ],
+      "headersStr": "JavaScript react redux webpack 工程化 性能优化 杂项 移动端 H5 安全 手写",
+      "content": "Integration\n\n\n# JavaScript\n\n * 现代 JavaScript 教程 *\n   * https://zh.javascript.info/\n * promise\n   * promise 实现 https://jelly.jd.com/article/5fec895f846cc00148ae4c75\n * V8\n   * 深入浅出 V8 引擎 https://jelly.jd.com/article/5f859a141d506201572828d7\n   * js 执行过程 https://www.zoo.team/article/the-process-of-executing-js-in-v8\n   * V8 引擎垃圾回收与内存分配 https://www.zoo.team/article/garbage-collection-about-v8\n * Even Loop\n   * 宏任务与微任务 https://jelly.jd.com/article/5e79d307384e6201505fba93\n * todo\n   * 循环遍历 https://www.zoo.team/article/cycle-in-js\n\n\n# react\n\n * 介绍\n   * https://jelly.jd.com/article/5fbb4fe17482df01463debf8\n * react Router\n   * https://www.zoo.team/article/react-router\n * 虚拟 DOM\n   * https://jelly.jd.com/article/60d82e8b78b202017b2949d1\n * React Hook\n   * 易踩的坑 https://jelly.jd.com/article/608babe70e65470169d5bf9b\n   * setState 的执行机制 https://juejin.cn/post/6844903781813993486\n * react 代码共享\n   * https://jelly.jd.com/article/60653129960312017f4bb17f\n * React Fiber\n   * https://jelly.jd.com/article/603d96596d84e3013e885482\n   * React Fiber 是如何实现更新过程可控的 https://www.zoo.team/article/about-react-fiber\n\n\n# redux\n\n * Immutable https://www.zoo.team/article/learn-about-immutable\n\n\n# webpack\n\n * webpack5 最佳实践\n   * 基础篇 https://jelly.jd.com/article/61074411df18aa019e8a2ea3\n   * 实践篇 https://jelly.jd.com/article/6107701c22a78f01a317cd05\n   * 优化篇 https://jelly.jd.com/article/61179aa26bea510187770aa3\n * webpack 最佳实践 https://juejin.cn/post/6982361231071903781\n * Webpack 原理浅析\n   * https://jelly.jd.com/article/5f0de6dad5205e015b87c128\n * Webpack Plugin\n   * https://www.zoo.team/article/webpack-plugin\n\n\n# 工程化\n\n * 构建前端工程\n   * https://jelly.jd.com/article/60cb0c9873fc6c016cdf3d7a\n   * https://jelly.jd.com/article/5fedb7af5918090150298dc0\n * 快速构建 React 组件库\n   * https://jelly.jd.com/article/5f277f41645f82014b830390\n * ESLint\n   * https://jelly.jd.com/article/60644066d96486017129d14e\n * Vite\n   * https://www.zoo.team/article/about-vite\n\n\n# 性能优化\n\n * react 性能优化\n   * coding 小技巧 https://jelly.jd.com/article/6061c374d96486017129b585\n * 监控\n   * web 前端运行时动画性能监控 https://jelly.jd.com/article/601fc77d61dbb7014cff31b1\n * 性能优化手段\n   * https://alienzhou.com/projects/fe-performance-journey/\n * 白屏\n   * https://cloud.tencent.com/developer/article/1508941\n * 静态构建\n   * 构建时预渲染：网页首帧优化实践 https://tech.meituan.com/2018/11/15/first-contentful-paint-practice.html\n\n\n# 杂项\n\n * AST\n   * AST 基本操作 https://jelly.jd.com/article/60a623e40801420171d9b090\n * react 源码\n   * 基础篇 未完 https://jelly.jd.com/article/60580a7f960312017f4b5231\n * Chrome 调试技巧\n   * https://jelly.jd.com/article/605c8bf4960312017f4b7450\n * ECMAScript 2021 新特征\n   * https://jelly.jd.com/article/5febdfbb846cc00148ae36d7\n * 运用 hooks 实现 redux 的方案\n   * https://jelly.jd.com/article/5e79aae2384e6201505fba2b\n * 高质量可维护代码：\n   * 程序范式 https://www.zoo.team/article/program-paradigm\n   * 优雅命名 https://www.zoo.team/article/good-name\n   * Awesome TypeScript https://www.zoo.team/article/awesome-typescript\n   * 组件的抽象与粒度 https://www.zoo.team/article/abstraction-and-granularity-of-component\n   * 注释 https://www.zoo.team/article/the-clean-annotation\n * 成长\n   * https://www.zoo.team/article/how-do-junior-engineers-grow-up\n\n\n# 移动端 H5\n\n * 移动真机调试\n   * https://jelly.jd.com/article/5feca536846cc00148ae4d10\n * H5 列表缓存\n   * https://www.zoo.team/article/h5-list-buffer\n * JSBridge\n   * JSBridge 初探 https://www.zoo.team/article/jsbridge\n\n\n# 安全\n\n * XSS\n   * 浅谈 React 中的 XSS 攻击 https://www.zoo.team/article/xss-in-react\n\n\n# 手写\n\n * React\n   * https://jelly.jd.com/article/60d82ae9625de10174c73860\n   * https://jelly.jd.com/article/60aceb6b27393b0169c85231\n * promise\n   * https://jelly.jd.com/article/60c806db73fc6c016cdeff90",
+      "normalizedContent": "integration\n\n\n# javascript\n\n * 现代 javascript 教程 *\n   * https://zh.javascript.info/\n * promise\n   * promise 实现 https://jelly.jd.com/article/5fec895f846cc00148ae4c75\n * v8\n   * 深入浅出 v8 引擎 https://jelly.jd.com/article/5f859a141d506201572828d7\n   * js 执行过程 https://www.zoo.team/article/the-process-of-executing-js-in-v8\n   * v8 引擎垃圾回收与内存分配 https://www.zoo.team/article/garbage-collection-about-v8\n * even loop\n   * 宏任务与微任务 https://jelly.jd.com/article/5e79d307384e6201505fba93\n * todo\n   * 循环遍历 https://www.zoo.team/article/cycle-in-js\n\n\n# react\n\n * 介绍\n   * https://jelly.jd.com/article/5fbb4fe17482df01463debf8\n * react router\n   * https://www.zoo.team/article/react-router\n * 虚拟 dom\n   * https://jelly.jd.com/article/60d82e8b78b202017b2949d1\n * react hook\n   * 易踩的坑 https://jelly.jd.com/article/608babe70e65470169d5bf9b\n   * setstate 的执行机制 https://juejin.cn/post/6844903781813993486\n * react 代码共享\n   * https://jelly.jd.com/article/60653129960312017f4bb17f\n * react fiber\n   * https://jelly.jd.com/article/603d96596d84e3013e885482\n   * react fiber 是如何实现更新过程可控的 https://www.zoo.team/article/about-react-fiber\n\n\n# redux\n\n * immutable https://www.zoo.team/article/learn-about-immutable\n\n\n# webpack\n\n * webpack5 最佳实践\n   * 基础篇 https://jelly.jd.com/article/61074411df18aa019e8a2ea3\n   * 实践篇 https://jelly.jd.com/article/6107701c22a78f01a317cd05\n   * 优化篇 https://jelly.jd.com/article/61179aa26bea510187770aa3\n * webpack 最佳实践 https://juejin.cn/post/6982361231071903781\n * webpack 原理浅析\n   * https://jelly.jd.com/article/5f0de6dad5205e015b87c128\n * webpack plugin\n   * https://www.zoo.team/article/webpack-plugin\n\n\n# 工程化\n\n * 构建前端工程\n   * https://jelly.jd.com/article/60cb0c9873fc6c016cdf3d7a\n   * https://jelly.jd.com/article/5fedb7af5918090150298dc0\n * 快速构建 react 组件库\n   * https://jelly.jd.com/article/5f277f41645f82014b830390\n * eslint\n   * https://jelly.jd.com/article/60644066d96486017129d14e\n * vite\n   * https://www.zoo.team/article/about-vite\n\n\n# 性能优化\n\n * react 性能优化\n   * coding 小技巧 https://jelly.jd.com/article/6061c374d96486017129b585\n * 监控\n   * web 前端运行时动画性能监控 https://jelly.jd.com/article/601fc77d61dbb7014cff31b1\n * 性能优化手段\n   * https://alienzhou.com/projects/fe-performance-journey/\n * 白屏\n   * https://cloud.tencent.com/developer/article/1508941\n * 静态构建\n   * 构建时预渲染：网页首帧优化实践 https://tech.meituan.com/2018/11/15/first-contentful-paint-practice.html\n\n\n# 杂项\n\n * ast\n   * ast 基本操作 https://jelly.jd.com/article/60a623e40801420171d9b090\n * react 源码\n   * 基础篇 未完 https://jelly.jd.com/article/60580a7f960312017f4b5231\n * chrome 调试技巧\n   * https://jelly.jd.com/article/605c8bf4960312017f4b7450\n * ecmascript 2021 新特征\n   * https://jelly.jd.com/article/5febdfbb846cc00148ae36d7\n * 运用 hooks 实现 redux 的方案\n   * https://jelly.jd.com/article/5e79aae2384e6201505fba2b\n * 高质量可维护代码：\n   * 程序范式 https://www.zoo.team/article/program-paradigm\n   * 优雅命名 https://www.zoo.team/article/good-name\n   * awesome typescript https://www.zoo.team/article/awesome-typescript\n   * 组件的抽象与粒度 https://www.zoo.team/article/abstraction-and-granularity-of-component\n   * 注释 https://www.zoo.team/article/the-clean-annotation\n * 成长\n   * https://www.zoo.team/article/how-do-junior-engineers-grow-up\n\n\n# 移动端 h5\n\n * 移动真机调试\n   * https://jelly.jd.com/article/5feca536846cc00148ae4d10\n * h5 列表缓存\n   * https://www.zoo.team/article/h5-list-buffer\n * jsbridge\n   * jsbridge 初探 https://www.zoo.team/article/jsbridge\n\n\n# 安全\n\n * xss\n   * 浅谈 react 中的 xss 攻击 https://www.zoo.team/article/xss-in-react\n\n\n# 手写\n\n * react\n   * https://jelly.jd.com/article/60d82ae9625de10174c73860\n   * https://jelly.jd.com/article/60aceb6b27393b0169c85231\n * promise\n   * https://jelly.jd.com/article/60c806db73fc6c016cdeff90",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -83,106 +213,6 @@ export const siteData = {
       }
     },
     {
-      "title": "关于我",
-      "frontmatter": {
-        "title": "关于我",
-        "date": "2021-07-26T13:44:36.000Z",
-        "permalink": "/about/",
-        "categories": [
-          "about"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-34c9d17d",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "我自己",
-          "slug": "wo-zi-ji",
-          "normalizedTitle": "我自己",
-          "charIndex": 14
-        }
-      ],
-      "lastUpdated": "7/27/2021, 8:09:54 PM",
-      "headersStr": "我自己",
-      "content": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 JS\n     * 写过些功能、优化和修复\n     * 在公司主要负责 H5 频道开发\n * 学习中\n   * 修炼 TS\n   * 工程化前端开发\n * 其他\n   * 写文章",
-      "normalizedContent": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 js\n     * 写过些功能、优化和修复\n     * 在公司主要负责 h5 频道开发\n * 学习中\n   * 修炼 ts\n   * 工程化前端开发\n * 其他\n   * 写文章",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
-      "title": "🚗 JavaScript基础篇",
-      "frontmatter": {
-        "title": "🚗 JavaScript基础篇",
-        "date": "2021-09-07T20:02:54.000Z",
-        "permalink": "/pages/javascript/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/JavaScript/JavaScript%E5%9F%BA%E7%A1%80.html",
-      "relativePath": "note/JavaScript/JavaScript基础.md",
-      "key": "v-66f614ac",
-      "path": "/pages/javascript/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "👨🏻‍💻 导图",
-          "slug": "dao-tu",
-          "normalizedTitle": "👨🏻‍💻 导图",
-          "charIndex": 2
-        },
-        {
-          "level": 2,
-          "title": "📒 整理",
-          "slug": "zheng-li",
-          "normalizedTitle": "📒 整理",
-          "charIndex": 17
-        }
-      ],
-      "lastUpdated": "9/7/2021, 10:55:52 PM",
-      "headersStr": "👨🏻‍💻 导图 📒 整理",
-      "content": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * JavaScript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 作用域链\n\n * JavaScript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/Blog/issues/6\n\n# 闭包\n\n * JavaScript 深入之闭包——冴羽 https://github.com/mqyqingfeng/Blog/issues/9\n\n# this\n\n * JavaScript深入之从ECMAScript规范解读this——冴羽 https://github.com/mqyqingfeng/Blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * JavaScript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/Blog/issues/12\n\n# 原型\n\n * JavaScript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# Promise\n\n * 这一次，彻底弄懂 Promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# Event Loop\n\n * 详解JavaScript中的Event Loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
-      "normalizedContent": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * javascript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 作用域链\n\n * javascript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/blog/issues/6\n\n# 闭包\n\n * javascript 深入之闭包——冴羽 https://github.com/mqyqingfeng/blog/issues/9\n\n# this\n\n * javascript深入之从ecmascript规范解读this——冴羽 https://github.com/mqyqingfeng/blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * javascript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/blog/issues/12\n\n# 原型\n\n * javascript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# promise\n\n * 这一次，彻底弄懂 promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# event loop\n\n * 详解javascript中的event loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
-      "title": "JavaScript",
-      "frontmatter": {
-        "title": "JavaScript",
-        "date": "2021-09-07T23:03:17.000Z",
-        "permalink": "/interview/JavaScript/",
-        "categories": [
-          "interview"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/interview/JavaScript.html",
-      "relativePath": "interview/JavaScript.md",
-      "key": "v-d4b28010",
-      "path": "/interview/JavaScript/",
-      "lastUpdated": "9/7/2021, 11:26:45 PM",
-      "headersStr": null,
-      "content": "测试",
-      "normalizedContent": "测试",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
       "title": "优化使用context带来的不必要渲染问题",
       "frontmatter": {
         "title": "优化使用context带来的不必要渲染问题",
@@ -231,28 +261,6 @@ export const siteData = {
       }
     },
     {
-      "title": "xxxxxxxxxx",
-      "frontmatter": {
-        "title": "xxxxxxxxxx",
-        "date": "2021-09-09T21:46:09.000Z",
-        "permalink": "/pages/0088df/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/test.html",
-      "relativePath": "note/test.md",
-      "key": "v-432c973c",
-      "path": "/pages/0088df/",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
-    },
-    {
       "title": "todo",
       "frontmatter": {
         "title": "todo",
@@ -286,11 +294,11 @@ export const siteData = {
       }
     },
     {
-      "title": "top-level await",
+      "title": "🚗 JavaScript基础篇",
       "frontmatter": {
-        "title": "top-level await",
-        "date": "2021-07-26T16:04:15.000Z",
-        "permalink": "/pages/top-level-await/",
+        "title": "🚗 JavaScript基础篇",
+        "date": "2021-09-07T20:02:54.000Z",
+        "permalink": "/pages/javascript/",
         "categories": [
           "note"
         ],
@@ -298,75 +306,56 @@ export const siteData = {
           null
         ]
       },
-      "regularPath": "/note/top-levelAwait.html",
-      "relativePath": "note/top-levelAwait.md",
-      "key": "v-6a10a6a2",
-      "path": "/pages/top-level-await/",
+      "regularPath": "/note/JavaScript/JavaScript%E5%9F%BA%E7%A1%80.html",
+      "relativePath": "note/JavaScript/JavaScript基础.md",
+      "key": "v-66f614ac",
+      "path": "/pages/javascript/",
       "headers": [
         {
           "level": 2,
-          "title": "top-level await",
-          "slug": "top-level-await",
-          "normalizedTitle": "top-level await",
+          "title": "👨🏻‍💻 导图",
+          "slug": "dao-tu",
+          "normalizedTitle": "👨🏻‍💻 导图",
           "charIndex": 2
         },
         {
-          "level": 3,
-          "title": "1. 在引入 top-level await 之前",
-          "slug": "1.-zai-yin-ru-top-level-await-zhi-qian",
-          "normalizedTitle": "1. 在引入 top-level await 之前",
-          "charIndex": 350
-        },
-        {
-          "level": 3,
-          "title": "2.使用 Export Promise 来代替初始化",
-          "slug": "2.shi-yong-export-promise-lai-dai-ti-chu-shi-hua",
-          "normalizedTitle": "2.使用 export promise 来代替初始化",
-          "charIndex": 1314
-        },
-        {
-          "level": 3,
-          "title": "3. 使用 top-level await",
-          "slug": "3.-shi-yong-top-level-await",
-          "normalizedTitle": "3. 使用 top-level await",
-          "charIndex": 2208
-        },
-        {
-          "level": 3,
-          "title": "4. 过去",
-          "slug": "4.-guo-qu",
-          "normalizedTitle": "4. 过去",
-          "charIndex": 3002
-        },
-        {
-          "level": 3,
-          "title": "5. 现在",
-          "slug": "5.-xian-zai",
-          "normalizedTitle": "5. 现在",
-          "charIndex": 3285
-        },
-        {
-          "level": 3,
-          "title": "6. 何时使用",
-          "slug": "6.-he-shi-shi-yong",
-          "normalizedTitle": "6. 何时使用",
-          "charIndex": 3448
-        },
-        {
-          "level": 3,
-          "title": "结尾",
-          "slug": "jie-wei",
-          "normalizedTitle": "结尾",
-          "charIndex": 3882
+          "level": 2,
+          "title": "📒 整理",
+          "slug": "zheng-li",
+          "normalizedTitle": "📒 整理",
+          "charIndex": 17
         }
       ],
-      "lastUpdated": "9/7/2021, 10:55:52 PM",
-      "headersStr": "top-level await 1. 在引入 top-level await 之前 2.使用 Export Promise 来代替初始化 3. 使用 top-level await 4. 过去 5. 现在 6. 何时使用 结尾",
-      "content": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\nECMAScript 提案 Top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 Stage 3。\n\nTop-level await 允许你将整个 JS 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\n(async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // undefined\nconsole.log('squareOutput-init', squareOutput); // undefined\n\nsetTimeout(\n  () => console.log('doubleOutput-delay', doubleOutput),\n  2000,\n); // 20\nsetTimeout(\n  () => console.log('squareOutput-delay', squareOutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 Export Promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\nexport default (async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n  return { doubleOutput, squareOutput };\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleOutput, squareOutput }) => {\n  console.log('doubleOutput-delay', doubleOutput); // 20\n  console.log('squareOutput-delay', squareOutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestData();\n\ndoubleOutput = double(10);\nsquareOutput = square(10);\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // 20\nconsole.log('squareOutput-init', squareOutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 SyntaxError。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait Promise.resolve(console.log('🎉'));\n// → SyntaxError: await is only valid in async function\n(async function() {\n  await Promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait Promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbConnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jQuery;\ntry {\n  jQuery = await import('https://cdn-a.example.com/jQuery');\n} catch {\n  jQuery = await import('https://cdn-b.example.com/jQuery');\n}\n\n\n希望从 CDN A 加载 JavaScript 库，如果它加载失败，将加载 CDN B\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 Myles Borins 「Top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
-      "normalizedContent": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\necmascript 提案 top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 stage 3。\n\ntop-level await 允许你将整个 js 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\n(async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // undefined\nconsole.log('squareoutput-init', squareoutput); // undefined\n\nsettimeout(\n  () => console.log('doubleoutput-delay', doubleoutput),\n  2000,\n); // 20\nsettimeout(\n  () => console.log('squareoutput-delay', squareoutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 export promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\nexport default (async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n  return { doubleoutput, squareoutput };\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleoutput, squareoutput }) => {\n  console.log('doubleoutput-delay', doubleoutput); // 20\n  console.log('squareoutput-delay', squareoutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestdata();\n\ndoubleoutput = double(10);\nsquareoutput = square(10);\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // 20\nconsole.log('squareoutput-init', squareoutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 syntaxerror。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait promise.resolve(console.log('🎉'));\n// → syntaxerror: await is only valid in async function\n(async function() {\n  await promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbconnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jquery;\ntry {\n  jquery = await import('https://cdn-a.example.com/jquery');\n} catch {\n  jquery = await import('https://cdn-b.example.com/jquery');\n}\n\n\n希望从 cdn a 加载 javascript 库，如果它加载失败，将加载 cdn b\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 myles borins 「top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
+      "lastUpdated": "9/9/2021, 10:03:44 PM",
+      "headersStr": "👨🏻‍💻 导图 📒 整理",
+      "content": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * JavaScript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 作用域链\n\n * JavaScript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/Blog/issues/6\n\n# 闭包\n\n * JavaScript 深入之闭包——冴羽 https://github.com/mqyqingfeng/Blog/issues/9\n\n# this\n\n * JavaScript深入之从ECMAScript规范解读this——冴羽 https://github.com/mqyqingfeng/Blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * JavaScript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/Blog/issues/12\n\n# 原型\n\n * JavaScript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# Promise\n\n * 这一次，彻底弄懂 Promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# Event Loop\n\n * 详解JavaScript中的Event Loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
+      "normalizedContent": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * javascript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 作用域链\n\n * javascript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/blog/issues/6\n\n# 闭包\n\n * javascript 深入之闭包——冴羽 https://github.com/mqyqingfeng/blog/issues/9\n\n# this\n\n * javascript深入之从ecmascript规范解读this——冴羽 https://github.com/mqyqingfeng/blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * javascript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/blog/issues/12\n\n# 原型\n\n * javascript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# promise\n\n * 这一次，彻底弄懂 promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# event loop\n\n * 详解javascript中的event loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
       "charsets": {
         "cjk": true
       }
+    },
+    {
+      "title": "xxxxxxxxxx",
+      "frontmatter": {
+        "title": "xxxxxxxxxx",
+        "date": "2021-09-09T21:46:09.000Z",
+        "permalink": "/pages/0088df/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/test.html",
+      "relativePath": "note/test.md",
+      "key": "v-432c973c",
+      "path": "/pages/0088df/",
+      "lastUpdated": "9/9/2021, 10:03:44 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
     },
     {
       "title": "typescript不完整指南",
@@ -473,6 +462,107 @@ export const siteData = {
       }
     },
     {
+      "title": "top-level await",
+      "frontmatter": {
+        "title": "top-level await",
+        "date": "2021-07-26T16:04:15.000Z",
+        "permalink": "/pages/top-level-await/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/top-levelAwait.html",
+      "relativePath": "note/top-levelAwait.md",
+      "key": "v-6a10a6a2",
+      "path": "/pages/top-level-await/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "top-level await",
+          "slug": "top-level-await",
+          "normalizedTitle": "top-level await",
+          "charIndex": 2
+        },
+        {
+          "level": 3,
+          "title": "1. 在引入 top-level await 之前",
+          "slug": "1.-zai-yin-ru-top-level-await-zhi-qian",
+          "normalizedTitle": "1. 在引入 top-level await 之前",
+          "charIndex": 350
+        },
+        {
+          "level": 3,
+          "title": "2.使用 Export Promise 来代替初始化",
+          "slug": "2.shi-yong-export-promise-lai-dai-ti-chu-shi-hua",
+          "normalizedTitle": "2.使用 export promise 来代替初始化",
+          "charIndex": 1314
+        },
+        {
+          "level": 3,
+          "title": "3. 使用 top-level await",
+          "slug": "3.-shi-yong-top-level-await",
+          "normalizedTitle": "3. 使用 top-level await",
+          "charIndex": 2208
+        },
+        {
+          "level": 3,
+          "title": "4. 过去",
+          "slug": "4.-guo-qu",
+          "normalizedTitle": "4. 过去",
+          "charIndex": 3002
+        },
+        {
+          "level": 3,
+          "title": "5. 现在",
+          "slug": "5.-xian-zai",
+          "normalizedTitle": "5. 现在",
+          "charIndex": 3285
+        },
+        {
+          "level": 3,
+          "title": "6. 何时使用",
+          "slug": "6.-he-shi-shi-yong",
+          "normalizedTitle": "6. 何时使用",
+          "charIndex": 3448
+        },
+        {
+          "level": 3,
+          "title": "结尾",
+          "slug": "jie-wei",
+          "normalizedTitle": "结尾",
+          "charIndex": 3882
+        }
+      ],
+      "lastUpdated": "9/7/2021, 10:55:52 PM",
+      "headersStr": "top-level await 1. 在引入 top-level await 之前 2.使用 Export Promise 来代替初始化 3. 使用 top-level await 4. 过去 5. 现在 6. 何时使用 结尾",
+      "content": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\nECMAScript 提案 Top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 Stage 3。\n\nTop-level await 允许你将整个 JS 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\n(async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // undefined\nconsole.log('squareOutput-init', squareOutput); // undefined\n\nsetTimeout(\n  () => console.log('doubleOutput-delay', doubleOutput),\n  2000,\n); // 20\nsetTimeout(\n  () => console.log('squareOutput-delay', squareOutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 Export Promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\nexport default (async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n  return { doubleOutput, squareOutput };\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleOutput, squareOutput }) => {\n  console.log('doubleOutput-delay', doubleOutput); // 20\n  console.log('squareOutput-delay', squareOutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestData();\n\ndoubleOutput = double(10);\nsquareOutput = square(10);\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // 20\nconsole.log('squareOutput-init', squareOutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 SyntaxError。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait Promise.resolve(console.log('🎉'));\n// → SyntaxError: await is only valid in async function\n(async function() {\n  await Promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait Promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbConnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jQuery;\ntry {\n  jQuery = await import('https://cdn-a.example.com/jQuery');\n} catch {\n  jQuery = await import('https://cdn-b.example.com/jQuery');\n}\n\n\n希望从 CDN A 加载 JavaScript 库，如果它加载失败，将加载 CDN B\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 Myles Borins 「Top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
+      "normalizedContent": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\necmascript 提案 top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 stage 3。\n\ntop-level await 允许你将整个 js 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\n(async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // undefined\nconsole.log('squareoutput-init', squareoutput); // undefined\n\nsettimeout(\n  () => console.log('doubleoutput-delay', doubleoutput),\n  2000,\n); // 20\nsettimeout(\n  () => console.log('squareoutput-delay', squareoutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 export promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\nexport default (async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n  return { doubleoutput, squareoutput };\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleoutput, squareoutput }) => {\n  console.log('doubleoutput-delay', doubleoutput); // 20\n  console.log('squareoutput-delay', squareoutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestdata();\n\ndoubleoutput = double(10);\nsquareoutput = square(10);\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // 20\nconsole.log('squareoutput-init', squareoutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 syntaxerror。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait promise.resolve(console.log('🎉'));\n// → syntaxerror: await is only valid in async function\n(async function() {\n  await promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbconnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jquery;\ntry {\n  jquery = await import('https://cdn-a.example.com/jquery');\n} catch {\n  jquery = await import('https://cdn-b.example.com/jquery');\n}\n\n\n希望从 cdn a 加载 javascript 库，如果它加载失败，将加载 cdn b\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 myles borins 「top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "标签",
+      "frontmatter": {
+        "tagsPage": true,
+        "title": "标签",
+        "permalink": "/tags/",
+        "article": false
+      },
+      "regularPath": "/@pages/tagsPage.html",
+      "relativePath": "@pages/tagsPage.md",
+      "key": "v-2e8e39a2",
+      "path": "/tags/",
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
+    },
+    {
       "title": "归档",
       "frontmatter": {
         "archivesPage": true,
@@ -502,24 +592,6 @@ export const siteData = {
       "relativePath": "@pages/categoriesPage.md",
       "key": "v-0cebcc02",
       "path": "/categories/",
-      "lastUpdated": "7/26/2021, 2:08:25 PM",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
-    },
-    {
-      "title": "标签",
-      "frontmatter": {
-        "tagsPage": true,
-        "title": "标签",
-        "permalink": "/tags/",
-        "article": false
-      },
-      "regularPath": "/@pages/tagsPage.html",
-      "relativePath": "@pages/tagsPage.md",
-      "key": "v-2e8e39a2",
-      "path": "/tags/",
       "lastUpdated": "7/26/2021, 2:08:25 PM",
       "headersStr": null,
       "content": "",

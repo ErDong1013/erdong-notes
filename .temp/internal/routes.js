@@ -9,6 +9,34 @@ import GlobalLayout from "/Users/chenxiaodong/Documents/GitHub/erdong-notes/node
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-34c9d17d",
+    path: "/about/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-34c9d17d").then(next)
+    },
+  },
+  {
+    path: "/about/index.html",
+    redirect: "/about/"
+  },
+  {
+    name: "v-8435e3fc",
+    path: "/interview/Integration/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8435e3fc").then(next)
+    },
+  },
+  {
+    path: "/interview/Integration/index.html",
+    redirect: "/interview/Integration/"
+  },
+  {
+    path: "/interview/Integration.html",
+    redirect: "/interview/Integration/"
+  },
+  {
     name: "v-f3fec70e",
     path: "/",
     component: GlobalLayout,
@@ -37,50 +65,6 @@ export const routes = [
     redirect: "/pages/plantUml/"
   },
   {
-    name: "v-34c9d17d",
-    path: "/about/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-34c9d17d").then(next)
-    },
-  },
-  {
-    path: "/about/index.html",
-    redirect: "/about/"
-  },
-  {
-    name: "v-66f614ac",
-    path: "/pages/javascript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-66f614ac").then(next)
-    },
-  },
-  {
-    path: "/pages/javascript/index.html",
-    redirect: "/pages/javascript/"
-  },
-  {
-    path: "/note/JavaScript/JavaScript基础.html",
-    redirect: "/pages/javascript/"
-  },
-  {
-    name: "v-d4b28010",
-    path: "/interview/JavaScript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d4b28010").then(next)
-    },
-  },
-  {
-    path: "/interview/JavaScript/index.html",
-    redirect: "/interview/JavaScript/"
-  },
-  {
-    path: "/interview/JavaScript.html",
-    redirect: "/interview/JavaScript/"
-  },
-  {
     name: "v-38fd5eec",
     path: "/pages/context/",
     component: GlobalLayout,
@@ -95,22 +79,6 @@ export const routes = [
   {
     path: "/note/context.html",
     redirect: "/pages/context/"
-  },
-  {
-    name: "v-432c973c",
-    path: "/pages/0088df/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-432c973c").then(next)
-    },
-  },
-  {
-    path: "/pages/0088df/index.html",
-    redirect: "/pages/0088df/"
-  },
-  {
-    path: "/note/test.html",
-    redirect: "/pages/0088df/"
   },
   {
     name: "v-9b4c403c",
@@ -129,20 +97,36 @@ export const routes = [
     redirect: "/pages/9276fb/"
   },
   {
-    name: "v-6a10a6a2",
-    path: "/pages/top-level-await/",
+    name: "v-66f614ac",
+    path: "/pages/javascript/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6a10a6a2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-66f614ac").then(next)
     },
   },
   {
-    path: "/pages/top-level-await/index.html",
-    redirect: "/pages/top-level-await/"
+    path: "/pages/javascript/index.html",
+    redirect: "/pages/javascript/"
   },
   {
-    path: "/note/top-levelAwait.html",
-    redirect: "/pages/top-level-await/"
+    path: "/note/JavaScript/JavaScript基础.html",
+    redirect: "/pages/javascript/"
+  },
+  {
+    name: "v-432c973c",
+    path: "/pages/0088df/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-432c973c").then(next)
+    },
+  },
+  {
+    path: "/pages/0088df/index.html",
+    redirect: "/pages/0088df/"
+  },
+  {
+    path: "/note/test.html",
+    redirect: "/pages/0088df/"
   },
   {
     name: "v-76ab9602",
@@ -159,6 +143,38 @@ export const routes = [
   {
     path: "/note/typescript.html",
     redirect: "/pages/typeScript/"
+  },
+  {
+    name: "v-6a10a6a2",
+    path: "/pages/top-level-await/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a10a6a2").then(next)
+    },
+  },
+  {
+    path: "/pages/top-level-await/index.html",
+    redirect: "/pages/top-level-await/"
+  },
+  {
+    path: "/note/top-levelAwait.html",
+    redirect: "/pages/top-level-await/"
+  },
+  {
+    name: "v-2e8e39a2",
+    path: "/tags/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2e8e39a2").then(next)
+    },
+  },
+  {
+    path: "/tags/index.html",
+    redirect: "/tags/"
+  },
+  {
+    path: "/@pages/tagsPage.html",
+    redirect: "/tags/"
   },
   {
     name: "v-5358e722",
@@ -191,22 +207,6 @@ export const routes = [
   {
     path: "/@pages/categoriesPage.html",
     redirect: "/categories/"
-  },
-  {
-    name: "v-2e8e39a2",
-    path: "/tags/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2e8e39a2").then(next)
-    },
-  },
-  {
-    path: "/tags/index.html",
-    redirect: "/tags/"
-  },
-  {
-    path: "/@pages/tagsPage.html",
-    redirect: "/tags/"
   },
   {
     path: '*',
