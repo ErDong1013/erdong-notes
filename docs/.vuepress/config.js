@@ -84,7 +84,7 @@ const config = {
 
     nav: [
       { text: '指南', link: '/note/typescript' },
-      { text: 'Interview', link: '/interview/JavaScript' },
+      { text: 'Interview', link: '/interview/Integration/' },
       { text: '关于我', link: '/about/' },
       { text: '归档', link: '/archives/' },
     ],

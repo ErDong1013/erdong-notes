@@ -8,24 +8,16 @@ const sidebarStructure = {
   '辅助技能': [
     //
   ],
-  '计算机科学': [
-    //
-  ],
   'HTML/CSS': [
     //
   ],
   'JavaScript 语言': [
     //
   ],
-  'Node.js 和 NPM': [
+  'React': [
     //
-  ],
-  '其他语言': [
-    //
-    './typescript.md',
-  ],
-  '前端框架类库': [
-    //
+    './MV*/React/ReactVirtualDOM.md',
+    './MV*/React/React Firber.md',
   ],
   '工程化/测试/持续集成': [
     //
@@ -34,6 +26,16 @@ const sidebarStructure = {
     //
     './top-levelAwait.md',
     './context.md',
+  ],
+  'Node.js 和 NPM': [
+    //
+  ],
+  '其他语言': [
+    //
+    './typescript.md',
+  ],
+  '计算机科学': [
+    //
   ],
   '开发生活/杂谈': [
     //
