@@ -1,5 +1,5 @@
 ---
-title: ReactVirtualDOM
+title: React Virtual DOM
 date: 2021-09-17 22:19:11
 permalink: /pages/1f970b/
 categories:
@@ -11,6 +11,7 @@ tags:
 ---
 
 # ReactVirtualDOM
+> 部分内容整理自网络资源
 ## 操作 DOM 是耗费性能的
 
 由于 JS 是可操纵 DOM 的，如果在修改这些元素属性同时渲染界面（即 JS 线程和渲染线程同时运行），那么渲染线程前后获得的元素数据就可能不一致了。因此为了防止渲染出现不可预期的结果，浏览器设置 **渲染线程** 与 **JS 引擎线程** 为互斥的关系，当 JS 引擎执行时渲染线程会被挂起，GUI 更新则会被保存在一个队列中等到 JS 引擎线程空闲时立即被执行。
@@ -20,6 +21,8 @@ tags:
 另外很多 DOM API 的读写都涉及页面布局的 **重绘（repaint）**和**回流（reflow）** ，这会更加的耗费性能。
 
 综上所述，单次 DOM API 调用性能就不够好，频繁调用就会迅速积累上述损耗，但我们又不可能不去操作 DOM，因此解决问题的本质是要 **减少不必要的 DOM API 调用**。
+
+## 什么是Virtual DOM
 
 **React.js 相对于直接操作原生 DOM 最大的优势在于 batching 和 diff。**
 

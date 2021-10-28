@@ -53,7 +53,7 @@ const config = {
       link: 'https://github.com/MuBai1104',
     },
     blogger: {
-      avatar: 'https://tva1.sinaimg.cn/large/008i3skNly1gsueeuixx5j31400u0433.jpg',
+      avatar: 'https://tva1.sinaimg.cn/large/008i3skNly1gvu8gtq9lkj31400u00xv.jpg',
       name: 'ErDong',
       slogan: '略懂点前端',
     },

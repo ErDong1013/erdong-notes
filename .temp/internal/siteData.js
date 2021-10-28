@@ -69,6 +69,24 @@ export const siteData = {
       }
     },
     {
+      "title": "分类",
+      "frontmatter": {
+        "categoriesPage": true,
+        "title": "分类",
+        "permalink": "/categories/",
+        "article": false
+      },
+      "regularPath": "/@pages/categoriesPage.html",
+      "relativePath": "@pages/categoriesPage.md",
+      "key": "v-0cebcc02",
+      "path": "/categories/",
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
+    },
+    {
       "title": "Integration",
       "frontmatter": {
         "title": "Integration",
@@ -157,13 +175,77 @@ export const siteData = {
           "charIndex": 4034
         }
       ],
-      "lastUpdated": "9/13/2021, 10:15:37 PM",
+      "lastUpdated": "9/17/2021, 10:21:49 PM",
       "headersStr": "JavaScript react webpack 工程化 性能优化 移动端 H5 TS 安全 手写 杂项",
       "content": "# JavaScript\n\n * 现代 JavaScript 教程 *\n   * https://zh.javascript.info/\n * 调用堆栈\n * 作用域闭包\n * this全面解析\n * 深浅拷贝原理\n * 原型Prototype\n * Async/Await原理\n * promise\n   * promise 实现 https://jelly.jd.com/article/5fec895f846cc00148ae4c75\n * Even Loop\n   * 宏任务与微任务 https://jelly.jd.com/article/5e79d307384e6201505fba93\n * V8\n   * 深入浅出 V8 引擎 https://jelly.jd.com/article/5f859a141d506201572828d7\n   * js 执行过程 https://www.zoo.team/article/the-process-of-executing-js-in-v8\n   * V8 引擎垃圾回收与内存分配 https://www.zoo.team/article/garbage-collection-about-v8\n * todo\n   * 循环遍历 https://www.zoo.team/article/cycle-in-js\n   * ECMAScript 2021 新特征 https://jelly.jd.com/article/5febdfbb846cc00148ae36d7\n\n\n# react\n\n# React Hook\n\n * React Hook实战 https://jelly.jd.com/article/5ecc89705ea1c6015178a212\n * 一文吃透react-hooks原理 https://juejin.cn/post/6944863057000529933\n * 易踩的坑 https://jelly.jd.com/article/608babe70e65470169d5bf9b\n * setState 的执行机制 https://juejin.cn/post/6844903781813993486\n\n# React Virtual DOM\n\n * 虚拟 DOM https://jelly.jd.com/article/60d82e8b78b202017b2949d1\n * 你不知道的 React Virtual DOM https://juejin.cn/post/6985058301184737287\n * 尤雨溪对于Virtual DOM的优势的回答 https://www.zhihu.com/question/31809713/answer/53544875\n\n# React Diff\n\n * diff 算法深入一下 https://juejin.cn/post/6997965021401579556\n\n# React Fiber\n\n * 走进React Fiber的世界 https://juejin.cn/post/6943896410987659277\n * 从中断机制看 React Fiber 技术 https://jelly.jd.com/article/603d96596d84e3013e885482\n * React Fiber 是如何实现更新过程可控的 https://www.zoo.team/article/about-react-fiber\n * 完全理解React Fiber http://www.ayqy.net/blog/dive-into-react-fiber/\n\n# React Router\n\n * React 中的一些 Router 必备知识点 https://www.zoo.team/article/react-router\n\n# redux\n\n * Immutable https://www.zoo.team/article/learn-about-immutable\n\n# TODO\n\n * React 入门 https://juejin.cn/post/6899243806214848519\n * React 17 http://www.ayqy.net/blog/react-17/\n * AST\n * AST 基本操作 https://jelly.jd.com/article/60a623e40801420171d9b090\n * react 源码 基础篇 未完 https://jelly.jd.com/article/60580a7f960312017f4b5231\n * 运用 hooks 实现 redux 的方案 https://jelly.jd.com/article/5e79aae2384e6201505fba2b\n * React代码共享最佳实践方式 https://jelly.jd.com/article/60653129960312017f4bb17f\n\n\n# webpack\n\n * webpack5 最佳实践\n   * 基础篇 https://jelly.jd.com/article/61074411df18aa019e8a2ea3\n   * 实践篇 https://jelly.jd.com/article/6107701c22a78f01a317cd05\n   * 优化篇 https://jelly.jd.com/article/61179aa26bea510187770aa3\n * webpack 最佳实践 https://juejin.cn/post/6982361231071903781\n * Webpack 原理浅析\n   * https://jelly.jd.com/article/5f0de6dad5205e015b87c128\n * Webpack Plugin\n   * https://www.zoo.team/article/webpack-plugin\n\n\n# 工程化\n\n * 构建前端工程\n   * 抛开脚手架，回归本源构建前端工程 https://jelly.jd.com/article/60cb0c9873fc6c016cdf3d7a\n   * 前端工程化（一）从零开始搭建组件库 https://jelly.jd.com/article/5fedb7af5918090150298dc0\n * ESLint\n   * https://jelly.jd.com/article/60644066d96486017129d14e\n * Vite\n   * Vite 特性和部分源码解析 https://www.zoo.team/article/about-vite\n\n\n# 性能优化\n\n * react 性能优化\n   * coding 小技巧 https://jelly.jd.com/article/6061c374d96486017129b585\n * 监控\n   * web 前端运行时动画性能监控 https://jelly.jd.com/article/601fc77d61dbb7014cff31b1\n * 性能优化手段\n   * https://alienzhou.com/projects/fe-performance-journey/\n * 白屏\n   * https://cloud.tencent.com/developer/article/1508941\n * 静态构建\n   * 构建时预渲染：网页首帧优化实践 https://tech.meituan.com/2018/11/15/first-contentful-paint-practice.html\n * SSR\n   * Vue SSR 性能优化实践 https://juejin.cn/post/6887884087915184141\n   * React SSR之原理篇 http://www.ayqy.net/blog/react-ssr-under-the-hood/\n\n\n# 移动端 H5\n\n * 移动真机调试\n   * https://jelly.jd.com/article/5feca536846cc00148ae4d10\n * H5 列表缓存\n   * https://www.zoo.team/article/h5-list-buffer\n * JSBridge\n   * JSBridge 初探 https://www.zoo.team/article/jsbridge\n\n\n# TS\n\n * TypeScript 高级用法 https://juejin.cn/post/6926794697553739784\n\n\n# 安全\n\n * XSS\n   * 浅谈 React 中的 XSS 攻击 https://www.zoo.team/article/xss-in-react\n\n\n# 手写\n\n * React\n   * 手写系列-实现一个铂金段位的 React https://jelly.jd.com/article/60d82ae9625de10174c73860\n   * 手写一个简单的 React https://jelly.jd.com/article/60aceb6b27393b0169c85231\n * promise\n   * 手写系列-这一次，彻底搞懂 Promise https://jelly.jd.com/article/60c806db73fc6c016cdeff90\n\n\n# 杂项\n\n * Chrome 调试技巧\n   * https://jelly.jd.com/article/605c8bf4960312017f4b7450\n * 高质量可维护代码：\n   * 程序范式 https://www.zoo.team/article/program-paradigm\n   * 优雅命名 https://www.zoo.team/article/good-name\n   * Awesome TypeScript https://www.zoo.team/article/awesome-typescript\n   * 组件的抽象与粒度 https://www.zoo.team/article/abstraction-and-granularity-of-component\n   * 注释 https://www.zoo.team/article/the-clean-annotation\n * 成长\n   * https://www.zoo.team/article/how-do-junior-engineers-grow-up\n * Chrome 扩展\n   * 如何从零开始开发一个 Chrome 扩展 https://juejin.cn/post/6932408873533833224\n * 快速构建 React 组件库\n   * https://jelly.jd.com/article/5f277f41645f82014b830390",
       "normalizedContent": "# javascript\n\n * 现代 javascript 教程 *\n   * https://zh.javascript.info/\n * 调用堆栈\n * 作用域闭包\n * this全面解析\n * 深浅拷贝原理\n * 原型prototype\n * async/await原理\n * promise\n   * promise 实现 https://jelly.jd.com/article/5fec895f846cc00148ae4c75\n * even loop\n   * 宏任务与微任务 https://jelly.jd.com/article/5e79d307384e6201505fba93\n * v8\n   * 深入浅出 v8 引擎 https://jelly.jd.com/article/5f859a141d506201572828d7\n   * js 执行过程 https://www.zoo.team/article/the-process-of-executing-js-in-v8\n   * v8 引擎垃圾回收与内存分配 https://www.zoo.team/article/garbage-collection-about-v8\n * todo\n   * 循环遍历 https://www.zoo.team/article/cycle-in-js\n   * ecmascript 2021 新特征 https://jelly.jd.com/article/5febdfbb846cc00148ae36d7\n\n\n# react\n\n# react hook\n\n * react hook实战 https://jelly.jd.com/article/5ecc89705ea1c6015178a212\n * 一文吃透react-hooks原理 https://juejin.cn/post/6944863057000529933\n * 易踩的坑 https://jelly.jd.com/article/608babe70e65470169d5bf9b\n * setstate 的执行机制 https://juejin.cn/post/6844903781813993486\n\n# react virtual dom\n\n * 虚拟 dom https://jelly.jd.com/article/60d82e8b78b202017b2949d1\n * 你不知道的 react virtual dom https://juejin.cn/post/6985058301184737287\n * 尤雨溪对于virtual dom的优势的回答 https://www.zhihu.com/question/31809713/answer/53544875\n\n# react diff\n\n * diff 算法深入一下 https://juejin.cn/post/6997965021401579556\n\n# react fiber\n\n * 走进react fiber的世界 https://juejin.cn/post/6943896410987659277\n * 从中断机制看 react fiber 技术 https://jelly.jd.com/article/603d96596d84e3013e885482\n * react fiber 是如何实现更新过程可控的 https://www.zoo.team/article/about-react-fiber\n * 完全理解react fiber http://www.ayqy.net/blog/dive-into-react-fiber/\n\n# react router\n\n * react 中的一些 router 必备知识点 https://www.zoo.team/article/react-router\n\n# redux\n\n * immutable https://www.zoo.team/article/learn-about-immutable\n\n# todo\n\n * react 入门 https://juejin.cn/post/6899243806214848519\n * react 17 http://www.ayqy.net/blog/react-17/\n * ast\n * ast 基本操作 https://jelly.jd.com/article/60a623e40801420171d9b090\n * react 源码 基础篇 未完 https://jelly.jd.com/article/60580a7f960312017f4b5231\n * 运用 hooks 实现 redux 的方案 https://jelly.jd.com/article/5e79aae2384e6201505fba2b\n * react代码共享最佳实践方式 https://jelly.jd.com/article/60653129960312017f4bb17f\n\n\n# webpack\n\n * webpack5 最佳实践\n   * 基础篇 https://jelly.jd.com/article/61074411df18aa019e8a2ea3\n   * 实践篇 https://jelly.jd.com/article/6107701c22a78f01a317cd05\n   * 优化篇 https://jelly.jd.com/article/61179aa26bea510187770aa3\n * webpack 最佳实践 https://juejin.cn/post/6982361231071903781\n * webpack 原理浅析\n   * https://jelly.jd.com/article/5f0de6dad5205e015b87c128\n * webpack plugin\n   * https://www.zoo.team/article/webpack-plugin\n\n\n# 工程化\n\n * 构建前端工程\n   * 抛开脚手架，回归本源构建前端工程 https://jelly.jd.com/article/60cb0c9873fc6c016cdf3d7a\n   * 前端工程化（一）从零开始搭建组件库 https://jelly.jd.com/article/5fedb7af5918090150298dc0\n * eslint\n   * https://jelly.jd.com/article/60644066d96486017129d14e\n * vite\n   * vite 特性和部分源码解析 https://www.zoo.team/article/about-vite\n\n\n# 性能优化\n\n * react 性能优化\n   * coding 小技巧 https://jelly.jd.com/article/6061c374d96486017129b585\n * 监控\n   * web 前端运行时动画性能监控 https://jelly.jd.com/article/601fc77d61dbb7014cff31b1\n * 性能优化手段\n   * https://alienzhou.com/projects/fe-performance-journey/\n * 白屏\n   * https://cloud.tencent.com/developer/article/1508941\n * 静态构建\n   * 构建时预渲染：网页首帧优化实践 https://tech.meituan.com/2018/11/15/first-contentful-paint-practice.html\n * ssr\n   * vue ssr 性能优化实践 https://juejin.cn/post/6887884087915184141\n   * react ssr之原理篇 http://www.ayqy.net/blog/react-ssr-under-the-hood/\n\n\n# 移动端 h5\n\n * 移动真机调试\n   * https://jelly.jd.com/article/5feca536846cc00148ae4d10\n * h5 列表缓存\n   * https://www.zoo.team/article/h5-list-buffer\n * jsbridge\n   * jsbridge 初探 https://www.zoo.team/article/jsbridge\n\n\n# ts\n\n * typescript 高级用法 https://juejin.cn/post/6926794697553739784\n\n\n# 安全\n\n * xss\n   * 浅谈 react 中的 xss 攻击 https://www.zoo.team/article/xss-in-react\n\n\n# 手写\n\n * react\n   * 手写系列-实现一个铂金段位的 react https://jelly.jd.com/article/60d82ae9625de10174c73860\n   * 手写一个简单的 react https://jelly.jd.com/article/60aceb6b27393b0169c85231\n * promise\n   * 手写系列-这一次，彻底搞懂 promise https://jelly.jd.com/article/60c806db73fc6c016cdeff90\n\n\n# 杂项\n\n * chrome 调试技巧\n   * https://jelly.jd.com/article/605c8bf4960312017f4b7450\n * 高质量可维护代码：\n   * 程序范式 https://www.zoo.team/article/program-paradigm\n   * 优雅命名 https://www.zoo.team/article/good-name\n   * awesome typescript https://www.zoo.team/article/awesome-typescript\n   * 组件的抽象与粒度 https://www.zoo.team/article/abstraction-and-granularity-of-component\n   * 注释 https://www.zoo.team/article/the-clean-annotation\n * 成长\n   * https://www.zoo.team/article/how-do-junior-engineers-grow-up\n * chrome 扩展\n   * 如何从零开始开发一个 chrome 扩展 https://juejin.cn/post/6932408873533833224\n * 快速构建 react 组件库\n   * https://jelly.jd.com/article/5f277f41645f82014b830390",
       "charsets": {
         "cjk": true
       }
+    },
+    {
+      "title": "V8",
+      "frontmatter": {
+        "title": "V8",
+        "date": "2021-10-27T22:19:26.000Z",
+        "permalink": "/pages/f6701f/",
+        "categories": [
+          "note",
+          "Browser"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/Browser/V8.html",
+      "relativePath": "note/Browser/V8.md",
+      "key": "v-a71486fc",
+      "path": "/pages/f6701f/",
+      "headersStr": null,
+      "content": "V8",
+      "normalizedContent": "v8",
+      "charsets": {}
+    },
+    {
+      "title": "EventLoop",
+      "frontmatter": {
+        "title": "EventLoop",
+        "date": "2021-10-27T22:19:47.000Z",
+        "permalink": "/pages/7b89ea/",
+        "categories": [
+          "note",
+          "Browser"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/Browser/EventLoop.html",
+      "relativePath": "note/Browser/EventLoop.md",
+      "key": "v-c45e9e0c",
+      "path": "/pages/7b89ea/",
+      "headersStr": null,
+      "content": "Event-Loop",
+      "normalizedContent": "event-loop",
+      "charsets": {}
+    },
+    {
+      "title": "标签",
+      "frontmatter": {
+        "tagsPage": true,
+        "title": "标签",
+        "permalink": "/tags/",
+        "article": false
+      },
+      "regularPath": "/@pages/tagsPage.html",
+      "relativePath": "@pages/tagsPage.md",
+      "key": "v-2e8e39a2",
+      "path": "/tags/",
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
     },
     {
       "title": "PlantUML",
@@ -241,46 +323,11 @@ export const siteData = {
       }
     },
     {
-      "title": "React Firber",
+      "title": "React Hooks",
       "frontmatter": {
-        "title": "React Firber",
-        "date": "2021-09-16T20:04:11.000Z",
-        "permalink": "/pages/e53db3/",
-        "categories": [
-          "note",
-          "MV*",
-          "React"
-        ],
-        "tags": [
-          "React"
-        ]
-      },
-      "regularPath": "/note/MV*/React/React%20Firber.html",
-      "relativePath": "note/MV*/React/React Firber.md",
-      "key": "v-3064ff1f",
-      "path": "/pages/e53db3/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "总结",
-          "slug": "zong-jie",
-          "normalizedTitle": "总结",
-          "charIndex": 1000
-        }
-      ],
-      "headersStr": "总结",
-      "content": "React Fiber\n\n> 部分内容整理自网络资源\n\n\n\n\n\n\n\n 1. 接受输入事件\n 2. 执行事件回调\n 3. 开始一帧\n 4. 执行 RAF (RequestAnimationFrame)\n 5. 页面布局，样式计算\n 6. 渲染\n 7. 执行 RIC (RequestIdelCallback)\n    一帧包括了用户的交互行为的处理、js 的执行、requestAnimationFrame 的调用、layout 布局、paint 页面重绘等工作，假如某一帧里面要执行的任务不多，在不到 16ms（1000/60=16)的时间内就完成了上述任务的话，页面就会正常显示不会出现卡顿的现象，但是如果一旦 js 执行时间过长，超过了 16ms，这一帧的刷新就没有时间执 layout 和 paint 部分了，就可能会出现页面卡顿的现象。\n\n * js 引擎和页面渲染引擎是在同一个渲染线程之内，两者是互斥关系。\n * React16 中使用了 Fiber，但是 Vue 是没有 Fiber 的，为什么呢？原因是二者的优化思路不一样：\n   1. Vue 是基于 template 和 watcher 的组件级更新，把每个更新任务分割得足够小，不需要使用到 Fiber 架构，将任务进行更细粒度的拆分\n   2. React 是不管在哪里调用 setState，都是从根节点开始更新的，更新任务还是很大，需要使用到 Fiber 将大任务分割为多个小任务，可以中断和恢复，不阻塞主进程执行高优先级的任务\n * requestAnimationFrame\n * requestIdleCallback\n * \n\nreact 团队重写了核心算法 --reconciliation。即 fiber reconciler 的架构在原来的基础上增加了 Scheduler（调度器）的概念：\n\n * Scheduler（调度器）: 调度任务的优先级，高优任务优先进入Reconciler。\n\n浏览器有个 api 叫requestIdleCallback，就是指在浏览器的空闲时段内调用的一些函数的回调。React 实现了功能更完备的 requestIdleCallbackpolyfill，这就是Scheduler。除了在空闲时触发回调的功能外，Scheduler还提供了多种调度优先级供任务设置。\n\n\n# 总结\n\n * 初始化渲染，调用函数组件、或 class 组件的 render 方法，将 JSX 代码编译成 ReactELement 对象，它描述当前组件内容的数据结构。\n\n * 根据生产的 ReactELement 对象构建 Fiber tree，它包含了组件 schedule、reconciler、render 所需的相关信息。\n\n * 一旦有状态变化，触发更新，Scheduler 在接收到更新后，根据任务的优先级高低来进行调度，决定要执行的任务是什么。\n\n * 接下来的工作交给 Reconciler 处理，Reconciler 通过对比找出变化了的 Virtual DOM ，为其打上代表增/删/更新的标记，当所有组件都完成 Reconciler 的工作，才会统一交给Renderer。\n\n * Renderer 根据 Reconciler 为 Virtual DOM 打的标记，同步执行对应的 DOM 更新操作。",
-      "normalizedContent": "react fiber\n\n> 部分内容整理自网络资源\n\n\n\n\n\n\n\n 1. 接受输入事件\n 2. 执行事件回调\n 3. 开始一帧\n 4. 执行 raf (requestanimationframe)\n 5. 页面布局，样式计算\n 6. 渲染\n 7. 执行 ric (requestidelcallback)\n    一帧包括了用户的交互行为的处理、js 的执行、requestanimationframe 的调用、layout 布局、paint 页面重绘等工作，假如某一帧里面要执行的任务不多，在不到 16ms（1000/60=16)的时间内就完成了上述任务的话，页面就会正常显示不会出现卡顿的现象，但是如果一旦 js 执行时间过长，超过了 16ms，这一帧的刷新就没有时间执 layout 和 paint 部分了，就可能会出现页面卡顿的现象。\n\n * js 引擎和页面渲染引擎是在同一个渲染线程之内，两者是互斥关系。\n * react16 中使用了 fiber，但是 vue 是没有 fiber 的，为什么呢？原因是二者的优化思路不一样：\n   1. vue 是基于 template 和 watcher 的组件级更新，把每个更新任务分割得足够小，不需要使用到 fiber 架构，将任务进行更细粒度的拆分\n   2. react 是不管在哪里调用 setstate，都是从根节点开始更新的，更新任务还是很大，需要使用到 fiber 将大任务分割为多个小任务，可以中断和恢复，不阻塞主进程执行高优先级的任务\n * requestanimationframe\n * requestidlecallback\n * \n\nreact 团队重写了核心算法 --reconciliation。即 fiber reconciler 的架构在原来的基础上增加了 scheduler（调度器）的概念：\n\n * scheduler（调度器）: 调度任务的优先级，高优任务优先进入reconciler。\n\n浏览器有个 api 叫requestidlecallback，就是指在浏览器的空闲时段内调用的一些函数的回调。react 实现了功能更完备的 requestidlecallbackpolyfill，这就是scheduler。除了在空闲时触发回调的功能外，scheduler还提供了多种调度优先级供任务设置。\n\n\n# 总结\n\n * 初始化渲染，调用函数组件、或 class 组件的 render 方法，将 jsx 代码编译成 reactelement 对象，它描述当前组件内容的数据结构。\n\n * 根据生产的 reactelement 对象构建 fiber tree，它包含了组件 schedule、reconciler、render 所需的相关信息。\n\n * 一旦有状态变化，触发更新，scheduler 在接收到更新后，根据任务的优先级高低来进行调度，决定要执行的任务是什么。\n\n * 接下来的工作交给 reconciler 处理，reconciler 通过对比找出变化了的 virtual dom ，为其打上代表增/删/更新的标记，当所有组件都完成 reconciler 的工作，才会统一交给renderer。\n\n * renderer 根据 reconciler 为 virtual dom 打的标记，同步执行对应的 dom 更新操作。",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
-      "title": "ReactVirtualDOM",
-      "frontmatter": {
-        "title": "ReactVirtualDOM",
-        "date": "2021-09-17T22:19:11.000Z",
-        "permalink": "/pages/1f970b/",
+        "title": "React Hooks",
+        "date": "2021-09-17T22:39:03.000Z",
+        "permalink": "/pages/a29bb7/",
         "categories": [
           "note",
           "MV*",
@@ -290,46 +337,14 @@ export const siteData = {
           null
         ]
       },
-      "regularPath": "/note/MV*/React/ReactVirtualDOM.html",
-      "relativePath": "note/MV*/React/ReactVirtualDOM.md",
-      "key": "v-9ee5cc90",
-      "path": "/pages/1f970b/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "操作 DOM 是耗费性能的",
-          "slug": "cao-zuo-dom-shi-hao-fei-xing-neng-de",
-          "normalizedTitle": "操作 dom 是耗费性能的",
-          "charIndex": 20
-        },
-        {
-          "level": 2,
-          "title": "Virtual DOM 的优势",
-          "slug": "virtual-dom-de-you-shi",
-          "normalizedTitle": "virtual dom 的优势",
-          "charIndex": 1104
-        },
-        {
-          "level": 2,
-          "title": "ReactElement",
-          "slug": "reactelement",
-          "normalizedTitle": "reactelement",
-          "charIndex": 1318
-        },
-        {
-          "level": 2,
-          "title": "Virtual DOM 安全",
-          "slug": "virtual-dom-an-quan",
-          "normalizedTitle": "virtual dom 安全",
-          "charIndex": 1892
-        }
-      ],
-      "headersStr": "操作 DOM 是耗费性能的 Virtual DOM 的优势 ReactElement Virtual DOM 安全",
-      "content": "ReactVirtualDOM\n\n\n# 操作 DOM 是耗费性能的\n\n由于 JS 是可操纵 DOM 的，如果在修改这些元素属性同时渲染界面（即 JS 线程和渲染线程同时运行），那么渲染线程前后获得的元素数据就可能不一致了。因此为了防止渲染出现不可预期的结果，浏览器设置 渲染线程 与 JS 引擎线程 为互斥的关系，当 JS 引擎执行时渲染线程会被挂起，GUI 更新则会被保存在一个队列中等到 JS 引擎线程空闲时立即被执行。\n\n因此我们在操作 DOM 时，任何 DOM API 调用都要先将 JS 数据结构转为 DOM 数据结构，再挂起 JS 引擎线程并启动渲染引擎线程，执行过后再把可能的返回值反转数据结构，重启 JS 引擎继续执行。这种两个线程之间的上下文切换势必会很耗性能。\n\n另外很多 DOM API 的读写都涉及页面布局的 重绘（repaint）和回流（reflow） ，这会更加的耗费性能。\n\n综上所述，单次 DOM API 调用性能就不够好，频繁调用就会迅速积累上述损耗，但我们又不可能不去操作 DOM，因此解决问题的本质是要 减少不必要的 DOM API 调用。\n\nReact.js 相对于直接操作原生 DOM 最大的优势在于 batching 和 diff。\n\n\n\nVirtualDom 的本质是利用 JS 变量 对真实 DOM 进行抽象，既然每一次操作 DOM 都可能触发浏览器的重排消耗性能，那么就可以使用 VirtualDom 来缓存当前组件状态，对用户交互和数据的变动进行批次处理，直接计算出每一帧页面应该呈现的最终状态，而这个状态是以 JS 变量 的形式存在于内存中的。所以通过 VirtualDom 既能够保证用户看到的每一帧都响应了数据的变化，又能节约性能保证浏览器不出现卡顿。\n\nReact.js 相对于直接操作原生 DOM 最大的优势在于 batching 和 diff。为了尽量减少不必要的 DOM 操作， Virtual DOM 在执行 DOM 的更新操作后，不会直接操作真实 DOM，而是根据当前应用状态的数据，生成一个全新的 Virtual DOM，然后跟上一次生成 的 Virtual DOM 去 diff，得到一个 Patch，这样就可以找到变化了的 DOM 节点，只对变化的部分进行 DOM 更新，而不是重新渲染整个 DOM 树，这个过程就是 diff。还有所谓的batching就是将多次比较的结果合并后一次性更新到页面，从而有效地减少页面渲染的次数，提高渲染效率。batching 或者 diff, 说到底，都是为了尽量减少对 DOM 的调用。\n\n\n# Virtual DOM 的优势\n\n 1. 为函数式的 UI 编程方式打开了大门，我们不需要再去考虑具体 DOM 的操作，框架已经替我们做了，我们就可以用更加声明式的方式书写代码。\n 2. 减少页面渲染的次数，提高渲染效率。\n 3. 提供了更好的跨平台的能力，因为 virtual DOM 是以 JavaScript 对象为基础而不依赖具体的平台环境，因此可以适用于其他的平台，如 node、weex、native 等。\n\n\n# ReactElement\n\n 1. ReactElement 是通过 createElement 函数创建的。\n 2. createElement 函数接收 3 个参数，分别是 type, config, children\n\n * type 指代这个 ReactElement 的类型，它可以是 DOM 元素类型，也可以是 React 组件类型。\n * config 即是传入的 元素上的属性组成的对象。\n * children 是一个数组，代表该元素的子元素。\n\n\n\n * $$typeof 是一个常量 REACT_ELEMENT_TYPE，所有通过 React.createElement 生成的元素都有这个值，用来表示这是一个 React 元素。它还有一个取值，通过 createPortals 函数生成的 $$typeof 值就是 REACT_PORTAL_TYPE。\n * key 和 ref 从 config 对象中作为一个特殊的配置，被单独抽取出来，放在 ReactElement 下。\n * props 包含了两部分，第一部分是去除了 key 和 ref 的 config，第二部分是 children 数组，数组的成员也是通过 React.createElement 生成的对象。\n * _owner 就是 Fiber。\n\n\n# Virtual DOM 安全\n\n$$typeof ，这个属性会指向 Symbol(React.element) 。作为 React 元素的唯一标识的同时，这个标签也承担了安全方面的功能。我们已经知道了所谓的 ReactElement 其实就是一个 JS 对象。那么如果有用户恶意的向服务端数据库中存入了某个有侵入性功能的 伪 React 对象，在实际渲染过程中被当做页面元素渲染，那么将有可能威胁到用户的安全。而 Symbol 是无法在数据库中被存储的，换句话说， React 所渲染的所有元素，都必须是由 JSX 编译的拥有 Symbol 标识的元素。（如果在低版本不支持 Symbol 的浏览器中，将会使用字符串替代，也就没有这层安排保护了）",
-      "normalizedContent": "reactvirtualdom\n\n\n# 操作 dom 是耗费性能的\n\n由于 js 是可操纵 dom 的，如果在修改这些元素属性同时渲染界面（即 js 线程和渲染线程同时运行），那么渲染线程前后获得的元素数据就可能不一致了。因此为了防止渲染出现不可预期的结果，浏览器设置 渲染线程 与 js 引擎线程 为互斥的关系，当 js 引擎执行时渲染线程会被挂起，gui 更新则会被保存在一个队列中等到 js 引擎线程空闲时立即被执行。\n\n因此我们在操作 dom 时，任何 dom api 调用都要先将 js 数据结构转为 dom 数据结构，再挂起 js 引擎线程并启动渲染引擎线程，执行过后再把可能的返回值反转数据结构，重启 js 引擎继续执行。这种两个线程之间的上下文切换势必会很耗性能。\n\n另外很多 dom api 的读写都涉及页面布局的 重绘（repaint）和回流（reflow） ，这会更加的耗费性能。\n\n综上所述，单次 dom api 调用性能就不够好，频繁调用就会迅速积累上述损耗，但我们又不可能不去操作 dom，因此解决问题的本质是要 减少不必要的 dom api 调用。\n\nreact.js 相对于直接操作原生 dom 最大的优势在于 batching 和 diff。\n\n\n\nvirtualdom 的本质是利用 js 变量 对真实 dom 进行抽象，既然每一次操作 dom 都可能触发浏览器的重排消耗性能，那么就可以使用 virtualdom 来缓存当前组件状态，对用户交互和数据的变动进行批次处理，直接计算出每一帧页面应该呈现的最终状态，而这个状态是以 js 变量 的形式存在于内存中的。所以通过 virtualdom 既能够保证用户看到的每一帧都响应了数据的变化，又能节约性能保证浏览器不出现卡顿。\n\nreact.js 相对于直接操作原生 dom 最大的优势在于 batching 和 diff。为了尽量减少不必要的 dom 操作， virtual dom 在执行 dom 的更新操作后，不会直接操作真实 dom，而是根据当前应用状态的数据，生成一个全新的 virtual dom，然后跟上一次生成 的 virtual dom 去 diff，得到一个 patch，这样就可以找到变化了的 dom 节点，只对变化的部分进行 dom 更新，而不是重新渲染整个 dom 树，这个过程就是 diff。还有所谓的batching就是将多次比较的结果合并后一次性更新到页面，从而有效地减少页面渲染的次数，提高渲染效率。batching 或者 diff, 说到底，都是为了尽量减少对 dom 的调用。\n\n\n# virtual dom 的优势\n\n 1. 为函数式的 ui 编程方式打开了大门，我们不需要再去考虑具体 dom 的操作，框架已经替我们做了，我们就可以用更加声明式的方式书写代码。\n 2. 减少页面渲染的次数，提高渲染效率。\n 3. 提供了更好的跨平台的能力，因为 virtual dom 是以 javascript 对象为基础而不依赖具体的平台环境，因此可以适用于其他的平台，如 node、weex、native 等。\n\n\n# reactelement\n\n 1. reactelement 是通过 createelement 函数创建的。\n 2. createelement 函数接收 3 个参数，分别是 type, config, children\n\n * type 指代这个 reactelement 的类型，它可以是 dom 元素类型，也可以是 react 组件类型。\n * config 即是传入的 元素上的属性组成的对象。\n * children 是一个数组，代表该元素的子元素。\n\n\n\n * $$typeof 是一个常量 react_element_type，所有通过 react.createelement 生成的元素都有这个值，用来表示这是一个 react 元素。它还有一个取值，通过 createportals 函数生成的 $$typeof 值就是 react_portal_type。\n * key 和 ref 从 config 对象中作为一个特殊的配置，被单独抽取出来，放在 reactelement 下。\n * props 包含了两部分，第一部分是去除了 key 和 ref 的 config，第二部分是 children 数组，数组的成员也是通过 react.createelement 生成的对象。\n * _owner 就是 fiber。\n\n\n# virtual dom 安全\n\n$$typeof ，这个属性会指向 symbol(react.element) 。作为 react 元素的唯一标识的同时，这个标签也承担了安全方面的功能。我们已经知道了所谓的 reactelement 其实就是一个 js 对象。那么如果有用户恶意的向服务端数据库中存入了某个有侵入性功能的 伪 react 对象，在实际渲染过程中被当做页面元素渲染，那么将有可能威胁到用户的安全。而 symbol 是无法在数据库中被存储的，换句话说， react 所渲染的所有元素，都必须是由 jsx 编译的拥有 symbol 标识的元素。（如果在低版本不支持 symbol 的浏览器中，将会使用字符串替代，也就没有这层安排保护了）",
-      "charsets": {
-        "cjk": true
-      }
+      "regularPath": "/note/MV*/React/ReactHooks.html",
+      "relativePath": "note/MV*/React/ReactHooks.md",
+      "key": "v-63397d7c",
+      "path": "/pages/a29bb7/",
+      "headersStr": null,
+      "content": "React Hooks",
+      "normalizedContent": "react hooks",
+      "charsets": {}
     },
     {
       "title": "优化使用context带来的不必要渲染问题",
@@ -380,18 +395,87 @@ export const siteData = {
       }
     },
     {
-      "title": "分类",
+      "title": "React Virtual DOM",
       "frontmatter": {
-        "categoriesPage": true,
-        "title": "分类",
-        "permalink": "/categories/",
-        "article": false
+        "title": "React Virtual DOM",
+        "date": "2021-09-17T22:19:11.000Z",
+        "permalink": "/pages/1f970b/",
+        "categories": [
+          "note",
+          "MV*",
+          "React"
+        ],
+        "tags": [
+          null
+        ]
       },
-      "regularPath": "/@pages/categoriesPage.html",
-      "relativePath": "@pages/categoriesPage.md",
-      "key": "v-0cebcc02",
-      "path": "/categories/",
-      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "regularPath": "/note/MV*/React/ReactVirtualDOM.html",
+      "relativePath": "note/MV*/React/ReactVirtualDOM.md",
+      "key": "v-9ee5cc90",
+      "path": "/pages/1f970b/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "操作 DOM 是耗费性能的",
+          "slug": "cao-zuo-dom-shi-hao-fei-xing-neng-de",
+          "normalizedTitle": "操作 dom 是耗费性能的",
+          "charIndex": 35
+        },
+        {
+          "level": 2,
+          "title": "什么是Virtual DOM",
+          "slug": "shi-me-shi-virtual-dom",
+          "normalizedTitle": "什么是virtual dom",
+          "charIndex": 509
+        },
+        {
+          "level": 2,
+          "title": "Virtual DOM 的优势",
+          "slug": "virtual-dom-de-you-shi",
+          "normalizedTitle": "virtual dom 的优势",
+          "charIndex": 1138
+        },
+        {
+          "level": 2,
+          "title": "ReactElement",
+          "slug": "reactelement",
+          "normalizedTitle": "reactelement",
+          "charIndex": 1352
+        },
+        {
+          "level": 2,
+          "title": "Virtual DOM 安全",
+          "slug": "virtual-dom-an-quan",
+          "normalizedTitle": "virtual dom 安全",
+          "charIndex": 1926
+        }
+      ],
+      "lastUpdated": "9/17/2021, 10:21:49 PM",
+      "headersStr": "操作 DOM 是耗费性能的 什么是Virtual DOM Virtual DOM 的优势 ReactElement Virtual DOM 安全",
+      "content": "ReactVirtualDOM\n\n> 部分内容整理自网络资源\n\n\n# 操作 DOM 是耗费性能的\n\n由于 JS 是可操纵 DOM 的，如果在修改这些元素属性同时渲染界面（即 JS 线程和渲染线程同时运行），那么渲染线程前后获得的元素数据就可能不一致了。因此为了防止渲染出现不可预期的结果，浏览器设置 渲染线程 与 JS 引擎线程 为互斥的关系，当 JS 引擎执行时渲染线程会被挂起，GUI 更新则会被保存在一个队列中等到 JS 引擎线程空闲时立即被执行。\n\n因此我们在操作 DOM 时，任何 DOM API 调用都要先将 JS 数据结构转为 DOM 数据结构，再挂起 JS 引擎线程并启动渲染引擎线程，执行过后再把可能的返回值反转数据结构，重启 JS 引擎继续执行。这种两个线程之间的上下文切换势必会很耗性能。\n\n另外很多 DOM API 的读写都涉及页面布局的 重绘（repaint）和回流（reflow） ，这会更加的耗费性能。\n\n综上所述，单次 DOM API 调用性能就不够好，频繁调用就会迅速积累上述损耗，但我们又不可能不去操作 DOM，因此解决问题的本质是要 减少不必要的 DOM API 调用。\n\n\n# 什么是Virtual DOM\n\nReact.js 相对于直接操作原生 DOM 最大的优势在于 batching 和 diff。\n\n\n\nVirtualDom 的本质是利用 JS 变量 对真实 DOM 进行抽象，既然每一次操作 DOM 都可能触发浏览器的重排消耗性能，那么就可以使用 VirtualDom 来缓存当前组件状态，对用户交互和数据的变动进行批次处理，直接计算出每一帧页面应该呈现的最终状态，而这个状态是以 JS 变量 的形式存在于内存中的。所以通过 VirtualDom 既能够保证用户看到的每一帧都响应了数据的变化，又能节约性能保证浏览器不出现卡顿。\n\nReact.js 相对于直接操作原生 DOM 最大的优势在于 batching 和 diff。为了尽量减少不必要的 DOM 操作， Virtual DOM 在执行 DOM 的更新操作后，不会直接操作真实 DOM，而是根据当前应用状态的数据，生成一个全新的 Virtual DOM，然后跟上一次生成 的 Virtual DOM 去 diff，得到一个 Patch，这样就可以找到变化了的 DOM 节点，只对变化的部分进行 DOM 更新，而不是重新渲染整个 DOM 树，这个过程就是 diff。还有所谓的batching就是将多次比较的结果合并后一次性更新到页面，从而有效地减少页面渲染的次数，提高渲染效率。batching 或者 diff, 说到底，都是为了尽量减少对 DOM 的调用。\n\n\n# Virtual DOM 的优势\n\n 1. 为函数式的 UI 编程方式打开了大门，我们不需要再去考虑具体 DOM 的操作，框架已经替我们做了，我们就可以用更加声明式的方式书写代码。\n 2. 减少页面渲染的次数，提高渲染效率。\n 3. 提供了更好的跨平台的能力，因为 virtual DOM 是以 JavaScript 对象为基础而不依赖具体的平台环境，因此可以适用于其他的平台，如 node、weex、native 等。\n\n\n# ReactElement\n\n 1. ReactElement 是通过 createElement 函数创建的。\n 2. createElement 函数接收 3 个参数，分别是 type, config, children\n\n * type 指代这个 ReactElement 的类型，它可以是 DOM 元素类型，也可以是 React 组件类型。\n * config 即是传入的 元素上的属性组成的对象。\n * children 是一个数组，代表该元素的子元素。\n\n\n\n * $$typeof 是一个常量 REACT_ELEMENT_TYPE，所有通过 React.createElement 生成的元素都有这个值，用来表示这是一个 React 元素。它还有一个取值，通过 createPortals 函数生成的 $$typeof 值就是 REACT_PORTAL_TYPE。\n * key 和 ref 从 config 对象中作为一个特殊的配置，被单独抽取出来，放在 ReactElement 下。\n * props 包含了两部分，第一部分是去除了 key 和 ref 的 config，第二部分是 children 数组，数组的成员也是通过 React.createElement 生成的对象。\n * _owner 就是 Fiber。\n\n\n# Virtual DOM 安全\n\n$$typeof ，这个属性会指向 Symbol(React.element) 。作为 React 元素的唯一标识的同时，这个标签也承担了安全方面的功能。我们已经知道了所谓的 ReactElement 其实就是一个 JS 对象。那么如果有用户恶意的向服务端数据库中存入了某个有侵入性功能的 伪 React 对象，在实际渲染过程中被当做页面元素渲染，那么将有可能威胁到用户的安全。而 Symbol 是无法在数据库中被存储的，换句话说， React 所渲染的所有元素，都必须是由 JSX 编译的拥有 Symbol 标识的元素。（如果在低版本不支持 Symbol 的浏览器中，将会使用字符串替代，也就没有这层安排保护了）",
+      "normalizedContent": "reactvirtualdom\n\n> 部分内容整理自网络资源\n\n\n# 操作 dom 是耗费性能的\n\n由于 js 是可操纵 dom 的，如果在修改这些元素属性同时渲染界面（即 js 线程和渲染线程同时运行），那么渲染线程前后获得的元素数据就可能不一致了。因此为了防止渲染出现不可预期的结果，浏览器设置 渲染线程 与 js 引擎线程 为互斥的关系，当 js 引擎执行时渲染线程会被挂起，gui 更新则会被保存在一个队列中等到 js 引擎线程空闲时立即被执行。\n\n因此我们在操作 dom 时，任何 dom api 调用都要先将 js 数据结构转为 dom 数据结构，再挂起 js 引擎线程并启动渲染引擎线程，执行过后再把可能的返回值反转数据结构，重启 js 引擎继续执行。这种两个线程之间的上下文切换势必会很耗性能。\n\n另外很多 dom api 的读写都涉及页面布局的 重绘（repaint）和回流（reflow） ，这会更加的耗费性能。\n\n综上所述，单次 dom api 调用性能就不够好，频繁调用就会迅速积累上述损耗，但我们又不可能不去操作 dom，因此解决问题的本质是要 减少不必要的 dom api 调用。\n\n\n# 什么是virtual dom\n\nreact.js 相对于直接操作原生 dom 最大的优势在于 batching 和 diff。\n\n\n\nvirtualdom 的本质是利用 js 变量 对真实 dom 进行抽象，既然每一次操作 dom 都可能触发浏览器的重排消耗性能，那么就可以使用 virtualdom 来缓存当前组件状态，对用户交互和数据的变动进行批次处理，直接计算出每一帧页面应该呈现的最终状态，而这个状态是以 js 变量 的形式存在于内存中的。所以通过 virtualdom 既能够保证用户看到的每一帧都响应了数据的变化，又能节约性能保证浏览器不出现卡顿。\n\nreact.js 相对于直接操作原生 dom 最大的优势在于 batching 和 diff。为了尽量减少不必要的 dom 操作， virtual dom 在执行 dom 的更新操作后，不会直接操作真实 dom，而是根据当前应用状态的数据，生成一个全新的 virtual dom，然后跟上一次生成 的 virtual dom 去 diff，得到一个 patch，这样就可以找到变化了的 dom 节点，只对变化的部分进行 dom 更新，而不是重新渲染整个 dom 树，这个过程就是 diff。还有所谓的batching就是将多次比较的结果合并后一次性更新到页面，从而有效地减少页面渲染的次数，提高渲染效率。batching 或者 diff, 说到底，都是为了尽量减少对 dom 的调用。\n\n\n# virtual dom 的优势\n\n 1. 为函数式的 ui 编程方式打开了大门，我们不需要再去考虑具体 dom 的操作，框架已经替我们做了，我们就可以用更加声明式的方式书写代码。\n 2. 减少页面渲染的次数，提高渲染效率。\n 3. 提供了更好的跨平台的能力，因为 virtual dom 是以 javascript 对象为基础而不依赖具体的平台环境，因此可以适用于其他的平台，如 node、weex、native 等。\n\n\n# reactelement\n\n 1. reactelement 是通过 createelement 函数创建的。\n 2. createelement 函数接收 3 个参数，分别是 type, config, children\n\n * type 指代这个 reactelement 的类型，它可以是 dom 元素类型，也可以是 react 组件类型。\n * config 即是传入的 元素上的属性组成的对象。\n * children 是一个数组，代表该元素的子元素。\n\n\n\n * $$typeof 是一个常量 react_element_type，所有通过 react.createelement 生成的元素都有这个值，用来表示这是一个 react 元素。它还有一个取值，通过 createportals 函数生成的 $$typeof 值就是 react_portal_type。\n * key 和 ref 从 config 对象中作为一个特殊的配置，被单独抽取出来，放在 reactelement 下。\n * props 包含了两部分，第一部分是去除了 key 和 ref 的 config，第二部分是 children 数组，数组的成员也是通过 react.createelement 生成的对象。\n * _owner 就是 fiber。\n\n\n# virtual dom 安全\n\n$$typeof ，这个属性会指向 symbol(react.element) 。作为 react 元素的唯一标识的同时，这个标签也承担了安全方面的功能。我们已经知道了所谓的 reactelement 其实就是一个 js 对象。那么如果有用户恶意的向服务端数据库中存入了某个有侵入性功能的 伪 react 对象，在实际渲染过程中被当做页面元素渲染，那么将有可能威胁到用户的安全。而 symbol 是无法在数据库中被存储的，换句话说， react 所渲染的所有元素，都必须是由 jsx 编译的拥有 symbol 标识的元素。（如果在低版本不支持 symbol 的浏览器中，将会使用字符串替代，也就没有这层安排保护了）",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "test",
+      "frontmatter": {
+        "title": "test",
+        "date": "2021-09-09T21:46:09.000Z",
+        "permalink": "/pages/0088df/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/test.html",
+      "relativePath": "note/test.md",
+      "key": "v-432c973c",
+      "path": "/pages/0088df/",
+      "lastUpdated": "9/17/2021, 10:21:49 PM",
       "headersStr": null,
       "content": "",
       "normalizedContent": "",
@@ -426,6 +510,124 @@ export const siteData = {
       "headersStr": "📒 待整理",
       "content": "# 📒 待整理\n\n * vscode 自动格式化md文件，搞得很是郁闷，加入 [markdown] 自定义配置 \"editor.formatOnSave\": false 搞定了。 https://www.cnblogs.com/pengchenggang/p/14917817.html\n * vuepress markdown 拓展 https://blog.dbplayer.org/my-blog/",
       "normalizedContent": "# 📒 待整理\n\n * vscode 自动格式化md文件，搞得很是郁闷，加入 [markdown] 自定义配置 \"editor.formatonsave\": false 搞定了。 https://www.cnblogs.com/pengchenggang/p/14917817.html\n * vuepress markdown 拓展 https://blog.dbplayer.org/my-blog/",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "React Firber",
+      "frontmatter": {
+        "title": "React Firber",
+        "date": "2021-09-16T20:04:11.000Z",
+        "permalink": "/pages/e53db3/",
+        "categories": [
+          "note",
+          "MV*",
+          "React"
+        ],
+        "tags": [
+          "React"
+        ]
+      },
+      "regularPath": "/note/MV*/React/ReactFirber.html",
+      "relativePath": "note/MV*/React/ReactFirber.md",
+      "key": "v-609ed934",
+      "path": "/pages/e53db3/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "总结",
+          "slug": "zong-jie",
+          "normalizedTitle": "总结",
+          "charIndex": 1000
+        }
+      ],
+      "headersStr": "总结",
+      "content": "React Fiber\n\n> 部分内容整理自网络资源\n\n\n\n\n\n\n\n 1. 接受输入事件\n 2. 执行事件回调\n 3. 开始一帧\n 4. 执行 RAF (RequestAnimationFrame)\n 5. 页面布局，样式计算\n 6. 渲染\n 7. 执行 RIC (RequestIdelCallback)\n    一帧包括了用户的交互行为的处理、js 的执行、requestAnimationFrame 的调用、layout 布局、paint 页面重绘等工作，假如某一帧里面要执行的任务不多，在不到 16ms（1000/60=16)的时间内就完成了上述任务的话，页面就会正常显示不会出现卡顿的现象，但是如果一旦 js 执行时间过长，超过了 16ms，这一帧的刷新就没有时间执 layout 和 paint 部分了，就可能会出现页面卡顿的现象。\n\n * js 引擎和页面渲染引擎是在同一个渲染线程之内，两者是互斥关系。\n * React16 中使用了 Fiber，但是 Vue 是没有 Fiber 的，为什么呢？原因是二者的优化思路不一样：\n   1. Vue 是基于 template 和 watcher 的组件级更新，把每个更新任务分割得足够小，不需要使用到 Fiber 架构，将任务进行更细粒度的拆分\n   2. React 是不管在哪里调用 setState，都是从根节点开始更新的，更新任务还是很大，需要使用到 Fiber 将大任务分割为多个小任务，可以中断和恢复，不阻塞主进程执行高优先级的任务\n * requestAnimationFrame\n * requestIdleCallback\n * \n\nreact 团队重写了核心算法 --reconciliation。即 fiber reconciler 的架构在原来的基础上增加了 Scheduler（调度器）的概念：\n\n * Scheduler（调度器）: 调度任务的优先级，高优任务优先进入Reconciler。\n\n浏览器有个 api 叫requestIdleCallback，就是指在浏览器的空闲时段内调用的一些函数的回调。React 实现了功能更完备的 requestIdleCallbackpolyfill，这就是Scheduler。除了在空闲时触发回调的功能外，Scheduler还提供了多种调度优先级供任务设置。\n\n\n# 总结\n\n * 初始化渲染，调用函数组件、或 class 组件的 render 方法，将 JSX 代码编译成 ReactELement 对象，它描述当前组件内容的数据结构。\n\n * 根据生产的 ReactELement 对象构建 Fiber tree，它包含了组件 schedule、reconciler、render 所需的相关信息。\n\n * 一旦有状态变化，触发更新，Scheduler 在接收到更新后，根据任务的优先级高低来进行调度，决定要执行的任务是什么。\n\n * 接下来的工作交给 Reconciler 处理，Reconciler 通过对比找出变化了的 Virtual DOM ，为其打上代表增/删/更新的标记，当所有组件都完成 Reconciler 的工作，才会统一交给Renderer。\n\n * Renderer 根据 Reconciler 为 Virtual DOM 打的标记，同步执行对应的 DOM 更新操作。",
+      "normalizedContent": "react fiber\n\n> 部分内容整理自网络资源\n\n\n\n\n\n\n\n 1. 接受输入事件\n 2. 执行事件回调\n 3. 开始一帧\n 4. 执行 raf (requestanimationframe)\n 5. 页面布局，样式计算\n 6. 渲染\n 7. 执行 ric (requestidelcallback)\n    一帧包括了用户的交互行为的处理、js 的执行、requestanimationframe 的调用、layout 布局、paint 页面重绘等工作，假如某一帧里面要执行的任务不多，在不到 16ms（1000/60=16)的时间内就完成了上述任务的话，页面就会正常显示不会出现卡顿的现象，但是如果一旦 js 执行时间过长，超过了 16ms，这一帧的刷新就没有时间执 layout 和 paint 部分了，就可能会出现页面卡顿的现象。\n\n * js 引擎和页面渲染引擎是在同一个渲染线程之内，两者是互斥关系。\n * react16 中使用了 fiber，但是 vue 是没有 fiber 的，为什么呢？原因是二者的优化思路不一样：\n   1. vue 是基于 template 和 watcher 的组件级更新，把每个更新任务分割得足够小，不需要使用到 fiber 架构，将任务进行更细粒度的拆分\n   2. react 是不管在哪里调用 setstate，都是从根节点开始更新的，更新任务还是很大，需要使用到 fiber 将大任务分割为多个小任务，可以中断和恢复，不阻塞主进程执行高优先级的任务\n * requestanimationframe\n * requestidlecallback\n * \n\nreact 团队重写了核心算法 --reconciliation。即 fiber reconciler 的架构在原来的基础上增加了 scheduler（调度器）的概念：\n\n * scheduler（调度器）: 调度任务的优先级，高优任务优先进入reconciler。\n\n浏览器有个 api 叫requestidlecallback，就是指在浏览器的空闲时段内调用的一些函数的回调。react 实现了功能更完备的 requestidlecallbackpolyfill，这就是scheduler。除了在空闲时触发回调的功能外，scheduler还提供了多种调度优先级供任务设置。\n\n\n# 总结\n\n * 初始化渲染，调用函数组件、或 class 组件的 render 方法，将 jsx 代码编译成 reactelement 对象，它描述当前组件内容的数据结构。\n\n * 根据生产的 reactelement 对象构建 fiber tree，它包含了组件 schedule、reconciler、render 所需的相关信息。\n\n * 一旦有状态变化，触发更新，scheduler 在接收到更新后，根据任务的优先级高低来进行调度，决定要执行的任务是什么。\n\n * 接下来的工作交给 reconciler 处理，reconciler 通过对比找出变化了的 virtual dom ，为其打上代表增/删/更新的标记，当所有组件都完成 reconciler 的工作，才会统一交给renderer。\n\n * renderer 根据 reconciler 为 virtual dom 打的标记，同步执行对应的 dom 更新操作。",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "top-level await",
+      "frontmatter": {
+        "title": "top-level await",
+        "date": "2021-07-26T16:04:15.000Z",
+        "permalink": "/pages/top-level-await/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/top-levelAwait.html",
+      "relativePath": "note/top-levelAwait.md",
+      "key": "v-6a10a6a2",
+      "path": "/pages/top-level-await/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "top-level await",
+          "slug": "top-level-await",
+          "normalizedTitle": "top-level await",
+          "charIndex": 2
+        },
+        {
+          "level": 3,
+          "title": "1. 在引入 top-level await 之前",
+          "slug": "1.-zai-yin-ru-top-level-await-zhi-qian",
+          "normalizedTitle": "1. 在引入 top-level await 之前",
+          "charIndex": 350
+        },
+        {
+          "level": 3,
+          "title": "2.使用 Export Promise 来代替初始化",
+          "slug": "2.shi-yong-export-promise-lai-dai-ti-chu-shi-hua",
+          "normalizedTitle": "2.使用 export promise 来代替初始化",
+          "charIndex": 1314
+        },
+        {
+          "level": 3,
+          "title": "3. 使用 top-level await",
+          "slug": "3.-shi-yong-top-level-await",
+          "normalizedTitle": "3. 使用 top-level await",
+          "charIndex": 2208
+        },
+        {
+          "level": 3,
+          "title": "4. 过去",
+          "slug": "4.-guo-qu",
+          "normalizedTitle": "4. 过去",
+          "charIndex": 3002
+        },
+        {
+          "level": 3,
+          "title": "5. 现在",
+          "slug": "5.-xian-zai",
+          "normalizedTitle": "5. 现在",
+          "charIndex": 3285
+        },
+        {
+          "level": 3,
+          "title": "6. 何时使用",
+          "slug": "6.-he-shi-shi-yong",
+          "normalizedTitle": "6. 何时使用",
+          "charIndex": 3448
+        },
+        {
+          "level": 3,
+          "title": "结尾",
+          "slug": "jie-wei",
+          "normalizedTitle": "结尾",
+          "charIndex": 3882
+        }
+      ],
+      "lastUpdated": "9/7/2021, 10:55:52 PM",
+      "headersStr": "top-level await 1. 在引入 top-level await 之前 2.使用 Export Promise 来代替初始化 3. 使用 top-level await 4. 过去 5. 现在 6. 何时使用 结尾",
+      "content": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\nECMAScript 提案 Top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 Stage 3。\n\nTop-level await 允许你将整个 JS 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\n(async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // undefined\nconsole.log('squareOutput-init', squareOutput); // undefined\n\nsetTimeout(\n  () => console.log('doubleOutput-delay', doubleOutput),\n  2000,\n); // 20\nsetTimeout(\n  () => console.log('squareOutput-delay', squareOutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 Export Promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\nexport default (async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n  return { doubleOutput, squareOutput };\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleOutput, squareOutput }) => {\n  console.log('doubleOutput-delay', doubleOutput); // 20\n  console.log('squareOutput-delay', squareOutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestData();\n\ndoubleOutput = double(10);\nsquareOutput = square(10);\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // 20\nconsole.log('squareOutput-init', squareOutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 SyntaxError。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait Promise.resolve(console.log('🎉'));\n// → SyntaxError: await is only valid in async function\n(async function() {\n  await Promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait Promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbConnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jQuery;\ntry {\n  jQuery = await import('https://cdn-a.example.com/jQuery');\n} catch {\n  jQuery = await import('https://cdn-b.example.com/jQuery');\n}\n\n\n希望从 CDN A 加载 JavaScript 库，如果它加载失败，将加载 CDN B\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 Myles Borins 「Top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
+      "normalizedContent": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\necmascript 提案 top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 stage 3。\n\ntop-level await 允许你将整个 js 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\n(async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // undefined\nconsole.log('squareoutput-init', squareoutput); // undefined\n\nsettimeout(\n  () => console.log('doubleoutput-delay', doubleoutput),\n  2000,\n); // 20\nsettimeout(\n  () => console.log('squareoutput-delay', squareoutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 export promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\nexport default (async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n  return { doubleoutput, squareoutput };\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleoutput, squareoutput }) => {\n  console.log('doubleoutput-delay', doubleoutput); // 20\n  console.log('squareoutput-delay', squareoutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestdata();\n\ndoubleoutput = double(10);\nsquareoutput = square(10);\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // 20\nconsole.log('squareoutput-init', squareoutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 syntaxerror。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait promise.resolve(console.log('🎉'));\n// → syntaxerror: await is only valid in async function\n(async function() {\n  await promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbconnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jquery;\ntry {\n  jquery = await import('https://cdn-a.example.com/jquery');\n} catch {\n  jquery = await import('https://cdn-b.example.com/jquery');\n}\n\n\n希望从 cdn a 加载 javascript 库，如果它加载失败，将加载 cdn b\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 myles borins 「top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
       "charsets": {
         "cjk": true
       }
@@ -535,130 +737,6 @@ export const siteData = {
       }
     },
     {
-      "title": "top-level await",
-      "frontmatter": {
-        "title": "top-level await",
-        "date": "2021-07-26T16:04:15.000Z",
-        "permalink": "/pages/top-level-await/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/top-levelAwait.html",
-      "relativePath": "note/top-levelAwait.md",
-      "key": "v-6a10a6a2",
-      "path": "/pages/top-level-await/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "top-level await",
-          "slug": "top-level-await",
-          "normalizedTitle": "top-level await",
-          "charIndex": 2
-        },
-        {
-          "level": 3,
-          "title": "1. 在引入 top-level await 之前",
-          "slug": "1.-zai-yin-ru-top-level-await-zhi-qian",
-          "normalizedTitle": "1. 在引入 top-level await 之前",
-          "charIndex": 350
-        },
-        {
-          "level": 3,
-          "title": "2.使用 Export Promise 来代替初始化",
-          "slug": "2.shi-yong-export-promise-lai-dai-ti-chu-shi-hua",
-          "normalizedTitle": "2.使用 export promise 来代替初始化",
-          "charIndex": 1314
-        },
-        {
-          "level": 3,
-          "title": "3. 使用 top-level await",
-          "slug": "3.-shi-yong-top-level-await",
-          "normalizedTitle": "3. 使用 top-level await",
-          "charIndex": 2208
-        },
-        {
-          "level": 3,
-          "title": "4. 过去",
-          "slug": "4.-guo-qu",
-          "normalizedTitle": "4. 过去",
-          "charIndex": 3002
-        },
-        {
-          "level": 3,
-          "title": "5. 现在",
-          "slug": "5.-xian-zai",
-          "normalizedTitle": "5. 现在",
-          "charIndex": 3285
-        },
-        {
-          "level": 3,
-          "title": "6. 何时使用",
-          "slug": "6.-he-shi-shi-yong",
-          "normalizedTitle": "6. 何时使用",
-          "charIndex": 3448
-        },
-        {
-          "level": 3,
-          "title": "结尾",
-          "slug": "jie-wei",
-          "normalizedTitle": "结尾",
-          "charIndex": 3882
-        }
-      ],
-      "lastUpdated": "9/7/2021, 10:55:52 PM",
-      "headersStr": "top-level await 1. 在引入 top-level await 之前 2.使用 Export Promise 来代替初始化 3. 使用 top-level await 4. 过去 5. 现在 6. 何时使用 结尾",
-      "content": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\nECMAScript 提案 Top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 Stage 3。\n\nTop-level await 允许你将整个 JS 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\n(async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // undefined\nconsole.log('squareOutput-init', squareOutput); // undefined\n\nsetTimeout(\n  () => console.log('doubleOutput-delay', doubleOutput),\n  2000,\n); // 20\nsetTimeout(\n  () => console.log('squareOutput-delay', squareOutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 Export Promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// IIFE\nexport default (async () => {\n  await requestData();\n  doubleOutput = double(10);\n  squareOutput = square(10);\n  return { doubleOutput, squareOutput };\n})();\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleOutput, squareOutput }) => {\n  console.log('doubleOutput-delay', doubleOutput); // 20\n  console.log('squareOutput-delay', squareOutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleOutput;\nlet squareOutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestData();\n\ndoubleOutput = double(10);\nsquareOutput = square(10);\n\n// 模拟接口请求\nfunction requestData(delays = 1000) {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleOutput, squareOutput };\n\n// ------ index.js\nimport {\n  doubleOutput,\n  squareOutput,\n} from './middleware.js';\n\nconsole.log('doubleOutput-init', doubleOutput); // 20\nconsole.log('squareOutput-init', squareOutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 SyntaxError。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait Promise.resolve(console.log('🎉'));\n// → SyntaxError: await is only valid in async function\n(async function() {\n  await Promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait Promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbConnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jQuery;\ntry {\n  jQuery = await import('https://cdn-a.example.com/jQuery');\n} catch {\n  jQuery = await import('https://cdn-b.example.com/jQuery');\n}\n\n\n希望从 CDN A 加载 JavaScript 库，如果它加载失败，将加载 CDN B\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 Myles Borins 「Top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
-      "normalizedContent": "# top-level await\n\n我们都知道在异步编程中， await 只能在 aysnc function 里进行使用。await 提升了异步编程的体验，使我们能像同步函数那样处理异步函数。同时我们也会好奇 await 只能在 aysnc 中使用\n\necmascript 提案 top-level await 允许开发者在 async 函数外使用 await 字段,目前已进入 tc39 stage 3。\n\ntop-level await 允许你将整个 js 模块视为一个巨大的 async 函数，这样就可以直接在顶层使用 await，而不必用 async 函数包一层。\n\n> 早在 2020-08-11 node 发布 14.8.0 版本开始支持 top-level await\n\n\n\n\n# 1. 在引入 top-level await 之前\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\n(async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // undefined\nconsole.log('squareoutput-init', squareoutput); // undefined\n\nsettimeout(\n  () => console.log('doubleoutput-delay', doubleoutput),\n  2000,\n); // 20\nsettimeout(\n  () => console.log('squareoutput-delay', squareoutput),\n  2000,\n); // 100\n\n\n\n# 2.使用 export promise 来代替初始化\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// iife\nexport default (async () => {\n  await requestdata();\n  doubleoutput = double(10);\n  squareoutput = square(10);\n  return { doubleoutput, squareoutput };\n})();\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport promise from './middleware.js';\n\npromise.then(({ doubleoutput, squareoutput }) => {\n  console.log('doubleoutput-delay', doubleoutput); // 20\n  console.log('squareoutput-delay', squareoutput); // 100\n});\n\n\n所有引用都要写成 promise 结构，十分不方便\n\n\n# 3. 使用 top-level await\n\n// ------ method.js\nexport function double(num) {\n  return num * 2;\n}\n\nexport function square(num) {\n  return num * num;\n}\n\n// ------ middleware.js\nimport { double, square } from './method.js';\n\nlet doubleoutput;\nlet squareoutput;\n\n// \"plugins\": [\"@babel/plugin-syntax-top-level-await\"]\nawait requestdata();\n\ndoubleoutput = double(10);\nsquareoutput = square(10);\n\n// 模拟接口请求\nfunction requestdata(delays = 1000) {\n  return new promise((resolve) => {\n    settimeout(() => {\n      resolve(console.log('❤️'));\n    }, delays);\n  });\n}\n\nexport { doubleoutput, squareoutput };\n\n// ------ index.js\nimport {\n  doubleoutput,\n  squareoutput,\n} from './middleware.js';\n\nconsole.log('doubleoutput-init', doubleoutput); // 20\nconsole.log('squareoutput-init', squareoutput); // 100\n\n\n\n# 4. 过去\n\n当 async/await 首次引用时，尝试在 async 函数外部使用 await 的结果是产生 syntaxerror。大多数开发者使用立即执行异步函数表达式的方式来使用该功能。\n\nawait promise.resolve(console.log('🎉'));\n// → syntaxerror: await is only valid in async function\n(async function() {\n  await promise.resolve(console.log('🎉'));\n  // → 🎉\n})();\n\n\n\n# 5. 现在\n\n在 top-level await 的支持下，下面代码可以替换模块中常见代码\n\nawait promise.resolve(console.log('🎉'));\n// → 🎉\n\n\n> 注意： top-level await 仅能工作在模块的顶层。在 class 代码块或非 async 函数不支持。\n\n\n# 6. 何时使用\n\n参考 spec proposal repository\n\n# 6.1 动态依赖导入\n\nconst strings = await import(`/i18n/${navigator.language}`);\n\n\n这允许在模块的运行时环境中确认依赖项。\n\n# 6.2 资源初始化\n\nconst connection = await dbconnector();\n\n\n允许模块申请资源，同时也可以在模块不能使用时抛出错误。\n\n# 6.3 依赖回退\n\nlet jquery;\ntry {\n  jquery = await import('https://cdn-a.example.com/jquery');\n} catch {\n  jquery = await import('https://cdn-b.example.com/jquery');\n}\n\n\n希望从 cdn a 加载 javascript 库，如果它加载失败，将加载 cdn b\n\n\n# 结尾\n\ntop-level await 在某些特定场景有很方便的作用，但是目前这个一特性还没有很好的运用到生产代码中\n\n\n\n> 本文整理自作者 myles borins 「top-level await」，转载请注明来源链接\n> \n> https://v8.dev/features/top-level-await\n\n相关资源：\n\n * # @babel/plugin-syntax-top-level-await\n\n * # https://github.com/tc39/proposal-top-level-await",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
-      "title": "test",
-      "frontmatter": {
-        "title": "test",
-        "date": "2021-09-09T21:46:09.000Z",
-        "permalink": "/pages/0088df/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/test.html",
-      "relativePath": "note/test.md",
-      "key": "v-432c973c",
-      "path": "/pages/0088df/",
-      "lastUpdated": "9/13/2021, 10:15:37 PM",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
-    },
-    {
-      "title": "标签",
-      "frontmatter": {
-        "tagsPage": true,
-        "title": "标签",
-        "permalink": "/tags/",
-        "article": false
-      },
-      "regularPath": "/@pages/tagsPage.html",
-      "relativePath": "@pages/tagsPage.md",
-      "key": "v-2e8e39a2",
-      "path": "/tags/",
-      "lastUpdated": "7/26/2021, 2:08:25 PM",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -697,7 +775,7 @@ export const siteData = {
       "link": "https://github.com/MuBai1104"
     },
     "blogger": {
-      "avatar": "https://tva1.sinaimg.cn/large/008i3skNly1gsueeuixx5j31400u0433.jpg",
+      "avatar": "https://tva1.sinaimg.cn/large/008i3skNly1gvu8gtq9lkj31400u00xv.jpg",
       "name": "ErDong",
       "slogan": "略懂点前端"
     },
@@ -743,10 +821,16 @@ export const siteData = {
     "sidebar": {
       "/note": [
         {
+          "title": "JavaScript 语言",
+          "children": [
+            "/note/JavaScript/JavaScript基础.md"
+          ],
+          "collapsable": false
+        },
+        {
           "title": "React",
           "children": [
-            "/note/MV*/React/ReactVirtualDOM.md",
-            "/note/MV*/React/React Firber.md"
+            "/note/MV*/React/ReactVirtualDOM.md"
           ],
           "collapsable": false
         },
@@ -775,10 +859,16 @@ export const siteData = {
       ],
       "/interview": [
         {
+          "title": "JavaScript 语言",
+          "children": [
+            "/note/JavaScript/JavaScript基础.md"
+          ],
+          "collapsable": false
+        },
+        {
           "title": "React",
           "children": [
-            "/note/MV*/React/ReactVirtualDOM.md",
-            "/note/MV*/React/React Firber.md"
+            "/note/MV*/React/ReactVirtualDOM.md"
           ],
           "collapsable": false
         },

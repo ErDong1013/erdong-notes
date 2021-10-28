@@ -13,6 +13,7 @@ const sidebarStructure = {
   ],
   'JavaScript 语言': [
     //
+    './JavaScript/JavaScript基础.md',
   ],
   'React': [
     //

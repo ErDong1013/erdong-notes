@@ -103,5 +103,5 @@ n
 draft/
 tempCodeRunnerFile.*
 TODO.*
-.history
-.temp
+.history/
+.temp/

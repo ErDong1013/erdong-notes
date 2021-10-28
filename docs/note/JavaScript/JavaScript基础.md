@@ -10,7 +10,6 @@ tags:
 
 ## 👨🏻‍💻 导图
 
-```plantuml
 @startmindmap
 * JavaScript
 	* 执行上下文
@@ -29,7 +28,6 @@ tags:
 	* Event Loop
 		* 宏任务与微任务的区别
 @endmindmap
-```
 
 ## 📒 整理
 
