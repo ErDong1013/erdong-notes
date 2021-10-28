@@ -10,14 +10,20 @@ const markdownItAttrs = require('markdown-it-attrs');
 const { slugify } = require('transliteration');
 
 const { sidebarStructure } = require('../note/nav');
+const { sidebarStructureI } = require('../interview/nav');
 // => { [groupName: string]: string[] }
 
 // * ---------------------------------------------------------------- sidebar
 
 const docFolder = path.resolve(process.cwd(), './docs');
 const noteFolder = path.resolve(docFolder, './note');
-const hasFile = (e) => fs.existsSync(path.resolve(noteFolder, e));
 const toNavUrl = (url) => path.resolve('/note', url);
+const hasFile = (e) => fs.existsSync(path.resolve(noteFolder, e));
+
+const noteFolderI = path.resolve(docFolder, './interview');
+const toNavUrlI = (url) => path.resolve('/interview', url);
+const hasFileI = (e) => fs.existsSync(path.resolve(noteFolderI, e));
+const urlFixI = (e) => (e === '/interview' ? '/interview/' : e);
 
 // * --------------------------------
 
@@ -28,6 +34,13 @@ const articleSidebar = Object.entries(sidebarStructure)
   .filter(([, list]) => list.length > 0)
   .map(([g, list]) => [g, list.map(toNavUrl)])
   .map(([title, children]) => [title, children.map(urlFix)])
+  .map(([title, children]) => ({ title, children, collapsable: false }));
+
+const articleSidebarI = Object.entries(sidebarStructureI)
+  .map(([groupName, list]) => [groupName, list.filter(hasFileI)])
+  .filter(([, list]) => list.length > 0)
+  .map(([g, list]) => [g, list.map(toNavUrlI)])
+  .map(([title, children]) => [title, children.map(urlFixI)])
   .map(([title, children]) => ({ title, children, collapsable: false }));
 // => [{ title, children: string[], collapsable }]
 
@@ -93,7 +106,7 @@ const config = {
     sidebarDepth: 3,
     sidebar: {
       '/note': articleSidebar,
-      '/interview': articleSidebar,
+      '/interview': articleSidebarI,
       '/about': false,
     },
     // Algolia 搜索

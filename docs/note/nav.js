@@ -18,7 +18,13 @@ const sidebarStructure = {
   'React': [
     //
     './MV*/React/ReactVirtualDOM.md',
-    './MV*/React/React Firber.md',
+    './MV*/React/ReactFirber.md',
+    './MV*/React/ReactHooks.md',
+  ],
+  'Browser': [
+    //
+    './Browser/EventLoop.md',
+    './Browser/V8.md',
   ],
   '工程化/测试/持续集成': [
     //
