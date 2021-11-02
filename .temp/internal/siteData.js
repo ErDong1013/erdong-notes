@@ -35,71 +35,83 @@ export const siteData = {
       "charsets": {}
     },
     {
-      "title": "标签",
+      "title": "关于我",
       "frontmatter": {
-        "tagsPage": true,
-        "title": "标签",
-        "permalink": "/tags/",
-        "article": false
-      },
-      "regularPath": "/@pages/tagsPage.html",
-      "relativePath": "@pages/tagsPage.md",
-      "key": "v-2e8e39a2",
-      "path": "/tags/",
-      "lastUpdated": "7/26/2021, 2:08:25 PM",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
-    },
-    {
-      "title": "分类",
-      "frontmatter": {
-        "categoriesPage": true,
-        "title": "分类",
-        "permalink": "/categories/",
-        "article": false
-      },
-      "regularPath": "/@pages/categoriesPage.html",
-      "relativePath": "@pages/categoriesPage.md",
-      "key": "v-0cebcc02",
-      "path": "/categories/",
-      "lastUpdated": "7/26/2021, 2:08:25 PM",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "actionText": "→ 开始阅读 ←",
-        "actionLink": "/note/typescript.md",
-        "features": [
-          {
-            "title": "Ecosystem",
-            "details": "精通 VS Code、NodeJS、Webpack、Lottie 等软件与工具包的安装与卸载，配套设施也是必不可少的。"
-          },
-          {
-            "title": "JavaScript",
-            "details": "熟练掌握 React、TypeScript、Rax（H5）等单词的拼写，熟练使用ES6语法编程，追求代码高质量可维护性。"
-          },
-          {
-            "title": "Motto",
-            "details": "程序就像女人的裙子，越短才越好"
-          }
+        "title": "关于我",
+        "date": "2021-07-26T13:44:36.000Z",
+        "permalink": "/about/",
+        "categories": [
+          "about"
         ],
-        "footer": "Powered By VuePress | 2021 ErDong"
+        "tags": [
+          null
+        ]
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-f3fec70e",
-      "path": "/",
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-34c9d17d",
+      "path": "/about/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我自己",
+          "slug": "wo-zi-ji",
+          "normalizedTitle": "我自己",
+          "charIndex": 14
+        }
+      ],
       "lastUpdated": "10/28/2021, 10:36:24 PM",
+      "headersStr": "我自己",
+      "content": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 JS\n     * 写过些功能、优化和修复\n     * 在公司主要负责 H5 频道开发\n * 学习中\n   * 修炼 TS\n   * 学习现代化、工程化前端开发\n * 其他\n   * 偶偶写写文章",
+      "normalizedContent": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 js\n     * 写过些功能、优化和修复\n     * 在公司主要负责 h5 频道开发\n * 学习中\n   * 修炼 ts\n   * 学习现代化、工程化前端开发\n * 其他\n   * 偶偶写写文章",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "CSS",
+      "frontmatter": {
+        "title": "CSS",
+        "date": "2021-11-02T21:30:07.000Z",
+        "permalink": "/pages/78a5f0/",
+        "categories": [
+          "interview",
+          "Html&CSS"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/Html&CSS/CSS.html",
+      "relativePath": "interview/Html&CSS/CSS.md",
+      "key": "v-82cab74c",
+      "path": "/pages/78a5f0/",
       "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
+      "content": "CSS",
+      "normalizedContent": "css",
+      "charsets": {}
+    },
+    {
+      "title": "Html",
+      "frontmatter": {
+        "title": "Html",
+        "date": "2021-11-02T21:29:49.000Z",
+        "permalink": "/pages/0d0056/",
+        "categories": [
+          "interview",
+          "Html&CSS"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/Html&CSS/Html.html",
+      "relativePath": "interview/Html&CSS/Html.md",
+      "key": "v-76145142",
+      "path": "/pages/0d0056/",
+      "headersStr": null,
+      "content": "Html",
+      "normalizedContent": "html",
       "charsets": {}
     },
     {
@@ -200,214 +212,73 @@ export const siteData = {
       }
     },
     {
-      "title": "Question library",
+      "title": "PromiseAsyncAwait",
       "frontmatter": {
-        "title": "Question library",
-        "date": "2021-10-28T21:54:19.000Z",
-        "permalink": "/pages/50ebbe/",
-        "categories": [
-          "interview"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/interview/Library/Questionlibrary.html",
-      "relativePath": "interview/Library/Questionlibrary.md",
-      "key": "v-16de60e2",
-      "path": "/pages/50ebbe/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "有赞",
-          "slug": "you-zan",
-          "normalizedTitle": "有赞",
-          "charIndex": 7
-        },
-        {
-          "level": 3,
-          "title": "一面电话 (1h)",
-          "slug": "yi-mian-dian-hua-1h",
-          "normalizedTitle": "一面电话 (1h)",
-          "charIndex": 61
-        },
-        {
-          "level": 3,
-          "title": "一面视频 coding（45mins）",
-          "slug": "yi-mian-shi-pin-coding-45mins",
-          "normalizedTitle": "一面视频 coding（45mins）",
-          "charIndex": 822
-        },
-        {
-          "level": 3,
-          "title": "二面现场（ 1h20mins）",
-          "slug": "er-mian-xian-chang-1h20mins",
-          "normalizedTitle": "二面现场（ 1h20mins）",
-          "charIndex": 2341
-        },
-        {
-          "level": 3,
-          "title": "三面（50mins）",
-          "slug": "san-mian-50mins",
-          "normalizedTitle": "三面（50mins）",
-          "charIndex": 3169
-        },
-        {
-          "level": 3,
-          "title": "四面（HR 40mins）",
-          "slug": "si-mian-hr-40mins",
-          "normalizedTitle": "四面（hr 40mins）",
-          "charIndex": 3936
-        }
-      ],
-      "lastUpdated": "10/28/2021, 10:36:24 PM",
-      "headersStr": "有赞 一面电话 (1h) 一面视频 coding（45mins） 二面现场（ 1h20mins） 三面（50mins） 四面（HR 40mins）",
-      "content": "题库\n\n\n# 有赞\n\n> https://juejin.cn/user/3386151545609837 @俊劫\n\n\n# 一面电话 (1h)\n\n 1.  讲讲最近写的项目\n 2.  讲讲自己写的打印插件，vue-iframe-print，和其他打印方式对比。分页问题，默认背景图如何显示（知道有 css，但是记不住是那个），自定义样式等等\n 3.  权限系统（RBAC），具体实现，接口权限校验。通用接口如何校验，可复用的业务接口如何校验\n 4.  讲一讲 OAuth\n 5.  微前端（项目在用） 为什么要用微前端，和 iframe 对比了一下。\n 6.  实现一个水平垂直居中？flex:1 含义? 一道场景题\n 7.  margin 塌陷？有没有遇到过其他 css 问题？\n 8.  vue 响应式原理\n 9.  组件 data 为什么是一个函数？\n 10. vue Object.defineProperty 缺陷？数组 7 个方法怎么重写的？\n 11. dep 依赖搜集与 watcher 派发更新流程？dep 是发布者还是订阅者？怎么知道每一个 watcher 要通知哪一个 dep？\n 12. keep-alive 原理？\n 13. 讲一讲虚拟 dom\n 14. 讲一讲 vue diff 算法\n 15. 为什么使用 key 能提升 diff 性能\n 16. this 指向的理解？声明时和运行时指向？箭头函数指向？修改 this 指向？\n 17. call,apply,bind 区别？讲一下实现一个 bind 的思路\n 18. 函数柯里化概念，常用场景？\n 19. 关于缓存的一些东西？如何提高缓存命中率？\n 20. 详细描述一下输入 URL 到页面打开的过程，尽量详细些？\n 21. 数组和链表在计算机中存储的方式？计算机中增加一个数组元素的方式？\n 22. 你有什么想问我的？\n\n然后约了二面，视频 coding\n\n\n# 一面视频 coding（45mins）\n\n/**\n * 1. 实现一个函数，判断两个变量值是否相等\n *\n * 注意\n * - 数据类型不限于示例，尽可能考虑边界\n * - function 引用相等即可\n */\nconst foo1 = {\n  a: 1,\n  b: '1',\n  c: NaN,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nconst foo2 = {\n  a: 1,\n  b: '1',\n  c: NaN,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nfunction isEqual(target1, target2) {}\nconsole.log(isEqual(foo1, foo2), 'isEqual');\n\n/**\n * 2. 实现 getValue 函数来获取path对应的值\n */\nvar object = { a: [{ b: { c: 3 } }] }; // path: 'a[0].b.c'\nvar array = [{ a: { b: [1] } }]; // path: '[0].a.b[0]'\n\nfunction getValue(target, valuePath, defaultValue) {}\n\nconsole.log(getValue(object, 'a[0].b.c', 0)); // 输出3\nconsole.log(getValue(array, '[0].a.b[0]', 12)); // 输出 1\nconsole.log(getValue(array, '[0].a.b[0].c', 12)); // 输出 12\n\n/**\n * 问题 3\n * 将一天24小时按每半小划分成48段，我们用一个位图表示选中的时间区间，例如`110000000000000000000000000000000000000000000000`，\n * 表示第一个半小时和第二个半小时被选中了，其余时间段都没有被选中，也就是对应00:00~01:00这个时间区间。一个位图中可能有多个不连续的\n * 时间区间被选中，例如`110010000000000000000000000000000000000000000000`，表示00:00-1:00和02:00-02:30这两个时间区间被选中了。\n *\n * 要求：写一个函数timeBitmapToRanges，将上述规则描述的时间位图转换成一个选中时间区间的数组。\n * 示例输入：`\"110010000000000000000000000000000000000000000000\"`\n * 示例输出：`[\"00:00~01:00\", \"02:00~02:30\"]`\n */\nfunction timeBitmapToRanges(str) {}\n\nconsole.log(\n  timeBitmapToRanges(\n    '110010000000000000000000000000000000000000000000',\n  ),\n);\nconsole.log(\n  timeBitmapToRanges(\n    '110011000000110000000000000000000000000000001111',\n  ),\n);\n复制代码;\n\n\n\n# 二面现场（ 1h20mins）\n\n 1.  大数相加: 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。leetcode 415. 字符串相加\n 2.  写一个事件 Event 类，实现 on，off，emit，once 功能，同时 on 要支持 debounce。eg：on('click',function(){},500)\n 3.  介绍下让自己成长最大的项目？\n 4.  你觉得现在遇到的最难的问题是什么？\n 5.  为什么要做微前端？\n 6.  回到写的第二道题，说到了 setTimeout 设定的时间，函数能准确按时执行吗？setTimeout 怎么能做到准时？\n 7.  js 是单线程还是多线程？为什么？支不支持多线程？支持多线程的方式有哪些？node 端多线程知不知道？进程和线程的区别？进程内存计算机如何分配？线程资源如何分配？\n 8.  跨域的解决方案\n 9.  如何实现移动端 1px 边框\n 10. 什么是 html 可替换元素？\n 11. 一个图片对应多个 cdn 地址，如果第一个地址不能用了，需要换成下一个，怎么做？\n 12. vue 生命周期详细描述下？改变组件 data 里面的东西会触发什么生命周期？\n 13. vue2.x 响应式原理？Object.defineProperty 的一些参数？\n 14. for in 可以遍历出来那些东西？for in 可以遍历数组吗？可以遍历出那些东西？\n 15. vue 组件 scoped 作用？实现原理？其他的 css 隔离方案？\n 16. 怎么用 ES5 去实现 ES6 类的继承？\n 17. 你觉得 eslint 有哪些规则比较有用？\n 18. http1.1 和 http2 的区别？http1.1 中做了哪些项目优化？http1.1 中用的哪些优化手段，会在 http2 中失效？http2.0 还存在什么问题？http3 了解吗？\n\n\n# 三面（50mins）\n\n 1.  自我介绍\n 2.  说一说最近一年做的最好的业务？你觉得你做的最出彩的地方是哪里？\n 3.  处方打印，不同格式如何设置？\n 4.  离线缓存 存在什么问题？\n 5.  讲一讲权限系统？除了 RBAC，还了解哪些权限设计吗？RBAC 的优点？\n 6.  给你一个需求：除了预设角色，某个人可以单独做其他的事情，怎么办？\n 7.  讲一讲你们做的微前端？ 父应用如何加载多个子应用？ 路由整合是如何做的？\n 8.  讲一讲局部打印的实现？\n 9.  api-proxy 是如何实现的？业务越来越复杂，nginx 是不是每次都要改？怎么解决？怎么做一个全局代理？在本地如何调试线上代码？\n 10. 讲一下项目中定制化需求如何处理？更优雅的方式？面试官举了一个有赞的场景例子：关于不同商家后台，某个商家多了一个菜单？某个商家在通用页面 A 中有特殊的两个按钮？如何处理这种个性化的问题？深入一点，如何把个性化需求开放给其他商家自己开发？\n 11. 如果让你写一个 single-spa，你怎么做？两个子应用的 app.js 如何切换？js、css 如何隔离？作为攻击者，如何突破用 proxy 实现的一个沙箱环境，或者说子应用如何才能访问父应用的 window 对象？\n 12. 讲一讲项目中的全键盘操作？keyup 监听怎么做的？addEventListener 第三个参数?如何阻止冒泡事件？怎么阻止部分按键？\n 13. 讲一讲 oAuth 2.0\n 14. 你为什么想出来看机会？对下一份工作期望是怎么样的？你现在是怎么学习的？\n 15. 你有什么想问的？\n\n接着就让我等一下，估计是去讨论去了，自己也知道，接下来如果有 hr 来，就 80%过了。找个理由说 hr 不在的，基本就凉了。。。\n\n\n# 四面（HR 40mins）\n\n等待的时间是非常煎熬的~ 一会（忘记了是多久，差不多 10 分钟？），HR 小姐姐来了，换了个位置，开始面对面谈。\n\n 1. 刚刚聊下来感觉怎么样？\n 2. 对自己 1-3 年的规划\n 3. 前端方面有没有犯过比较大的故障？绩效好的情况下为什么要考虑机会？\n 4. 你觉得自己还能在现在的业务中成长多少？或者说你还能为现在的业务做什么？\n 5. 平时自己的学习方式？\n 6. 你希望自己 3 年以后能达到什么水平？你觉得自己和 P6 差距在哪？\n 7. 平时的工作节奏？\n 8. 你对加入有赞的一些期待是什么？薪资是怎么样的期待？有没有其他 offer？\n 9. 你有什么想问的？",
-      "normalizedContent": "题库\n\n\n# 有赞\n\n> https://juejin.cn/user/3386151545609837 @俊劫\n\n\n# 一面电话 (1h)\n\n 1.  讲讲最近写的项目\n 2.  讲讲自己写的打印插件，vue-iframe-print，和其他打印方式对比。分页问题，默认背景图如何显示（知道有 css，但是记不住是那个），自定义样式等等\n 3.  权限系统（rbac），具体实现，接口权限校验。通用接口如何校验，可复用的业务接口如何校验\n 4.  讲一讲 oauth\n 5.  微前端（项目在用） 为什么要用微前端，和 iframe 对比了一下。\n 6.  实现一个水平垂直居中？flex:1 含义? 一道场景题\n 7.  margin 塌陷？有没有遇到过其他 css 问题？\n 8.  vue 响应式原理\n 9.  组件 data 为什么是一个函数？\n 10. vue object.defineproperty 缺陷？数组 7 个方法怎么重写的？\n 11. dep 依赖搜集与 watcher 派发更新流程？dep 是发布者还是订阅者？怎么知道每一个 watcher 要通知哪一个 dep？\n 12. keep-alive 原理？\n 13. 讲一讲虚拟 dom\n 14. 讲一讲 vue diff 算法\n 15. 为什么使用 key 能提升 diff 性能\n 16. this 指向的理解？声明时和运行时指向？箭头函数指向？修改 this 指向？\n 17. call,apply,bind 区别？讲一下实现一个 bind 的思路\n 18. 函数柯里化概念，常用场景？\n 19. 关于缓存的一些东西？如何提高缓存命中率？\n 20. 详细描述一下输入 url 到页面打开的过程，尽量详细些？\n 21. 数组和链表在计算机中存储的方式？计算机中增加一个数组元素的方式？\n 22. 你有什么想问我的？\n\n然后约了二面，视频 coding\n\n\n# 一面视频 coding（45mins）\n\n/**\n * 1. 实现一个函数，判断两个变量值是否相等\n *\n * 注意\n * - 数据类型不限于示例，尽可能考虑边界\n * - function 引用相等即可\n */\nconst foo1 = {\n  a: 1,\n  b: '1',\n  c: nan,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nconst foo2 = {\n  a: 1,\n  b: '1',\n  c: nan,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nfunction isequal(target1, target2) {}\nconsole.log(isequal(foo1, foo2), 'isequal');\n\n/**\n * 2. 实现 getvalue 函数来获取path对应的值\n */\nvar object = { a: [{ b: { c: 3 } }] }; // path: 'a[0].b.c'\nvar array = [{ a: { b: [1] } }]; // path: '[0].a.b[0]'\n\nfunction getvalue(target, valuepath, defaultvalue) {}\n\nconsole.log(getvalue(object, 'a[0].b.c', 0)); // 输出3\nconsole.log(getvalue(array, '[0].a.b[0]', 12)); // 输出 1\nconsole.log(getvalue(array, '[0].a.b[0].c', 12)); // 输出 12\n\n/**\n * 问题 3\n * 将一天24小时按每半小划分成48段，我们用一个位图表示选中的时间区间，例如`110000000000000000000000000000000000000000000000`，\n * 表示第一个半小时和第二个半小时被选中了，其余时间段都没有被选中，也就是对应00:00~01:00这个时间区间。一个位图中可能有多个不连续的\n * 时间区间被选中，例如`110010000000000000000000000000000000000000000000`，表示00:00-1:00和02:00-02:30这两个时间区间被选中了。\n *\n * 要求：写一个函数timebitmaptoranges，将上述规则描述的时间位图转换成一个选中时间区间的数组。\n * 示例输入：`\"110010000000000000000000000000000000000000000000\"`\n * 示例输出：`[\"00:00~01:00\", \"02:00~02:30\"]`\n */\nfunction timebitmaptoranges(str) {}\n\nconsole.log(\n  timebitmaptoranges(\n    '110010000000000000000000000000000000000000000000',\n  ),\n);\nconsole.log(\n  timebitmaptoranges(\n    '110011000000110000000000000000000000000000001111',\n  ),\n);\n复制代码;\n\n\n\n# 二面现场（ 1h20mins）\n\n 1.  大数相加: 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。leetcode 415. 字符串相加\n 2.  写一个事件 event 类，实现 on，off，emit，once 功能，同时 on 要支持 debounce。eg：on('click',function(){},500)\n 3.  介绍下让自己成长最大的项目？\n 4.  你觉得现在遇到的最难的问题是什么？\n 5.  为什么要做微前端？\n 6.  回到写的第二道题，说到了 settimeout 设定的时间，函数能准确按时执行吗？settimeout 怎么能做到准时？\n 7.  js 是单线程还是多线程？为什么？支不支持多线程？支持多线程的方式有哪些？node 端多线程知不知道？进程和线程的区别？进程内存计算机如何分配？线程资源如何分配？\n 8.  跨域的解决方案\n 9.  如何实现移动端 1px 边框\n 10. 什么是 html 可替换元素？\n 11. 一个图片对应多个 cdn 地址，如果第一个地址不能用了，需要换成下一个，怎么做？\n 12. vue 生命周期详细描述下？改变组件 data 里面的东西会触发什么生命周期？\n 13. vue2.x 响应式原理？object.defineproperty 的一些参数？\n 14. for in 可以遍历出来那些东西？for in 可以遍历数组吗？可以遍历出那些东西？\n 15. vue 组件 scoped 作用？实现原理？其他的 css 隔离方案？\n 16. 怎么用 es5 去实现 es6 类的继承？\n 17. 你觉得 eslint 有哪些规则比较有用？\n 18. http1.1 和 http2 的区别？http1.1 中做了哪些项目优化？http1.1 中用的哪些优化手段，会在 http2 中失效？http2.0 还存在什么问题？http3 了解吗？\n\n\n# 三面（50mins）\n\n 1.  自我介绍\n 2.  说一说最近一年做的最好的业务？你觉得你做的最出彩的地方是哪里？\n 3.  处方打印，不同格式如何设置？\n 4.  离线缓存 存在什么问题？\n 5.  讲一讲权限系统？除了 rbac，还了解哪些权限设计吗？rbac 的优点？\n 6.  给你一个需求：除了预设角色，某个人可以单独做其他的事情，怎么办？\n 7.  讲一讲你们做的微前端？ 父应用如何加载多个子应用？ 路由整合是如何做的？\n 8.  讲一讲局部打印的实现？\n 9.  api-proxy 是如何实现的？业务越来越复杂，nginx 是不是每次都要改？怎么解决？怎么做一个全局代理？在本地如何调试线上代码？\n 10. 讲一下项目中定制化需求如何处理？更优雅的方式？面试官举了一个有赞的场景例子：关于不同商家后台，某个商家多了一个菜单？某个商家在通用页面 a 中有特殊的两个按钮？如何处理这种个性化的问题？深入一点，如何把个性化需求开放给其他商家自己开发？\n 11. 如果让你写一个 single-spa，你怎么做？两个子应用的 app.js 如何切换？js、css 如何隔离？作为攻击者，如何突破用 proxy 实现的一个沙箱环境，或者说子应用如何才能访问父应用的 window 对象？\n 12. 讲一讲项目中的全键盘操作？keyup 监听怎么做的？addeventlistener 第三个参数?如何阻止冒泡事件？怎么阻止部分按键？\n 13. 讲一讲 oauth 2.0\n 14. 你为什么想出来看机会？对下一份工作期望是怎么样的？你现在是怎么学习的？\n 15. 你有什么想问的？\n\n接着就让我等一下，估计是去讨论去了，自己也知道，接下来如果有 hr 来，就 80%过了。找个理由说 hr 不在的，基本就凉了。。。\n\n\n# 四面（hr 40mins）\n\n等待的时间是非常煎熬的~ 一会（忘记了是多久，差不多 10 分钟？），hr 小姐姐来了，换了个位置，开始面对面谈。\n\n 1. 刚刚聊下来感觉怎么样？\n 2. 对自己 1-3 年的规划\n 3. 前端方面有没有犯过比较大的故障？绩效好的情况下为什么要考虑机会？\n 4. 你觉得自己还能在现在的业务中成长多少？或者说你还能为现在的业务做什么？\n 5. 平时自己的学习方式？\n 6. 你希望自己 3 年以后能达到什么水平？你觉得自己和 p6 差距在哪？\n 7. 平时的工作节奏？\n 8. 你对加入有赞的一些期待是什么？薪资是怎么样的期待？有没有其他 offer？\n 9. 你有什么想问的？",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
-      "title": "List",
-      "frontmatter": {
-        "title": "List",
-        "date": "2021-10-28T22:18:53.000Z",
-        "permalink": "/pages/f86881/",
+        "title": "PromiseAsyncAwait",
+        "date": "2021-11-02T21:33:47.000Z",
+        "permalink": "/pages/12cb22/",
         "categories": [
           "interview",
-          "Library"
+          "JS"
         ],
         "tags": [
           null
         ]
       },
-      "regularPath": "/interview/Library/List.html",
-      "relativePath": "interview/Library/List.md",
-      "key": "v-145c61a4",
-      "path": "/pages/f86881/",
+      "regularPath": "/interview/JS/PromiseAsyncAwait.html",
+      "relativePath": "interview/JS/PromiseAsyncAwait.md",
+      "key": "v-2076a518",
+      "path": "/pages/12cb22/",
       "headersStr": null,
-      "content": "# 阿里同学整理的面试题 有深度\n\n * https://juejin.cn/post/6987549240436195364\n * https://juejin.cn/post/6996815121855021087\n * https://juejin.cn/post/6844904093425598471\n\n# 不错的面试整理 2021年10月28日\n\n * https://juejin.cn/post/7016593221815910408\n * https://juejin.cn/post/7021173142890479630\n\n# TODO\n\n * https://juejin.cn/post/7013953652578582558\n * https://juejin.cn/post/7004638318843412493\n * https://cloud.tencent.com/developer/article/1856568",
-      "normalizedContent": "# 阿里同学整理的面试题 有深度\n\n * https://juejin.cn/post/6987549240436195364\n * https://juejin.cn/post/6996815121855021087\n * https://juejin.cn/post/6844904093425598471\n\n# 不错的面试整理 2021年10月28日\n\n * https://juejin.cn/post/7016593221815910408\n * https://juejin.cn/post/7021173142890479630\n\n# todo\n\n * https://juejin.cn/post/7013953652578582558\n * https://juejin.cn/post/7004638318843412493\n * https://cloud.tencent.com/developer/article/1856568",
-      "charsets": {
-        "cjk": true
-      }
+      "content": "Promise/Async/Await",
+      "normalizedContent": "promise/async/await",
+      "charsets": {}
     },
     {
-      "title": "关于我",
+      "title": "Event Loop",
       "frontmatter": {
-        "title": "关于我",
-        "date": "2021-07-26T13:44:36.000Z",
-        "permalink": "/about/",
+        "title": "Event Loop",
+        "date": "2021-11-02T21:33:27.000Z",
+        "permalink": "/pages/3a4a94/",
         "categories": [
-          "about"
+          "interview",
+          "JS"
         ],
         "tags": [
           null
         ]
       },
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-34c9d17d",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "我自己",
-          "slug": "wo-zi-ji",
-          "normalizedTitle": "我自己",
-          "charIndex": 14
-        }
-      ],
-      "lastUpdated": "10/28/2021, 10:36:24 PM",
-      "headersStr": "我自己",
-      "content": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 JS\n     * 写过些功能、优化和修复\n     * 在公司主要负责 H5 频道开发\n * 学习中\n   * 修炼 TS\n   * 学习现代化、工程化前端开发\n * 其他\n   * 偶偶写写文章",
-      "normalizedContent": "关于我（2021）\n\n\n# 我自己\n\n目前状态\n\n * 3 年前端学习与开发经验，2 年前端工作经验。\n * 技能\n   * 略懂点 js\n     * 写过些功能、优化和修复\n     * 在公司主要负责 h5 频道开发\n * 学习中\n   * 修炼 ts\n   * 学习现代化、工程化前端开发\n * 其他\n   * 偶偶写写文章",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
-      "title": "EventLoop",
-      "frontmatter": {
-        "title": "EventLoop",
-        "date": "2021-10-27T22:19:47.000Z",
-        "permalink": "/pages/7b89ea/",
-        "categories": [
-          "note",
-          "Browser"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/Browser/EventLoop.html",
-      "relativePath": "note/Browser/EventLoop.md",
-      "key": "v-c45e9e0c",
-      "path": "/pages/7b89ea/",
-      "lastUpdated": "10/28/2021, 7:15:37 PM",
+      "regularPath": "/interview/JS/Event%20Loop.html",
+      "relativePath": "interview/JS/Event Loop.md",
+      "key": "v-a931c9c2",
+      "path": "/pages/3a4a94/",
       "headersStr": null,
-      "content": "Event-Loop",
-      "normalizedContent": "event-loop",
+      "content": "Event Loop",
+      "normalizedContent": "event loop",
       "charsets": {}
     },
     {
       "title": "V8",
       "frontmatter": {
         "title": "V8",
-        "date": "2021-10-27T22:19:26.000Z",
-        "permalink": "/pages/f6701f/",
+        "date": "2021-11-02T21:32:42.000Z",
+        "permalink": "/pages/49eb26/",
         "categories": [
-          "note",
-          "Browser"
+          "interview",
+          "JS"
         ],
         "tags": [
           null
         ]
       },
-      "regularPath": "/note/Browser/V8.html",
-      "relativePath": "note/Browser/V8.md",
-      "key": "v-a71486fc",
-      "path": "/pages/f6701f/",
-      "lastUpdated": "10/28/2021, 7:15:37 PM",
+      "regularPath": "/interview/JS/V8.html",
+      "relativePath": "interview/JS/V8.md",
+      "key": "v-9d1af5fc",
+      "path": "/pages/49eb26/",
       "headersStr": null,
       "content": "V8",
       "normalizedContent": "v8",
       "charsets": {}
-    },
-    {
-      "title": "PlantUML",
-      "frontmatter": {
-        "title": "PlantUML",
-        "date": "2021-09-07T20:53:43.000Z",
-        "permalink": "/pages/plantUml/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/note/Daily/PlantUML.html",
-      "relativePath": "note/Daily/PlantUML.md",
-      "key": "v-77a4e37c",
-      "path": "/pages/plantUml/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Vuepress 增加 PlantUML 支持",
-          "slug": "vuepress-zeng-jia-plantuml-zhi-chi",
-          "normalizedTitle": "vuepress 增加 plantuml 支持",
-          "charIndex": 2
-        }
-      ],
-      "lastUpdated": "9/7/2021, 10:55:52 PM",
-      "headersStr": "Vuepress 增加 PlantUML 支持",
-      "content": "# Vuepress 增加 PlantUML 支持\n\n# 插件安装\n\nyarn add -D markdown-it-plantuml\n\n\n编辑Vuepress的配置文件.config.js，增加插件的配置：\n\nmodule.exports = {\n  ...\n  extendMarkdown: md => {\n    md.set({ breaks: true })\n    md.use(require('markdown-it-plantuml'))\n  },\n  ...\n}\n\n\n# 测试\n\n@startmindmap\n* root node\n\t* some first level node\n\t\t* second level node\n\t\t* another second level node\n\t* another first level node\n@endmindmap\n\n\n参考：https://plantuml.com/zh/mindmap-diagram",
-      "normalizedContent": "# vuepress 增加 plantuml 支持\n\n# 插件安装\n\nyarn add -d markdown-it-plantuml\n\n\n编辑vuepress的配置文件.config.js，增加插件的配置：\n\nmodule.exports = {\n  ...\n  extendmarkdown: md => {\n    md.set({ breaks: true })\n    md.use(require('markdown-it-plantuml'))\n  },\n  ...\n}\n\n\n# 测试\n\n@startmindmap\n* root node\n\t* some first level node\n\t\t* second level node\n\t\t* another second level node\n\t* another first level node\n@endmindmap\n\n\n参考：https://plantuml.com/zh/mindmap-diagram",
-      "charsets": {
-        "cjk": true
-      }
     },
     {
       "title": "JavaScript Interview",
@@ -1551,29 +1422,467 @@ export const siteData = {
       }
     },
     {
-      "title": "React Hooks",
+      "title": "分类",
       "frontmatter": {
-        "title": "React Hooks",
-        "date": "2021-09-17T22:39:03.000Z",
-        "permalink": "/pages/a29bb7/",
+        "categoriesPage": true,
+        "title": "分类",
+        "permalink": "/categories/",
+        "article": false
+      },
+      "regularPath": "/@pages/categoriesPage.html",
+      "relativePath": "@pages/categoriesPage.md",
+      "key": "v-0cebcc02",
+      "path": "/categories/",
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
+    },
+    {
+      "title": "Question library",
+      "frontmatter": {
+        "title": "Question library",
+        "date": "2021-10-28T21:54:19.000Z",
+        "permalink": "/pages/50ebbe/",
         "categories": [
-          "note",
-          "MV*",
+          "interview"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/Library/Questionlibrary.html",
+      "relativePath": "interview/Library/Questionlibrary.md",
+      "key": "v-16de60e2",
+      "path": "/pages/50ebbe/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "有赞",
+          "slug": "you-zan",
+          "normalizedTitle": "有赞",
+          "charIndex": 7
+        },
+        {
+          "level": 3,
+          "title": "一面电话 (1h)",
+          "slug": "yi-mian-dian-hua-1h",
+          "normalizedTitle": "一面电话 (1h)",
+          "charIndex": 61
+        },
+        {
+          "level": 3,
+          "title": "一面视频 coding（45mins）",
+          "slug": "yi-mian-shi-pin-coding-45mins",
+          "normalizedTitle": "一面视频 coding（45mins）",
+          "charIndex": 822
+        },
+        {
+          "level": 3,
+          "title": "二面现场（ 1h20mins）",
+          "slug": "er-mian-xian-chang-1h20mins",
+          "normalizedTitle": "二面现场（ 1h20mins）",
+          "charIndex": 2341
+        },
+        {
+          "level": 3,
+          "title": "三面（50mins）",
+          "slug": "san-mian-50mins",
+          "normalizedTitle": "三面（50mins）",
+          "charIndex": 3169
+        },
+        {
+          "level": 3,
+          "title": "四面（HR 40mins）",
+          "slug": "si-mian-hr-40mins",
+          "normalizedTitle": "四面（hr 40mins）",
+          "charIndex": 3936
+        }
+      ],
+      "lastUpdated": "10/28/2021, 10:36:24 PM",
+      "headersStr": "有赞 一面电话 (1h) 一面视频 coding（45mins） 二面现场（ 1h20mins） 三面（50mins） 四面（HR 40mins）",
+      "content": "题库\n\n\n# 有赞\n\n> https://juejin.cn/user/3386151545609837 @俊劫\n\n\n# 一面电话 (1h)\n\n 1.  讲讲最近写的项目\n 2.  讲讲自己写的打印插件，vue-iframe-print，和其他打印方式对比。分页问题，默认背景图如何显示（知道有 css，但是记不住是那个），自定义样式等等\n 3.  权限系统（RBAC），具体实现，接口权限校验。通用接口如何校验，可复用的业务接口如何校验\n 4.  讲一讲 OAuth\n 5.  微前端（项目在用） 为什么要用微前端，和 iframe 对比了一下。\n 6.  实现一个水平垂直居中？flex:1 含义? 一道场景题\n 7.  margin 塌陷？有没有遇到过其他 css 问题？\n 8.  vue 响应式原理\n 9.  组件 data 为什么是一个函数？\n 10. vue Object.defineProperty 缺陷？数组 7 个方法怎么重写的？\n 11. dep 依赖搜集与 watcher 派发更新流程？dep 是发布者还是订阅者？怎么知道每一个 watcher 要通知哪一个 dep？\n 12. keep-alive 原理？\n 13. 讲一讲虚拟 dom\n 14. 讲一讲 vue diff 算法\n 15. 为什么使用 key 能提升 diff 性能\n 16. this 指向的理解？声明时和运行时指向？箭头函数指向？修改 this 指向？\n 17. call,apply,bind 区别？讲一下实现一个 bind 的思路\n 18. 函数柯里化概念，常用场景？\n 19. 关于缓存的一些东西？如何提高缓存命中率？\n 20. 详细描述一下输入 URL 到页面打开的过程，尽量详细些？\n 21. 数组和链表在计算机中存储的方式？计算机中增加一个数组元素的方式？\n 22. 你有什么想问我的？\n\n然后约了二面，视频 coding\n\n\n# 一面视频 coding（45mins）\n\n/**\n * 1. 实现一个函数，判断两个变量值是否相等\n *\n * 注意\n * - 数据类型不限于示例，尽可能考虑边界\n * - function 引用相等即可\n */\nconst foo1 = {\n  a: 1,\n  b: '1',\n  c: NaN,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nconst foo2 = {\n  a: 1,\n  b: '1',\n  c: NaN,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nfunction isEqual(target1, target2) {}\nconsole.log(isEqual(foo1, foo2), 'isEqual');\n\n/**\n * 2. 实现 getValue 函数来获取path对应的值\n */\nvar object = { a: [{ b: { c: 3 } }] }; // path: 'a[0].b.c'\nvar array = [{ a: { b: [1] } }]; // path: '[0].a.b[0]'\n\nfunction getValue(target, valuePath, defaultValue) {}\n\nconsole.log(getValue(object, 'a[0].b.c', 0)); // 输出3\nconsole.log(getValue(array, '[0].a.b[0]', 12)); // 输出 1\nconsole.log(getValue(array, '[0].a.b[0].c', 12)); // 输出 12\n\n/**\n * 问题 3\n * 将一天24小时按每半小划分成48段，我们用一个位图表示选中的时间区间，例如`110000000000000000000000000000000000000000000000`，\n * 表示第一个半小时和第二个半小时被选中了，其余时间段都没有被选中，也就是对应00:00~01:00这个时间区间。一个位图中可能有多个不连续的\n * 时间区间被选中，例如`110010000000000000000000000000000000000000000000`，表示00:00-1:00和02:00-02:30这两个时间区间被选中了。\n *\n * 要求：写一个函数timeBitmapToRanges，将上述规则描述的时间位图转换成一个选中时间区间的数组。\n * 示例输入：`\"110010000000000000000000000000000000000000000000\"`\n * 示例输出：`[\"00:00~01:00\", \"02:00~02:30\"]`\n */\nfunction timeBitmapToRanges(str) {}\n\nconsole.log(\n  timeBitmapToRanges(\n    '110010000000000000000000000000000000000000000000',\n  ),\n);\nconsole.log(\n  timeBitmapToRanges(\n    '110011000000110000000000000000000000000000001111',\n  ),\n);\n复制代码;\n\n\n\n# 二面现场（ 1h20mins）\n\n 1.  大数相加: 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。leetcode 415. 字符串相加\n 2.  写一个事件 Event 类，实现 on，off，emit，once 功能，同时 on 要支持 debounce。eg：on('click',function(){},500)\n 3.  介绍下让自己成长最大的项目？\n 4.  你觉得现在遇到的最难的问题是什么？\n 5.  为什么要做微前端？\n 6.  回到写的第二道题，说到了 setTimeout 设定的时间，函数能准确按时执行吗？setTimeout 怎么能做到准时？\n 7.  js 是单线程还是多线程？为什么？支不支持多线程？支持多线程的方式有哪些？node 端多线程知不知道？进程和线程的区别？进程内存计算机如何分配？线程资源如何分配？\n 8.  跨域的解决方案\n 9.  如何实现移动端 1px 边框\n 10. 什么是 html 可替换元素？\n 11. 一个图片对应多个 cdn 地址，如果第一个地址不能用了，需要换成下一个，怎么做？\n 12. vue 生命周期详细描述下？改变组件 data 里面的东西会触发什么生命周期？\n 13. vue2.x 响应式原理？Object.defineProperty 的一些参数？\n 14. for in 可以遍历出来那些东西？for in 可以遍历数组吗？可以遍历出那些东西？\n 15. vue 组件 scoped 作用？实现原理？其他的 css 隔离方案？\n 16. 怎么用 ES5 去实现 ES6 类的继承？\n 17. 你觉得 eslint 有哪些规则比较有用？\n 18. http1.1 和 http2 的区别？http1.1 中做了哪些项目优化？http1.1 中用的哪些优化手段，会在 http2 中失效？http2.0 还存在什么问题？http3 了解吗？\n\n\n# 三面（50mins）\n\n 1.  自我介绍\n 2.  说一说最近一年做的最好的业务？你觉得你做的最出彩的地方是哪里？\n 3.  处方打印，不同格式如何设置？\n 4.  离线缓存 存在什么问题？\n 5.  讲一讲权限系统？除了 RBAC，还了解哪些权限设计吗？RBAC 的优点？\n 6.  给你一个需求：除了预设角色，某个人可以单独做其他的事情，怎么办？\n 7.  讲一讲你们做的微前端？ 父应用如何加载多个子应用？ 路由整合是如何做的？\n 8.  讲一讲局部打印的实现？\n 9.  api-proxy 是如何实现的？业务越来越复杂，nginx 是不是每次都要改？怎么解决？怎么做一个全局代理？在本地如何调试线上代码？\n 10. 讲一下项目中定制化需求如何处理？更优雅的方式？面试官举了一个有赞的场景例子：关于不同商家后台，某个商家多了一个菜单？某个商家在通用页面 A 中有特殊的两个按钮？如何处理这种个性化的问题？深入一点，如何把个性化需求开放给其他商家自己开发？\n 11. 如果让你写一个 single-spa，你怎么做？两个子应用的 app.js 如何切换？js、css 如何隔离？作为攻击者，如何突破用 proxy 实现的一个沙箱环境，或者说子应用如何才能访问父应用的 window 对象？\n 12. 讲一讲项目中的全键盘操作？keyup 监听怎么做的？addEventListener 第三个参数?如何阻止冒泡事件？怎么阻止部分按键？\n 13. 讲一讲 oAuth 2.0\n 14. 你为什么想出来看机会？对下一份工作期望是怎么样的？你现在是怎么学习的？\n 15. 你有什么想问的？\n\n接着就让我等一下，估计是去讨论去了，自己也知道，接下来如果有 hr 来，就 80%过了。找个理由说 hr 不在的，基本就凉了。。。\n\n\n# 四面（HR 40mins）\n\n等待的时间是非常煎熬的~ 一会（忘记了是多久，差不多 10 分钟？），HR 小姐姐来了，换了个位置，开始面对面谈。\n\n 1. 刚刚聊下来感觉怎么样？\n 2. 对自己 1-3 年的规划\n 3. 前端方面有没有犯过比较大的故障？绩效好的情况下为什么要考虑机会？\n 4. 你觉得自己还能在现在的业务中成长多少？或者说你还能为现在的业务做什么？\n 5. 平时自己的学习方式？\n 6. 你希望自己 3 年以后能达到什么水平？你觉得自己和 P6 差距在哪？\n 7. 平时的工作节奏？\n 8. 你对加入有赞的一些期待是什么？薪资是怎么样的期待？有没有其他 offer？\n 9. 你有什么想问的？",
+      "normalizedContent": "题库\n\n\n# 有赞\n\n> https://juejin.cn/user/3386151545609837 @俊劫\n\n\n# 一面电话 (1h)\n\n 1.  讲讲最近写的项目\n 2.  讲讲自己写的打印插件，vue-iframe-print，和其他打印方式对比。分页问题，默认背景图如何显示（知道有 css，但是记不住是那个），自定义样式等等\n 3.  权限系统（rbac），具体实现，接口权限校验。通用接口如何校验，可复用的业务接口如何校验\n 4.  讲一讲 oauth\n 5.  微前端（项目在用） 为什么要用微前端，和 iframe 对比了一下。\n 6.  实现一个水平垂直居中？flex:1 含义? 一道场景题\n 7.  margin 塌陷？有没有遇到过其他 css 问题？\n 8.  vue 响应式原理\n 9.  组件 data 为什么是一个函数？\n 10. vue object.defineproperty 缺陷？数组 7 个方法怎么重写的？\n 11. dep 依赖搜集与 watcher 派发更新流程？dep 是发布者还是订阅者？怎么知道每一个 watcher 要通知哪一个 dep？\n 12. keep-alive 原理？\n 13. 讲一讲虚拟 dom\n 14. 讲一讲 vue diff 算法\n 15. 为什么使用 key 能提升 diff 性能\n 16. this 指向的理解？声明时和运行时指向？箭头函数指向？修改 this 指向？\n 17. call,apply,bind 区别？讲一下实现一个 bind 的思路\n 18. 函数柯里化概念，常用场景？\n 19. 关于缓存的一些东西？如何提高缓存命中率？\n 20. 详细描述一下输入 url 到页面打开的过程，尽量详细些？\n 21. 数组和链表在计算机中存储的方式？计算机中增加一个数组元素的方式？\n 22. 你有什么想问我的？\n\n然后约了二面，视频 coding\n\n\n# 一面视频 coding（45mins）\n\n/**\n * 1. 实现一个函数，判断两个变量值是否相等\n *\n * 注意\n * - 数据类型不限于示例，尽可能考虑边界\n * - function 引用相等即可\n */\nconst foo1 = {\n  a: 1,\n  b: '1',\n  c: nan,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nconst foo2 = {\n  a: 1,\n  b: '1',\n  c: nan,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nfunction isequal(target1, target2) {}\nconsole.log(isequal(foo1, foo2), 'isequal');\n\n/**\n * 2. 实现 getvalue 函数来获取path对应的值\n */\nvar object = { a: [{ b: { c: 3 } }] }; // path: 'a[0].b.c'\nvar array = [{ a: { b: [1] } }]; // path: '[0].a.b[0]'\n\nfunction getvalue(target, valuepath, defaultvalue) {}\n\nconsole.log(getvalue(object, 'a[0].b.c', 0)); // 输出3\nconsole.log(getvalue(array, '[0].a.b[0]', 12)); // 输出 1\nconsole.log(getvalue(array, '[0].a.b[0].c', 12)); // 输出 12\n\n/**\n * 问题 3\n * 将一天24小时按每半小划分成48段，我们用一个位图表示选中的时间区间，例如`110000000000000000000000000000000000000000000000`，\n * 表示第一个半小时和第二个半小时被选中了，其余时间段都没有被选中，也就是对应00:00~01:00这个时间区间。一个位图中可能有多个不连续的\n * 时间区间被选中，例如`110010000000000000000000000000000000000000000000`，表示00:00-1:00和02:00-02:30这两个时间区间被选中了。\n *\n * 要求：写一个函数timebitmaptoranges，将上述规则描述的时间位图转换成一个选中时间区间的数组。\n * 示例输入：`\"110010000000000000000000000000000000000000000000\"`\n * 示例输出：`[\"00:00~01:00\", \"02:00~02:30\"]`\n */\nfunction timebitmaptoranges(str) {}\n\nconsole.log(\n  timebitmaptoranges(\n    '110010000000000000000000000000000000000000000000',\n  ),\n);\nconsole.log(\n  timebitmaptoranges(\n    '110011000000110000000000000000000000000000001111',\n  ),\n);\n复制代码;\n\n\n\n# 二面现场（ 1h20mins）\n\n 1.  大数相加: 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。leetcode 415. 字符串相加\n 2.  写一个事件 event 类，实现 on，off，emit，once 功能，同时 on 要支持 debounce。eg：on('click',function(){},500)\n 3.  介绍下让自己成长最大的项目？\n 4.  你觉得现在遇到的最难的问题是什么？\n 5.  为什么要做微前端？\n 6.  回到写的第二道题，说到了 settimeout 设定的时间，函数能准确按时执行吗？settimeout 怎么能做到准时？\n 7.  js 是单线程还是多线程？为什么？支不支持多线程？支持多线程的方式有哪些？node 端多线程知不知道？进程和线程的区别？进程内存计算机如何分配？线程资源如何分配？\n 8.  跨域的解决方案\n 9.  如何实现移动端 1px 边框\n 10. 什么是 html 可替换元素？\n 11. 一个图片对应多个 cdn 地址，如果第一个地址不能用了，需要换成下一个，怎么做？\n 12. vue 生命周期详细描述下？改变组件 data 里面的东西会触发什么生命周期？\n 13. vue2.x 响应式原理？object.defineproperty 的一些参数？\n 14. for in 可以遍历出来那些东西？for in 可以遍历数组吗？可以遍历出那些东西？\n 15. vue 组件 scoped 作用？实现原理？其他的 css 隔离方案？\n 16. 怎么用 es5 去实现 es6 类的继承？\n 17. 你觉得 eslint 有哪些规则比较有用？\n 18. http1.1 和 http2 的区别？http1.1 中做了哪些项目优化？http1.1 中用的哪些优化手段，会在 http2 中失效？http2.0 还存在什么问题？http3 了解吗？\n\n\n# 三面（50mins）\n\n 1.  自我介绍\n 2.  说一说最近一年做的最好的业务？你觉得你做的最出彩的地方是哪里？\n 3.  处方打印，不同格式如何设置？\n 4.  离线缓存 存在什么问题？\n 5.  讲一讲权限系统？除了 rbac，还了解哪些权限设计吗？rbac 的优点？\n 6.  给你一个需求：除了预设角色，某个人可以单独做其他的事情，怎么办？\n 7.  讲一讲你们做的微前端？ 父应用如何加载多个子应用？ 路由整合是如何做的？\n 8.  讲一讲局部打印的实现？\n 9.  api-proxy 是如何实现的？业务越来越复杂，nginx 是不是每次都要改？怎么解决？怎么做一个全局代理？在本地如何调试线上代码？\n 10. 讲一下项目中定制化需求如何处理？更优雅的方式？面试官举了一个有赞的场景例子：关于不同商家后台，某个商家多了一个菜单？某个商家在通用页面 a 中有特殊的两个按钮？如何处理这种个性化的问题？深入一点，如何把个性化需求开放给其他商家自己开发？\n 11. 如果让你写一个 single-spa，你怎么做？两个子应用的 app.js 如何切换？js、css 如何隔离？作为攻击者，如何突破用 proxy 实现的一个沙箱环境，或者说子应用如何才能访问父应用的 window 对象？\n 12. 讲一讲项目中的全键盘操作？keyup 监听怎么做的？addeventlistener 第三个参数?如何阻止冒泡事件？怎么阻止部分按键？\n 13. 讲一讲 oauth 2.0\n 14. 你为什么想出来看机会？对下一份工作期望是怎么样的？你现在是怎么学习的？\n 15. 你有什么想问的？\n\n接着就让我等一下，估计是去讨论去了，自己也知道，接下来如果有 hr 来，就 80%过了。找个理由说 hr 不在的，基本就凉了。。。\n\n\n# 四面（hr 40mins）\n\n等待的时间是非常煎熬的~ 一会（忘记了是多久，差不多 10 分钟？），hr 小姐姐来了，换了个位置，开始面对面谈。\n\n 1. 刚刚聊下来感觉怎么样？\n 2. 对自己 1-3 年的规划\n 3. 前端方面有没有犯过比较大的故障？绩效好的情况下为什么要考虑机会？\n 4. 你觉得自己还能在现在的业务中成长多少？或者说你还能为现在的业务做什么？\n 5. 平时自己的学习方式？\n 6. 你希望自己 3 年以后能达到什么水平？你觉得自己和 p6 差距在哪？\n 7. 平时的工作节奏？\n 8. 你对加入有赞的一些期待是什么？薪资是怎么样的期待？有没有其他 offer？\n 9. 你有什么想问的？",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "React Diff",
+      "frontmatter": {
+        "title": "React Diff",
+        "date": "2021-11-02T21:09:23.000Z",
+        "permalink": "/pages/3ecb42/",
+        "categories": [
+          "interview"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/React/React%20Diff.html",
+      "relativePath": "interview/React/React Diff.md",
+      "key": "v-6c1df683",
+      "path": "/pages/3ecb42/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是Diff",
+          "slug": "shi-me-shi-diff",
+          "normalizedTitle": "什么是diff",
+          "charIndex": 15
+        },
+        {
+          "level": 2,
+          "title": "Diff 策略",
+          "slug": "diff-ce-lue",
+          "normalizedTitle": "diff 策略",
+          "charIndex": 231
+        }
+      ],
+      "headersStr": "什么是Diff Diff 策略",
+      "content": "React Diff\n\n\n# 什么是Diff\n\n在调用 React 的 render() 方法，会创建一棵由 React 元素组成的树。更新时，相同的 render() 方法会返回一棵不同的树。React 需要基于这两棵树之间的差别来进行比较，这个比较的过程就是俗称的 diff 算法。\n\nDiff 算法的本质就是对比 current Fiber（页面中） 和 ReactElement 对象，生成 workInProgress Fiber（内存中）。\n\n\n# Diff 策略\n\nReact 文档中提到，即使在最前沿的算法中，将前后两棵树完全比对的算法的复杂程度为 O(n 3 )，其中 n 是树中元素的数量。如果在 React 中使用了该算法，那么展示 1000 个元素所需要执行的计算量将在十亿的量级范围。\n\n * 只对同级元素进行 Diff，如果某一个节点在一次更新中跨域了层级，React 不会复用该节点，而是重新创建生成新的节点。\n * 两个不同类型的元素会产生出不同的树，如果元素由 div 变为 p，React 会销毁 div 及其子孙节节点，并新建 p 及其子孙节点。\n * 开发者可以通过 key prop 来暗示哪些子元素在不同的渲染下能保持稳定；",
+      "normalizedContent": "react diff\n\n\n# 什么是diff\n\n在调用 react 的 render() 方法，会创建一棵由 react 元素组成的树。更新时，相同的 render() 方法会返回一棵不同的树。react 需要基于这两棵树之间的差别来进行比较，这个比较的过程就是俗称的 diff 算法。\n\ndiff 算法的本质就是对比 current fiber（页面中） 和 reactelement 对象，生成 workinprogress fiber（内存中）。\n\n\n# diff 策略\n\nreact 文档中提到，即使在最前沿的算法中，将前后两棵树完全比对的算法的复杂程度为 o(n 3 )，其中 n 是树中元素的数量。如果在 react 中使用了该算法，那么展示 1000 个元素所需要执行的计算量将在十亿的量级范围。\n\n * 只对同级元素进行 diff，如果某一个节点在一次更新中跨域了层级，react 不会复用该节点，而是重新创建生成新的节点。\n * 两个不同类型的元素会产生出不同的树，如果元素由 div 变为 p，react 会销毁 div 及其子孙节节点，并新建 p 及其子孙节点。\n * 开发者可以通过 key prop 来暗示哪些子元素在不同的渲染下能保持稳定；",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "React Hook",
+      "frontmatter": {
+        "title": "React Hook",
+        "date": "2021-11-02T21:35:04.000Z",
+        "permalink": "/pages/923ecd/",
+        "categories": [
+          "interview",
           "React"
         ],
         "tags": [
           null
         ]
       },
-      "regularPath": "/note/MV*/React/ReactHooks.html",
-      "relativePath": "note/MV*/React/ReactHooks.md",
-      "key": "v-63397d7c",
-      "path": "/pages/a29bb7/",
+      "regularPath": "/interview/React/React%20Hook.html",
+      "relativePath": "interview/React/React Hook.md",
+      "key": "v-45f121c7",
+      "path": "/pages/923ecd/",
+      "headersStr": null,
+      "content": "React Hook",
+      "normalizedContent": "react hook",
+      "charsets": {}
+    },
+    {
+      "title": "ReactFiber",
+      "frontmatter": {
+        "title": "ReactFiber",
+        "date": "2021-11-02T20:06:49.000Z",
+        "permalink": "/pages/703160/",
+        "categories": [
+          "interview"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/React/ReactFiber.html",
+      "relativePath": "interview/React/ReactFiber.md",
+      "key": "v-55491698",
+      "path": "/pages/703160/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "为什么需要 Fiber",
+          "slug": "wei-shi-me-xu-yao-fiber",
+          "normalizedTitle": "为什么需要 fiber",
+          "charIndex": 16
+        },
+        {
+          "level": 2,
+          "title": "什么是 Fiber",
+          "slug": "shi-me-shi-fiber",
+          "normalizedTitle": "什么是 fiber",
+          "charIndex": 387
+        },
+        {
+          "level": 3,
+          "title": "一个执行单元",
+          "slug": "yi-ge-zhi-xing-dan-yuan",
+          "normalizedTitle": "一个执行单元",
+          "charIndex": 410
+        },
+        {
+          "level": 3,
+          "title": "一种数据结构",
+          "slug": "yi-zhong-shu-ju-jie-gou",
+          "normalizedTitle": "一种数据结构",
+          "charIndex": 424
+        },
+        {
+          "level": 2,
+          "title": "Fiber 执行原理",
+          "slug": "fiber-zhi-xing-yuan-li",
+          "normalizedTitle": "fiber 执行原理",
+          "charIndex": 744
+        },
+        {
+          "level": 3,
+          "title": "render 阶段",
+          "slug": "render-jie-duan",
+          "normalizedTitle": "render 阶段",
+          "charIndex": 779
+        },
+        {
+          "level": 3,
+          "title": "commit 阶段",
+          "slug": "commit-jie-duan",
+          "normalizedTitle": "commit 阶段",
+          "charIndex": 789
+        },
+        {
+          "level": 2,
+          "title": "其他",
+          "slug": "qi-ta",
+          "normalizedTitle": "其他",
+          "charIndex": 1168
+        },
+        {
+          "level": 3,
+          "title": "双缓冲 Fiber tree",
+          "slug": "shuang-huan-chong-fiber-tree",
+          "normalizedTitle": "双缓冲 fiber tree",
+          "charIndex": 1175
+        },
+        {
+          "level": 3,
+          "title": "遍历流程",
+          "slug": "bian-li-liu-cheng",
+          "normalizedTitle": "遍历流程",
+          "charIndex": 1645
+        },
+        {
+          "level": 3,
+          "title": "requestAnimationFrame",
+          "slug": "requestanimationframe",
+          "normalizedTitle": "requestanimationframe",
+          "charIndex": 1750
+        },
+        {
+          "level": 3,
+          "title": "requestIdleCallback",
+          "slug": "requestidlecallback",
+          "normalizedTitle": "requestidlecallback",
+          "charIndex": 1865
+        }
+      ],
+      "headersStr": "为什么需要 Fiber 什么是 Fiber 一个执行单元 一种数据结构 Fiber 执行原理 render 阶段 commit 阶段 其他 双缓冲 Fiber tree 遍历流程 requestAnimationFrame requestIdleCallback",
+      "content": "React Fiber\n\n\n# 为什么需要 Fiber\n\n首先，在浏览器中，页面是一帧一帧绘制出来的，目前浏览器大多是 60Hz（60 帧/s），每一帧耗时也就是在 16ms 左右，js 引擎和页面渲染引擎是在同一个渲染线程之内，两者是互斥关系。如果在某个阶段执行任务特别长，超过了 16ms，那么就会阻塞页面的渲染，从而出现卡顿现象。\n\n在未引入 Fiber 架构之前，react 会采用递归对比虚拟 DOM 树，找出需要变动的节点，然后同步更新它们，这种遍历是递归调用，执行栈会越来越深，而且不能中断，中断后就不能恢复了。递归如果非常深，就会十分卡顿。\n\nFiber ，把渲染/更新过程拆分为一个个小块的任务，再将多个粒度小的任务放入一个时间切片（一帧）中执行的一种方案，合理的调度机制来调控时间，适时地让出 CPU 执行权，可以让浏览器及时地响应用户的交互。\n\n\n# 什么是 Fiber\n\nFiber 可以理解为是一个执行单元，也可以理解为是一种数据结构。\n\n\n# 一个执行单元\n\nFiber 可以理解为一个执行单元，每次执行完一个执行单元，react 就会检查现在还剩多少时间，如果没有时间则将控制权让出去。\n\n首先 React 向浏览器请求调度，浏览器在一帧中如果还有空闲时间，会去判断是否存在待执行任务，不存在就直接将控制权交给浏览器，如果存在就会执行对应的任务，执行完成后会判断是否还有时间，有时间且有待执行任务则会继续执行下一个任务，否则就会将控制权交给浏览器。\n\n\n# 一种数据结构\n\nFiber 还可以理解为是一种数据结构，React Fiber 就是采用链表实现的。每个 Virtual DOM 都可以表示为一个 fiber，每个节点都是一个 fiber。\n\n\n# Fiber 执行原理\n\n从根节点开始渲染和调度的过程可以分为两个阶段：render 阶段、commit 阶段。\n\n * render 阶段：这个阶段是可中断的，会找出所有节点的变更\n * commit 阶段：这个阶段是不可中断的，会执行所有的变更\n\n\n# render 阶段\n\n此阶段会找出所有节点的变更，如节点新增、删除、属性变更等，这些变更 react 统称为副作用（effect），此阶段会构建一棵Fiber tree，以虚拟 dom 节点为维度对任务进行拆分，即一个虚拟 dom 节点对应一个任务，最后产出的结果是effect list，从中可以知道哪些节点更新、哪些节点增加、哪些节点删除了。\n\n\n# commit 阶段\n\ncommit 阶段需要将上阶段计算出来的需要处理的副作用一次性执行，此阶段不能暂停，否则会出现 UI 更新不连续的现象。此阶段需要根据effect list，将所有更新都 commit 到 DOM 树上。\n\n\n# 其他\n\n\n# 双缓冲 Fiber tree\n\n在 React 中最多会同时存在两棵fiber tree。当前屏幕上显示内容对应的fiber tree称为current fiber tree，正在内存中构建的fiber tree称为workInProgress fiber tree\n\nReact 应用的根节点通过current指针在不同fiber tree的rootFiber间切换来实现fiber tree的切换。双缓冲指的是当workInProgress fiber tree构建完成交给Renderer渲染在页面上后，应用根节点的current指针指向workInProgress fiber tree，此时workInProgress fiber tree就变为current fiber tree。每次状态更新都会产生新的workInProgress fiber tree，通过current与workInProgress的替换，完成 DOM 更新。\n\n这样做的好处是：能够复用内部对象（fiber）；节省内存分配、GC 的时间开销。\n\n\n# 遍历流程\n\nReact Fiber首先是将虚拟 DOM 树转化为Fiber tree，遍历Fiber tree时采用的是后序遍历方法：\n\n先遍历儿子，再在弟弟，最后叔叔，完成说有的子节点后，自己才完成\n\n\n# requestAnimationFrame\n\n在 Fiber 中使用到了requestAnimationFrame，它是浏览器提供的绘制动画的 api 。它要求浏览器在下次重绘之前（即下一帧）调用指定的回调函数更新动画。\n\n\n# requestIdleCallback\n\nrequestIdleCallback 也是 react Fiber 实现的基础 api ，就是指在浏览器的空闲时段内调用的一些函数的回调。React 实现了功能更完备的 requestIdleCallbackpolyfill，这就是Scheduler。除了在空闲时触发回调的功能外，Scheduler（调度器）还提供了多种调度优先级供任务设置",
+      "normalizedContent": "react fiber\n\n\n# 为什么需要 fiber\n\n首先，在浏览器中，页面是一帧一帧绘制出来的，目前浏览器大多是 60hz（60 帧/s），每一帧耗时也就是在 16ms 左右，js 引擎和页面渲染引擎是在同一个渲染线程之内，两者是互斥关系。如果在某个阶段执行任务特别长，超过了 16ms，那么就会阻塞页面的渲染，从而出现卡顿现象。\n\n在未引入 fiber 架构之前，react 会采用递归对比虚拟 dom 树，找出需要变动的节点，然后同步更新它们，这种遍历是递归调用，执行栈会越来越深，而且不能中断，中断后就不能恢复了。递归如果非常深，就会十分卡顿。\n\nfiber ，把渲染/更新过程拆分为一个个小块的任务，再将多个粒度小的任务放入一个时间切片（一帧）中执行的一种方案，合理的调度机制来调控时间，适时地让出 cpu 执行权，可以让浏览器及时地响应用户的交互。\n\n\n# 什么是 fiber\n\nfiber 可以理解为是一个执行单元，也可以理解为是一种数据结构。\n\n\n# 一个执行单元\n\nfiber 可以理解为一个执行单元，每次执行完一个执行单元，react 就会检查现在还剩多少时间，如果没有时间则将控制权让出去。\n\n首先 react 向浏览器请求调度，浏览器在一帧中如果还有空闲时间，会去判断是否存在待执行任务，不存在就直接将控制权交给浏览器，如果存在就会执行对应的任务，执行完成后会判断是否还有时间，有时间且有待执行任务则会继续执行下一个任务，否则就会将控制权交给浏览器。\n\n\n# 一种数据结构\n\nfiber 还可以理解为是一种数据结构，react fiber 就是采用链表实现的。每个 virtual dom 都可以表示为一个 fiber，每个节点都是一个 fiber。\n\n\n# fiber 执行原理\n\n从根节点开始渲染和调度的过程可以分为两个阶段：render 阶段、commit 阶段。\n\n * render 阶段：这个阶段是可中断的，会找出所有节点的变更\n * commit 阶段：这个阶段是不可中断的，会执行所有的变更\n\n\n# render 阶段\n\n此阶段会找出所有节点的变更，如节点新增、删除、属性变更等，这些变更 react 统称为副作用（effect），此阶段会构建一棵fiber tree，以虚拟 dom 节点为维度对任务进行拆分，即一个虚拟 dom 节点对应一个任务，最后产出的结果是effect list，从中可以知道哪些节点更新、哪些节点增加、哪些节点删除了。\n\n\n# commit 阶段\n\ncommit 阶段需要将上阶段计算出来的需要处理的副作用一次性执行，此阶段不能暂停，否则会出现 ui 更新不连续的现象。此阶段需要根据effect list，将所有更新都 commit 到 dom 树上。\n\n\n# 其他\n\n\n# 双缓冲 fiber tree\n\n在 react 中最多会同时存在两棵fiber tree。当前屏幕上显示内容对应的fiber tree称为current fiber tree，正在内存中构建的fiber tree称为workinprogress fiber tree\n\nreact 应用的根节点通过current指针在不同fiber tree的rootfiber间切换来实现fiber tree的切换。双缓冲指的是当workinprogress fiber tree构建完成交给renderer渲染在页面上后，应用根节点的current指针指向workinprogress fiber tree，此时workinprogress fiber tree就变为current fiber tree。每次状态更新都会产生新的workinprogress fiber tree，通过current与workinprogress的替换，完成 dom 更新。\n\n这样做的好处是：能够复用内部对象（fiber）；节省内存分配、gc 的时间开销。\n\n\n# 遍历流程\n\nreact fiber首先是将虚拟 dom 树转化为fiber tree，遍历fiber tree时采用的是后序遍历方法：\n\n先遍历儿子，再在弟弟，最后叔叔，完成说有的子节点后，自己才完成\n\n\n# requestanimationframe\n\n在 fiber 中使用到了requestanimationframe，它是浏览器提供的绘制动画的 api 。它要求浏览器在下次重绘之前（即下一帧）调用指定的回调函数更新动画。\n\n\n# requestidlecallback\n\nrequestidlecallback 也是 react fiber 实现的基础 api ，就是指在浏览器的空闲时段内调用的一些函数的回调。react 实现了功能更完备的 requestidlecallbackpolyfill，这就是scheduler。除了在空闲时触发回调的功能外，scheduler（调度器）还提供了多种调度优先级供任务设置",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "Virtual DOM",
+      "frontmatter": {
+        "title": "Virtual DOM",
+        "date": "2021-11-02T20:25:20.000Z",
+        "permalink": "/pages/01047f/",
+        "categories": [
+          "interview"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/React/Virtual%20DOM.html",
+      "relativePath": "interview/React/Virtual DOM.md",
+      "key": "v-625cb7e5",
+      "path": "/pages/01047f/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "操作 DOM 是耗费性能的",
+          "slug": "cao-zuo-dom-shi-hao-fei-xing-neng-de",
+          "normalizedTitle": "操作 dom 是耗费性能的",
+          "charIndex": 16
+        },
+        {
+          "level": 2,
+          "title": "什么是 Virtual DOM",
+          "slug": "shi-me-shi-virtual-dom",
+          "normalizedTitle": "什么是 virtual dom",
+          "charIndex": 244
+        },
+        {
+          "level": 2,
+          "title": "React Virtual DOM 是如何实现的",
+          "slug": "react-virtual-dom-shi-ru-he-shi-xian-de",
+          "normalizedTitle": "react virtual dom 是如何实现的",
+          "charIndex": 781
+        },
+        {
+          "level": 2,
+          "title": "Virtual DOM 的工作流程",
+          "slug": "virtual-dom-de-gong-zuo-liu-cheng",
+          "normalizedTitle": "virtual dom 的工作流程",
+          "charIndex": 930
+        }
+      ],
+      "headersStr": "操作 DOM 是耗费性能的 什么是 Virtual DOM React Virtual DOM 是如何实现的 Virtual DOM 的工作流程",
+      "content": "Virtual DOM\n\n\n# 操作 DOM 是耗费性能的\n\n浏览器的 渲染线程 与 JS 引擎线程。\n\n我们在操作 DOM 时，任何 DOM API 调用都要先将 JS 数据结构转为 DOM 数据结构，再挂起 JS 引擎线程，启动渲染引擎线程，执行过后再把可能的返回值反转数据结构，再重启 JS 引擎继续执行。这种两个线程之间的上下文切换势必会很耗性能。\n\n另外很多 DOM API 的读写都涉及页面布局的 重绘（repaint）和回流（reflow） ，这会更加的耗费性能。\n\n\n# 什么是 Virtual DOM\n\nVirtualDom 的本质是利用 JS 变量 对真实 DOM 进行抽象，使用 VirtualDom 来缓存当前组件状态，对用户交互和数据的变动进行批次处理，直接计算出每一帧页面应该呈现的最终状态，而这个状态是以 JS 变量 的形式存在于内存中的。所以通过 VirtualDom 既能够保证用户看到的每一帧都响应了数据的变化，又能节约性能保证浏览器不出现卡顿。\n\nReact VirtualDom 相对于直接操作原生 DOM 最大的优势在于 batching(批处理) 和 diff。\ndiff: 为了尽量减少不必要的 DOM 操作， Virtual DOM 在执行 DOM 的更新操作后，不会直接操作真实 DOM，而是根据当前应用状态的数据，生成一个全新的 Virtual DOM，然后跟上一次生成 的 Virtual DOM 去 diff，得到一个 Patch（补丁），这样就可以找到变化了的 DOM 节点，只对变化的部分进行 DOM 更新，而不是重新渲染整个 DOM 树，这个过程就是 diff。\n\nbatching： 还有所谓的 batching 就是将多次比较的结果合并后一次性更新到页面，从而有效地减少页面渲染的次数。\n\n\n# React Virtual DOM 是如何实现的\n\n * ReactElement：ReactElement 即 react 元素，描述了我们在屏幕上所看到的内容，它是构成 React 应用的最小单元\n\n * Fiber：Fiber 可以理解为是一个执行单元，也可以理解为是一种数据结构。\n\n\n# Virtual DOM 的工作流程\n\n * 初始化渲染，将 JSX 代码编译成 ReactELement 对象，它描述当前组件内容的数据结构。\n\n * 根据生产的 ReactELement 对象构建 Fiber tree，它包含了组件 schedule、reconciler、render 所需的相关信息。\n\n * 一旦有状态变化，触发更新，Scheduler 在接收到更新后，根据任务的优先级高低来进行调度，决定要执行的任务是什么。\n\n * 接下来的工作交给 Reconciler 处理，Reconciler 通过对比找出变化了的 Virtual DOM ，为其打上代表增/删/更新的标记，当所有组件都完成 Reconciler 的工作，才会统一交给 Renderer。\n\n * Renderer 根据 Reconciler 为 Virtual DOM 打的标记，同步执行对应的 DOM 更新操作。",
+      "normalizedContent": "virtual dom\n\n\n# 操作 dom 是耗费性能的\n\n浏览器的 渲染线程 与 js 引擎线程。\n\n我们在操作 dom 时，任何 dom api 调用都要先将 js 数据结构转为 dom 数据结构，再挂起 js 引擎线程，启动渲染引擎线程，执行过后再把可能的返回值反转数据结构，再重启 js 引擎继续执行。这种两个线程之间的上下文切换势必会很耗性能。\n\n另外很多 dom api 的读写都涉及页面布局的 重绘（repaint）和回流（reflow） ，这会更加的耗费性能。\n\n\n# 什么是 virtual dom\n\nvirtualdom 的本质是利用 js 变量 对真实 dom 进行抽象，使用 virtualdom 来缓存当前组件状态，对用户交互和数据的变动进行批次处理，直接计算出每一帧页面应该呈现的最终状态，而这个状态是以 js 变量 的形式存在于内存中的。所以通过 virtualdom 既能够保证用户看到的每一帧都响应了数据的变化，又能节约性能保证浏览器不出现卡顿。\n\nreact virtualdom 相对于直接操作原生 dom 最大的优势在于 batching(批处理) 和 diff。\ndiff: 为了尽量减少不必要的 dom 操作， virtual dom 在执行 dom 的更新操作后，不会直接操作真实 dom，而是根据当前应用状态的数据，生成一个全新的 virtual dom，然后跟上一次生成 的 virtual dom 去 diff，得到一个 patch（补丁），这样就可以找到变化了的 dom 节点，只对变化的部分进行 dom 更新，而不是重新渲染整个 dom 树，这个过程就是 diff。\n\nbatching： 还有所谓的 batching 就是将多次比较的结果合并后一次性更新到页面，从而有效地减少页面渲染的次数。\n\n\n# react virtual dom 是如何实现的\n\n * reactelement：reactelement 即 react 元素，描述了我们在屏幕上所看到的内容，它是构成 react 应用的最小单元\n\n * fiber：fiber 可以理解为是一个执行单元，也可以理解为是一种数据结构。\n\n\n# virtual dom 的工作流程\n\n * 初始化渲染，将 jsx 代码编译成 reactelement 对象，它描述当前组件内容的数据结构。\n\n * 根据生产的 reactelement 对象构建 fiber tree，它包含了组件 schedule、reconciler、render 所需的相关信息。\n\n * 一旦有状态变化，触发更新，scheduler 在接收到更新后，根据任务的优先级高低来进行调度，决定要执行的任务是什么。\n\n * 接下来的工作交给 reconciler 处理，reconciler 通过对比找出变化了的 virtual dom ，为其打上代表增/删/更新的标记，当所有组件都完成 reconciler 的工作，才会统一交给 renderer。\n\n * renderer 根据 reconciler 为 virtual dom 打的标记，同步执行对应的 dom 更新操作。",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "EventLoop",
+      "frontmatter": {
+        "title": "EventLoop",
+        "date": "2021-10-27T22:19:47.000Z",
+        "permalink": "/pages/7b89ea/",
+        "categories": [
+          "note",
+          "Browser"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/Browser/EventLoop.html",
+      "relativePath": "note/Browser/EventLoop.md",
+      "key": "v-c45e9e0c",
+      "path": "/pages/7b89ea/",
       "lastUpdated": "10/28/2021, 7:15:37 PM",
       "headersStr": null,
-      "content": "React Hooks",
-      "normalizedContent": "react hooks",
+      "content": "Event-Loop",
+      "normalizedContent": "event-loop",
       "charsets": {}
+    },
+    {
+      "title": "V8",
+      "frontmatter": {
+        "title": "V8",
+        "date": "2021-10-27T22:19:26.000Z",
+        "permalink": "/pages/f6701f/",
+        "categories": [
+          "note",
+          "Browser"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/Browser/V8.html",
+      "relativePath": "note/Browser/V8.md",
+      "key": "v-a71486fc",
+      "path": "/pages/f6701f/",
+      "lastUpdated": "10/28/2021, 7:15:37 PM",
+      "headersStr": null,
+      "content": "V8",
+      "normalizedContent": "v8",
+      "charsets": {}
+    },
+    {
+      "title": "PlantUML",
+      "frontmatter": {
+        "title": "PlantUML",
+        "date": "2021-09-07T20:53:43.000Z",
+        "permalink": "/pages/plantUml/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/Daily/PlantUML.html",
+      "relativePath": "note/Daily/PlantUML.md",
+      "key": "v-77a4e37c",
+      "path": "/pages/plantUml/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vuepress 增加 PlantUML 支持",
+          "slug": "vuepress-zeng-jia-plantuml-zhi-chi",
+          "normalizedTitle": "vuepress 增加 plantuml 支持",
+          "charIndex": 2
+        }
+      ],
+      "lastUpdated": "9/7/2021, 10:55:52 PM",
+      "headersStr": "Vuepress 增加 PlantUML 支持",
+      "content": "# Vuepress 增加 PlantUML 支持\n\n# 插件安装\n\nyarn add -D markdown-it-plantuml\n\n\n编辑Vuepress的配置文件.config.js，增加插件的配置：\n\nmodule.exports = {\n  ...\n  extendMarkdown: md => {\n    md.set({ breaks: true })\n    md.use(require('markdown-it-plantuml'))\n  },\n  ...\n}\n\n\n# 测试\n\n@startmindmap\n* root node\n\t* some first level node\n\t\t* second level node\n\t\t* another second level node\n\t* another first level node\n@endmindmap\n\n\n参考：https://plantuml.com/zh/mindmap-diagram",
+      "normalizedContent": "# vuepress 增加 plantuml 支持\n\n# 插件安装\n\nyarn add -d markdown-it-plantuml\n\n\n编辑vuepress的配置文件.config.js，增加插件的配置：\n\nmodule.exports = {\n  ...\n  extendmarkdown: md => {\n    md.set({ breaks: true })\n    md.use(require('markdown-it-plantuml'))\n  },\n  ...\n}\n\n\n# 测试\n\n@startmindmap\n* root node\n\t* some first level node\n\t\t* second level node\n\t\t* another second level node\n\t* another first level node\n@endmindmap\n\n\n参考：https://plantuml.com/zh/mindmap-diagram",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "🚗 JavaScript基础篇",
+      "frontmatter": {
+        "title": "🚗 JavaScript基础篇",
+        "date": "2021-09-07T20:02:54.000Z",
+        "permalink": "/pages/javascript/",
+        "categories": [
+          "note"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/JavaScript/JavaScript%E5%9F%BA%E7%A1%80.html",
+      "relativePath": "note/JavaScript/JavaScript基础.md",
+      "key": "v-66f614ac",
+      "path": "/pages/javascript/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "👨🏻‍💻 导图",
+          "slug": "dao-tu",
+          "normalizedTitle": "👨🏻‍💻 导图",
+          "charIndex": 2
+        },
+        {
+          "level": 2,
+          "title": "📒 整理",
+          "slug": "zheng-li",
+          "normalizedTitle": "📒 整理",
+          "charIndex": 17
+        }
+      ],
+      "lastUpdated": "10/28/2021, 7:15:37 PM",
+      "headersStr": "👨🏻‍💻 导图 📒 整理",
+      "content": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * JavaScript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 作用域链\n\n * JavaScript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/Blog/issues/6\n\n# 闭包\n\n * JavaScript 深入之闭包——冴羽 https://github.com/mqyqingfeng/Blog/issues/9\n\n# this\n\n * JavaScript深入之从ECMAScript规范解读this——冴羽 https://github.com/mqyqingfeng/Blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * JavaScript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/Blog/issues/12\n\n# 原型\n\n * JavaScript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# Promise\n\n * 这一次，彻底弄懂 Promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# Event Loop\n\n * 详解JavaScript中的Event Loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
+      "normalizedContent": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * javascript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 作用域链\n\n * javascript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/blog/issues/6\n\n# 闭包\n\n * javascript 深入之闭包——冴羽 https://github.com/mqyqingfeng/blog/issues/9\n\n# this\n\n * javascript深入之从ecmascript规范解读this——冴羽 https://github.com/mqyqingfeng/blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * javascript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/blog/issues/12\n\n# 原型\n\n * javascript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# promise\n\n * 这一次，彻底弄懂 promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# event loop\n\n * 详解javascript中的event loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "List",
+      "frontmatter": {
+        "title": "List",
+        "date": "2021-10-28T22:18:53.000Z",
+        "permalink": "/pages/f86881/",
+        "categories": [
+          "interview",
+          "Library"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/Library/List.html",
+      "relativePath": "interview/Library/List.md",
+      "key": "v-145c61a4",
+      "path": "/pages/f86881/",
+      "lastUpdated": "10/28/2021, 10:42:07 PM",
+      "headersStr": null,
+      "content": "# 阿里同学整理的面试题 有深度\n\n * https://juejin.cn/post/6987549240436195364\n * https://juejin.cn/post/6996815121855021087\n * https://juejin.cn/post/6844904093425598471\n\n# 不错的面试整理 2021年10月28日\n\n * https://juejin.cn/post/7016593221815910408\n * https://juejin.cn/post/7021173142890479630\n\n# TODO\n\n * https://juejin.cn/post/7013953652578582558\n * https://juejin.cn/post/7004638318843412493\n * https://cloud.tencent.com/developer/article/1856568",
+      "normalizedContent": "# 阿里同学整理的面试题 有深度\n\n * https://juejin.cn/post/6987549240436195364\n * https://juejin.cn/post/6996815121855021087\n * https://juejin.cn/post/6844904093425598471\n\n# 不错的面试整理 2021年10月28日\n\n * https://juejin.cn/post/7016593221815910408\n * https://juejin.cn/post/7021173142890479630\n\n# todo\n\n * https://juejin.cn/post/7013953652578582558\n * https://juejin.cn/post/7004638318843412493\n * https://cloud.tencent.com/developer/article/1856568",
+      "charsets": {
+        "cjk": true
+      }
     },
     {
       "title": "React Firber",
@@ -1610,6 +1919,31 @@ export const siteData = {
       "charsets": {
         "cjk": true
       }
+    },
+    {
+      "title": "React Hooks",
+      "frontmatter": {
+        "title": "React Hooks",
+        "date": "2021-09-17T22:39:03.000Z",
+        "permalink": "/pages/a29bb7/",
+        "categories": [
+          "note",
+          "MV*",
+          "React"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/note/MV*/React/ReactHooks.html",
+      "relativePath": "note/MV*/React/ReactHooks.md",
+      "key": "v-63397d7c",
+      "path": "/pages/a29bb7/",
+      "lastUpdated": "10/28/2021, 7:15:37 PM",
+      "headersStr": null,
+      "content": "React Hooks",
+      "normalizedContent": "react hooks",
+      "charsets": {}
     },
     {
       "title": "React Virtual DOM",
@@ -1967,45 +2301,54 @@ export const siteData = {
       }
     },
     {
-      "title": "🚗 JavaScript基础篇",
+      "title": "标签",
       "frontmatter": {
-        "title": "🚗 JavaScript基础篇",
-        "date": "2021-09-07T20:02:54.000Z",
-        "permalink": "/pages/javascript/",
-        "categories": [
-          "note"
-        ],
-        "tags": [
-          null
-        ]
+        "tagsPage": true,
+        "title": "标签",
+        "permalink": "/tags/",
+        "article": false
       },
-      "regularPath": "/note/JavaScript/JavaScript%E5%9F%BA%E7%A1%80.html",
-      "relativePath": "note/JavaScript/JavaScript基础.md",
-      "key": "v-66f614ac",
-      "path": "/pages/javascript/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "👨🏻‍💻 导图",
-          "slug": "dao-tu",
-          "normalizedTitle": "👨🏻‍💻 导图",
-          "charIndex": 2
-        },
-        {
-          "level": 2,
-          "title": "📒 整理",
-          "slug": "zheng-li",
-          "normalizedTitle": "📒 整理",
-          "charIndex": 17
-        }
-      ],
-      "lastUpdated": "10/28/2021, 7:15:37 PM",
-      "headersStr": "👨🏻‍💻 导图 📒 整理",
-      "content": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * JavaScript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 作用域链\n\n * JavaScript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/Blog/issues/6\n\n# 闭包\n\n * JavaScript 深入之闭包——冴羽 https://github.com/mqyqingfeng/Blog/issues/9\n\n# this\n\n * JavaScript深入之从ECMAScript规范解读this——冴羽 https://github.com/mqyqingfeng/Blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * JavaScript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/Blog/issues/12\n\n# 原型\n\n * JavaScript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# Promise\n\n * 这一次，彻底弄懂 Promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# Event Loop\n\n * 详解JavaScript中的Event Loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
-      "normalizedContent": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * javascript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 作用域链\n\n * javascript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/blog/issues/6\n\n# 闭包\n\n * javascript 深入之闭包——冴羽 https://github.com/mqyqingfeng/blog/issues/9\n\n# this\n\n * javascript深入之从ecmascript规范解读this——冴羽 https://github.com/mqyqingfeng/blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * javascript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/blog/issues/12\n\n# 原型\n\n * javascript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# promise\n\n * 这一次，彻底弄懂 promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# event loop\n\n * 详解javascript中的event loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
-      "charsets": {
-        "cjk": true
-      }
+      "regularPath": "/@pages/tagsPage.html",
+      "relativePath": "@pages/tagsPage.md",
+      "key": "v-2e8e39a2",
+      "path": "/tags/",
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "actionText": "→ 开始阅读 ←",
+        "actionLink": "/note/typescript.md",
+        "features": [
+          {
+            "title": "Ecosystem",
+            "details": "精通 VS Code、NodeJS、Webpack、Lottie 等软件与工具包的安装与卸载，配套设施也是必不可少的。"
+          },
+          {
+            "title": "JavaScript",
+            "details": "熟练掌握 React、TypeScript、Rax（H5）等单词的拼写，熟练使用ES6语法编程，追求代码高质量可维护性。"
+          },
+          {
+            "title": "Motto",
+            "details": "程序就像女人的裙子，越短才越好"
+          }
+        ],
+        "footer": "Powered By VuePress | 2021 ErDong"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-f3fec70e",
+      "path": "/",
+      "lastUpdated": "10/28/2021, 10:36:24 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
     }
   ],
   "themeConfig": {
@@ -2108,6 +2451,33 @@ export const siteData = {
       ],
       "/interview": [
         {
+          "title": "Html&CSS",
+          "children": [
+            "/interview/Html&CSS/Html.md",
+            "/interview/Html&CSS/CSS.md"
+          ],
+          "collapsable": false
+        },
+        {
+          "title": "JS",
+          "children": [
+            "/interview/JS/PromiseAsyncAwait.md",
+            "/interview/JS/Event Loop.md",
+            "/interview/JS/V8.md"
+          ],
+          "collapsable": false
+        },
+        {
+          "title": "React",
+          "children": [
+            "/interview/React/React Hook.md",
+            "/interview/React/ReactFiber.md",
+            "/interview/React/Virtual DOM.md",
+            "/interview/React/React Diff.md"
+          ],
+          "collapsable": false
+        },
+        {
           "title": "复习",
           "children": [
             "/interview/Integration.md",
@@ -2118,7 +2488,8 @@ export const siteData = {
         {
           "title": "题库",
           "children": [
-            "/interview/Library/Questionlibrary.md"
+            "/interview/Library/Questionlibrary.md",
+            "/interview/Library/List.md"
           ],
           "collapsable": false
         }
