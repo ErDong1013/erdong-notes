@@ -35,6 +35,74 @@ export const siteData = {
       "charsets": {}
     },
     {
+      "title": "分类",
+      "frontmatter": {
+        "categoriesPage": true,
+        "title": "分类",
+        "permalink": "/categories/",
+        "article": false
+      },
+      "regularPath": "/@pages/categoriesPage.html",
+      "relativePath": "@pages/categoriesPage.md",
+      "key": "v-0cebcc02",
+      "path": "/categories/",
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
+    },
+    {
+      "title": "标签",
+      "frontmatter": {
+        "tagsPage": true,
+        "title": "标签",
+        "permalink": "/tags/",
+        "article": false
+      },
+      "regularPath": "/@pages/tagsPage.html",
+      "relativePath": "@pages/tagsPage.md",
+      "key": "v-2e8e39a2",
+      "path": "/tags/",
+      "lastUpdated": "7/26/2021, 2:08:25 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "actionText": "→ 开始阅读 ←",
+        "actionLink": "/note/typescript.md",
+        "features": [
+          {
+            "title": "Ecosystem",
+            "details": "精通 VS Code、NodeJS、Webpack、Lottie 等软件与工具包的安装与卸载，配套设施也是必不可少的。"
+          },
+          {
+            "title": "JavaScript",
+            "details": "熟练掌握 React、TypeScript、Rax（H5）等单词的拼写，熟练使用ES6语法编程，追求代码高质量可维护性。"
+          },
+          {
+            "title": "Motto",
+            "details": "程序就像女人的裙子，越短才越好"
+          }
+        ],
+        "footer": "Powered By VuePress | 2021 ErDong"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-f3fec70e",
+      "path": "/",
+      "lastUpdated": "10/28/2021, 10:36:24 PM",
+      "headersStr": null,
+      "content": "",
+      "normalizedContent": "",
+      "charsets": {}
+    },
+    {
       "title": "关于我",
       "frontmatter": {
         "title": "关于我",
@@ -86,6 +154,7 @@ export const siteData = {
       "relativePath": "interview/Html&CSS/CSS.md",
       "key": "v-82cab74c",
       "path": "/pages/78a5f0/",
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
       "headersStr": null,
       "content": "CSS",
       "normalizedContent": "css",
@@ -109,10 +178,29 @@ export const siteData = {
       "relativePath": "interview/Html&CSS/Html.md",
       "key": "v-76145142",
       "path": "/pages/0d0056/",
-      "headersStr": null,
-      "content": "Html",
-      "normalizedContent": "html",
-      "charsets": {}
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.HTML5离线缓存原理",
+          "slug": "1.html5chi-xian-huan-cun-yuan-li",
+          "normalizedTitle": "1.html5离线缓存原理",
+          "charIndex": 9
+        },
+        {
+          "level": 2,
+          "title": "",
+          "slug": "",
+          "normalizedTitle": "",
+          "charIndex": 0
+        }
+      ],
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
+      "headersStr": "1.HTML5离线缓存原理 ",
+      "content": "Html\n\n\n# 1.HTML5离线缓存原理\n\n\n#",
+      "normalizedContent": "html\n\n\n# 1.html5离线缓存原理\n\n\n#",
+      "charsets": {
+        "cjk": true
+      }
     },
     {
       "title": "Integration",
@@ -212,29 +300,6 @@ export const siteData = {
       }
     },
     {
-      "title": "PromiseAsyncAwait",
-      "frontmatter": {
-        "title": "PromiseAsyncAwait",
-        "date": "2021-11-02T21:33:47.000Z",
-        "permalink": "/pages/12cb22/",
-        "categories": [
-          "interview",
-          "JS"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/interview/JS/PromiseAsyncAwait.html",
-      "relativePath": "interview/JS/PromiseAsyncAwait.md",
-      "key": "v-2076a518",
-      "path": "/pages/12cb22/",
-      "headersStr": null,
-      "content": "Promise/Async/Await",
-      "normalizedContent": "promise/async/await",
-      "charsets": {}
-    },
-    {
       "title": "Event Loop",
       "frontmatter": {
         "title": "Event Loop",
@@ -252,9 +317,66 @@ export const siteData = {
       "relativePath": "interview/JS/Event Loop.md",
       "key": "v-a931c9c2",
       "path": "/pages/3a4a94/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "说一下Event Loop",
+          "slug": "shuo-yi-xia-event-loop",
+          "normalizedTitle": "说一下event loop",
+          "charIndex": 15
+        },
+        {
+          "level": 2,
+          "title": "微任务",
+          "slug": "wei-ren-wu",
+          "normalizedTitle": "微任务",
+          "charIndex": 284
+        },
+        {
+          "level": 2,
+          "title": "宏任务",
+          "slug": "hong-ren-wu",
+          "normalizedTitle": "宏任务",
+          "charIndex": 362
+        },
+        {
+          "level": 2,
+          "title": "Event loop 顺序",
+          "slug": "event-loop-shun-xu",
+          "normalizedTitle": "event loop 顺序",
+          "charIndex": 449
+        }
+      ],
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
+      "headersStr": "说一下Event Loop 微任务 宏任务 Event loop 顺序",
+      "content": "Event Loop\n\n\n# 说一下Event Loop\n\njs 是单线程的，主要的任务是处理用户的交互，而用户的交互无非就是响应 DOM 的增删改，使用事件队列的形式，一次事件循环只处理一个事件响应，使得脚本执行相对连续，所以有了事件队列，用来储存待执行的事件\n\nJS 在执行的过程中会产生执行环境，这些执行环境会被顺序的加入到执行栈中。如果遇到异步的代码，会被挂起并加入到 Task（有多种 task） 队列中。一旦执行栈为空，Event Loop 就会从 Task 队列中拿出需要执行的代码并放入执行栈中执行，所以本质上来说 JS 中的异步还是同步行为\n\n\n# 微任务\n\n * process.nextTick\n * promise\n * Object.observe\n * MutationObserver\n\n\n# 宏任务\n\n * script\n * setTimeout\n * setInterval\n * setImmediate\n * I/O\n * UI rendering\n\n\n# Event loop 顺序\n\n 1. 执行同步代码，这属于宏任务\n 2. 执行栈为空，查询是否有微任务需要执行\n 3. 执行所有微任务\n 4. 然后开始下一轮 Event loop，执行宏任务中的异步代码",
+      "normalizedContent": "event loop\n\n\n# 说一下event loop\n\njs 是单线程的，主要的任务是处理用户的交互，而用户的交互无非就是响应 dom 的增删改，使用事件队列的形式，一次事件循环只处理一个事件响应，使得脚本执行相对连续，所以有了事件队列，用来储存待执行的事件\n\njs 在执行的过程中会产生执行环境，这些执行环境会被顺序的加入到执行栈中。如果遇到异步的代码，会被挂起并加入到 task（有多种 task） 队列中。一旦执行栈为空，event loop 就会从 task 队列中拿出需要执行的代码并放入执行栈中执行，所以本质上来说 js 中的异步还是同步行为\n\n\n# 微任务\n\n * process.nexttick\n * promise\n * object.observe\n * mutationobserver\n\n\n# 宏任务\n\n * script\n * settimeout\n * setinterval\n * setimmediate\n * i/o\n * ui rendering\n\n\n# event loop 顺序\n\n 1. 执行同步代码，这属于宏任务\n 2. 执行栈为空，查询是否有微任务需要执行\n 3. 执行所有微任务\n 4. 然后开始下一轮 event loop，执行宏任务中的异步代码",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "PromiseAsyncAwait",
+      "frontmatter": {
+        "title": "PromiseAsyncAwait",
+        "date": "2021-11-02T21:33:47.000Z",
+        "permalink": "/pages/12cb22/",
+        "categories": [
+          "interview",
+          "JS"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/JS/PromiseAsyncAwait.html",
+      "relativePath": "interview/JS/PromiseAsyncAwait.md",
+      "key": "v-2076a518",
+      "path": "/pages/12cb22/",
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
       "headersStr": null,
-      "content": "Event Loop",
-      "normalizedContent": "event loop",
+      "content": "Promise/Async/Await",
+      "normalizedContent": "promise/async/await",
       "charsets": {}
     },
     {
@@ -275,10 +397,147 @@ export const siteData = {
       "relativePath": "interview/JS/V8.md",
       "key": "v-9d1af5fc",
       "path": "/pages/49eb26/",
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
       "headersStr": null,
       "content": "V8",
       "normalizedContent": "v8",
       "charsets": {}
+    },
+    {
+      "title": "List",
+      "frontmatter": {
+        "title": "List",
+        "date": "2021-10-28T22:18:53.000Z",
+        "permalink": "/pages/f86881/",
+        "categories": [
+          "interview",
+          "Library"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/Library/List.html",
+      "relativePath": "interview/Library/List.md",
+      "key": "v-145c61a4",
+      "path": "/pages/f86881/",
+      "lastUpdated": "10/28/2021, 10:42:07 PM",
+      "headersStr": null,
+      "content": "# 阿里同学整理的面试题 有深度\n\n * https://juejin.cn/post/6987549240436195364\n * https://juejin.cn/post/6996815121855021087\n * https://juejin.cn/post/6844904093425598471\n\n# 不错的面试整理 2021年10月28日\n\n * https://juejin.cn/post/7016593221815910408\n * https://juejin.cn/post/7021173142890479630\n\n# TODO\n\n * https://juejin.cn/post/7013953652578582558\n * https://juejin.cn/post/7004638318843412493\n * https://cloud.tencent.com/developer/article/1856568",
+      "normalizedContent": "# 阿里同学整理的面试题 有深度\n\n * https://juejin.cn/post/6987549240436195364\n * https://juejin.cn/post/6996815121855021087\n * https://juejin.cn/post/6844904093425598471\n\n# 不错的面试整理 2021年10月28日\n\n * https://juejin.cn/post/7016593221815910408\n * https://juejin.cn/post/7021173142890479630\n\n# todo\n\n * https://juejin.cn/post/7013953652578582558\n * https://juejin.cn/post/7004638318843412493\n * https://cloud.tencent.com/developer/article/1856568",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "Question library",
+      "frontmatter": {
+        "title": "Question library",
+        "date": "2021-10-28T21:54:19.000Z",
+        "permalink": "/pages/50ebbe/",
+        "categories": [
+          "interview"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/Library/Questionlibrary.html",
+      "relativePath": "interview/Library/Questionlibrary.md",
+      "key": "v-16de60e2",
+      "path": "/pages/50ebbe/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "有赞",
+          "slug": "you-zan",
+          "normalizedTitle": "有赞",
+          "charIndex": 7
+        },
+        {
+          "level": 3,
+          "title": "一面电话 (1h)",
+          "slug": "yi-mian-dian-hua-1h",
+          "normalizedTitle": "一面电话 (1h)",
+          "charIndex": 61
+        },
+        {
+          "level": 3,
+          "title": "一面视频 coding（45mins）",
+          "slug": "yi-mian-shi-pin-coding-45mins",
+          "normalizedTitle": "一面视频 coding（45mins）",
+          "charIndex": 822
+        },
+        {
+          "level": 3,
+          "title": "二面现场（ 1h20mins）",
+          "slug": "er-mian-xian-chang-1h20mins",
+          "normalizedTitle": "二面现场（ 1h20mins）",
+          "charIndex": 2341
+        },
+        {
+          "level": 3,
+          "title": "三面（50mins）",
+          "slug": "san-mian-50mins",
+          "normalizedTitle": "三面（50mins）",
+          "charIndex": 3169
+        },
+        {
+          "level": 3,
+          "title": "四面（HR 40mins）",
+          "slug": "si-mian-hr-40mins",
+          "normalizedTitle": "四面（hr 40mins）",
+          "charIndex": 3936
+        }
+      ],
+      "lastUpdated": "10/28/2021, 10:36:24 PM",
+      "headersStr": "有赞 一面电话 (1h) 一面视频 coding（45mins） 二面现场（ 1h20mins） 三面（50mins） 四面（HR 40mins）",
+      "content": "题库\n\n\n# 有赞\n\n> https://juejin.cn/user/3386151545609837 @俊劫\n\n\n# 一面电话 (1h)\n\n 1.  讲讲最近写的项目\n 2.  讲讲自己写的打印插件，vue-iframe-print，和其他打印方式对比。分页问题，默认背景图如何显示（知道有 css，但是记不住是那个），自定义样式等等\n 3.  权限系统（RBAC），具体实现，接口权限校验。通用接口如何校验，可复用的业务接口如何校验\n 4.  讲一讲 OAuth\n 5.  微前端（项目在用） 为什么要用微前端，和 iframe 对比了一下。\n 6.  实现一个水平垂直居中？flex:1 含义? 一道场景题\n 7.  margin 塌陷？有没有遇到过其他 css 问题？\n 8.  vue 响应式原理\n 9.  组件 data 为什么是一个函数？\n 10. vue Object.defineProperty 缺陷？数组 7 个方法怎么重写的？\n 11. dep 依赖搜集与 watcher 派发更新流程？dep 是发布者还是订阅者？怎么知道每一个 watcher 要通知哪一个 dep？\n 12. keep-alive 原理？\n 13. 讲一讲虚拟 dom\n 14. 讲一讲 vue diff 算法\n 15. 为什么使用 key 能提升 diff 性能\n 16. this 指向的理解？声明时和运行时指向？箭头函数指向？修改 this 指向？\n 17. call,apply,bind 区别？讲一下实现一个 bind 的思路\n 18. 函数柯里化概念，常用场景？\n 19. 关于缓存的一些东西？如何提高缓存命中率？\n 20. 详细描述一下输入 URL 到页面打开的过程，尽量详细些？\n 21. 数组和链表在计算机中存储的方式？计算机中增加一个数组元素的方式？\n 22. 你有什么想问我的？\n\n然后约了二面，视频 coding\n\n\n# 一面视频 coding（45mins）\n\n/**\n * 1. 实现一个函数，判断两个变量值是否相等\n *\n * 注意\n * - 数据类型不限于示例，尽可能考虑边界\n * - function 引用相等即可\n */\nconst foo1 = {\n  a: 1,\n  b: '1',\n  c: NaN,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nconst foo2 = {\n  a: 1,\n  b: '1',\n  c: NaN,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nfunction isEqual(target1, target2) {}\nconsole.log(isEqual(foo1, foo2), 'isEqual');\n\n/**\n * 2. 实现 getValue 函数来获取path对应的值\n */\nvar object = { a: [{ b: { c: 3 } }] }; // path: 'a[0].b.c'\nvar array = [{ a: { b: [1] } }]; // path: '[0].a.b[0]'\n\nfunction getValue(target, valuePath, defaultValue) {}\n\nconsole.log(getValue(object, 'a[0].b.c', 0)); // 输出3\nconsole.log(getValue(array, '[0].a.b[0]', 12)); // 输出 1\nconsole.log(getValue(array, '[0].a.b[0].c', 12)); // 输出 12\n\n/**\n * 问题 3\n * 将一天24小时按每半小划分成48段，我们用一个位图表示选中的时间区间，例如`110000000000000000000000000000000000000000000000`，\n * 表示第一个半小时和第二个半小时被选中了，其余时间段都没有被选中，也就是对应00:00~01:00这个时间区间。一个位图中可能有多个不连续的\n * 时间区间被选中，例如`110010000000000000000000000000000000000000000000`，表示00:00-1:00和02:00-02:30这两个时间区间被选中了。\n *\n * 要求：写一个函数timeBitmapToRanges，将上述规则描述的时间位图转换成一个选中时间区间的数组。\n * 示例输入：`\"110010000000000000000000000000000000000000000000\"`\n * 示例输出：`[\"00:00~01:00\", \"02:00~02:30\"]`\n */\nfunction timeBitmapToRanges(str) {}\n\nconsole.log(\n  timeBitmapToRanges(\n    '110010000000000000000000000000000000000000000000',\n  ),\n);\nconsole.log(\n  timeBitmapToRanges(\n    '110011000000110000000000000000000000000000001111',\n  ),\n);\n复制代码;\n\n\n\n# 二面现场（ 1h20mins）\n\n 1.  大数相加: 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。leetcode 415. 字符串相加\n 2.  写一个事件 Event 类，实现 on，off，emit，once 功能，同时 on 要支持 debounce。eg：on('click',function(){},500)\n 3.  介绍下让自己成长最大的项目？\n 4.  你觉得现在遇到的最难的问题是什么？\n 5.  为什么要做微前端？\n 6.  回到写的第二道题，说到了 setTimeout 设定的时间，函数能准确按时执行吗？setTimeout 怎么能做到准时？\n 7.  js 是单线程还是多线程？为什么？支不支持多线程？支持多线程的方式有哪些？node 端多线程知不知道？进程和线程的区别？进程内存计算机如何分配？线程资源如何分配？\n 8.  跨域的解决方案\n 9.  如何实现移动端 1px 边框\n 10. 什么是 html 可替换元素？\n 11. 一个图片对应多个 cdn 地址，如果第一个地址不能用了，需要换成下一个，怎么做？\n 12. vue 生命周期详细描述下？改变组件 data 里面的东西会触发什么生命周期？\n 13. vue2.x 响应式原理？Object.defineProperty 的一些参数？\n 14. for in 可以遍历出来那些东西？for in 可以遍历数组吗？可以遍历出那些东西？\n 15. vue 组件 scoped 作用？实现原理？其他的 css 隔离方案？\n 16. 怎么用 ES5 去实现 ES6 类的继承？\n 17. 你觉得 eslint 有哪些规则比较有用？\n 18. http1.1 和 http2 的区别？http1.1 中做了哪些项目优化？http1.1 中用的哪些优化手段，会在 http2 中失效？http2.0 还存在什么问题？http3 了解吗？\n\n\n# 三面（50mins）\n\n 1.  自我介绍\n 2.  说一说最近一年做的最好的业务？你觉得你做的最出彩的地方是哪里？\n 3.  处方打印，不同格式如何设置？\n 4.  离线缓存 存在什么问题？\n 5.  讲一讲权限系统？除了 RBAC，还了解哪些权限设计吗？RBAC 的优点？\n 6.  给你一个需求：除了预设角色，某个人可以单独做其他的事情，怎么办？\n 7.  讲一讲你们做的微前端？ 父应用如何加载多个子应用？ 路由整合是如何做的？\n 8.  讲一讲局部打印的实现？\n 9.  api-proxy 是如何实现的？业务越来越复杂，nginx 是不是每次都要改？怎么解决？怎么做一个全局代理？在本地如何调试线上代码？\n 10. 讲一下项目中定制化需求如何处理？更优雅的方式？面试官举了一个有赞的场景例子：关于不同商家后台，某个商家多了一个菜单？某个商家在通用页面 A 中有特殊的两个按钮？如何处理这种个性化的问题？深入一点，如何把个性化需求开放给其他商家自己开发？\n 11. 如果让你写一个 single-spa，你怎么做？两个子应用的 app.js 如何切换？js、css 如何隔离？作为攻击者，如何突破用 proxy 实现的一个沙箱环境，或者说子应用如何才能访问父应用的 window 对象？\n 12. 讲一讲项目中的全键盘操作？keyup 监听怎么做的？addEventListener 第三个参数?如何阻止冒泡事件？怎么阻止部分按键？\n 13. 讲一讲 oAuth 2.0\n 14. 你为什么想出来看机会？对下一份工作期望是怎么样的？你现在是怎么学习的？\n 15. 你有什么想问的？\n\n接着就让我等一下，估计是去讨论去了，自己也知道，接下来如果有 hr 来，就 80%过了。找个理由说 hr 不在的，基本就凉了。。。\n\n\n# 四面（HR 40mins）\n\n等待的时间是非常煎熬的~ 一会（忘记了是多久，差不多 10 分钟？），HR 小姐姐来了，换了个位置，开始面对面谈。\n\n 1. 刚刚聊下来感觉怎么样？\n 2. 对自己 1-3 年的规划\n 3. 前端方面有没有犯过比较大的故障？绩效好的情况下为什么要考虑机会？\n 4. 你觉得自己还能在现在的业务中成长多少？或者说你还能为现在的业务做什么？\n 5. 平时自己的学习方式？\n 6. 你希望自己 3 年以后能达到什么水平？你觉得自己和 P6 差距在哪？\n 7. 平时的工作节奏？\n 8. 你对加入有赞的一些期待是什么？薪资是怎么样的期待？有没有其他 offer？\n 9. 你有什么想问的？",
+      "normalizedContent": "题库\n\n\n# 有赞\n\n> https://juejin.cn/user/3386151545609837 @俊劫\n\n\n# 一面电话 (1h)\n\n 1.  讲讲最近写的项目\n 2.  讲讲自己写的打印插件，vue-iframe-print，和其他打印方式对比。分页问题，默认背景图如何显示（知道有 css，但是记不住是那个），自定义样式等等\n 3.  权限系统（rbac），具体实现，接口权限校验。通用接口如何校验，可复用的业务接口如何校验\n 4.  讲一讲 oauth\n 5.  微前端（项目在用） 为什么要用微前端，和 iframe 对比了一下。\n 6.  实现一个水平垂直居中？flex:1 含义? 一道场景题\n 7.  margin 塌陷？有没有遇到过其他 css 问题？\n 8.  vue 响应式原理\n 9.  组件 data 为什么是一个函数？\n 10. vue object.defineproperty 缺陷？数组 7 个方法怎么重写的？\n 11. dep 依赖搜集与 watcher 派发更新流程？dep 是发布者还是订阅者？怎么知道每一个 watcher 要通知哪一个 dep？\n 12. keep-alive 原理？\n 13. 讲一讲虚拟 dom\n 14. 讲一讲 vue diff 算法\n 15. 为什么使用 key 能提升 diff 性能\n 16. this 指向的理解？声明时和运行时指向？箭头函数指向？修改 this 指向？\n 17. call,apply,bind 区别？讲一下实现一个 bind 的思路\n 18. 函数柯里化概念，常用场景？\n 19. 关于缓存的一些东西？如何提高缓存命中率？\n 20. 详细描述一下输入 url 到页面打开的过程，尽量详细些？\n 21. 数组和链表在计算机中存储的方式？计算机中增加一个数组元素的方式？\n 22. 你有什么想问我的？\n\n然后约了二面，视频 coding\n\n\n# 一面视频 coding（45mins）\n\n/**\n * 1. 实现一个函数，判断两个变量值是否相等\n *\n * 注意\n * - 数据类型不限于示例，尽可能考虑边界\n * - function 引用相等即可\n */\nconst foo1 = {\n  a: 1,\n  b: '1',\n  c: nan,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nconst foo2 = {\n  a: 1,\n  b: '1',\n  c: nan,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nfunction isequal(target1, target2) {}\nconsole.log(isequal(foo1, foo2), 'isequal');\n\n/**\n * 2. 实现 getvalue 函数来获取path对应的值\n */\nvar object = { a: [{ b: { c: 3 } }] }; // path: 'a[0].b.c'\nvar array = [{ a: { b: [1] } }]; // path: '[0].a.b[0]'\n\nfunction getvalue(target, valuepath, defaultvalue) {}\n\nconsole.log(getvalue(object, 'a[0].b.c', 0)); // 输出3\nconsole.log(getvalue(array, '[0].a.b[0]', 12)); // 输出 1\nconsole.log(getvalue(array, '[0].a.b[0].c', 12)); // 输出 12\n\n/**\n * 问题 3\n * 将一天24小时按每半小划分成48段，我们用一个位图表示选中的时间区间，例如`110000000000000000000000000000000000000000000000`，\n * 表示第一个半小时和第二个半小时被选中了，其余时间段都没有被选中，也就是对应00:00~01:00这个时间区间。一个位图中可能有多个不连续的\n * 时间区间被选中，例如`110010000000000000000000000000000000000000000000`，表示00:00-1:00和02:00-02:30这两个时间区间被选中了。\n *\n * 要求：写一个函数timebitmaptoranges，将上述规则描述的时间位图转换成一个选中时间区间的数组。\n * 示例输入：`\"110010000000000000000000000000000000000000000000\"`\n * 示例输出：`[\"00:00~01:00\", \"02:00~02:30\"]`\n */\nfunction timebitmaptoranges(str) {}\n\nconsole.log(\n  timebitmaptoranges(\n    '110010000000000000000000000000000000000000000000',\n  ),\n);\nconsole.log(\n  timebitmaptoranges(\n    '110011000000110000000000000000000000000000001111',\n  ),\n);\n复制代码;\n\n\n\n# 二面现场（ 1h20mins）\n\n 1.  大数相加: 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。leetcode 415. 字符串相加\n 2.  写一个事件 event 类，实现 on，off，emit，once 功能，同时 on 要支持 debounce。eg：on('click',function(){},500)\n 3.  介绍下让自己成长最大的项目？\n 4.  你觉得现在遇到的最难的问题是什么？\n 5.  为什么要做微前端？\n 6.  回到写的第二道题，说到了 settimeout 设定的时间，函数能准确按时执行吗？settimeout 怎么能做到准时？\n 7.  js 是单线程还是多线程？为什么？支不支持多线程？支持多线程的方式有哪些？node 端多线程知不知道？进程和线程的区别？进程内存计算机如何分配？线程资源如何分配？\n 8.  跨域的解决方案\n 9.  如何实现移动端 1px 边框\n 10. 什么是 html 可替换元素？\n 11. 一个图片对应多个 cdn 地址，如果第一个地址不能用了，需要换成下一个，怎么做？\n 12. vue 生命周期详细描述下？改变组件 data 里面的东西会触发什么生命周期？\n 13. vue2.x 响应式原理？object.defineproperty 的一些参数？\n 14. for in 可以遍历出来那些东西？for in 可以遍历数组吗？可以遍历出那些东西？\n 15. vue 组件 scoped 作用？实现原理？其他的 css 隔离方案？\n 16. 怎么用 es5 去实现 es6 类的继承？\n 17. 你觉得 eslint 有哪些规则比较有用？\n 18. http1.1 和 http2 的区别？http1.1 中做了哪些项目优化？http1.1 中用的哪些优化手段，会在 http2 中失效？http2.0 还存在什么问题？http3 了解吗？\n\n\n# 三面（50mins）\n\n 1.  自我介绍\n 2.  说一说最近一年做的最好的业务？你觉得你做的最出彩的地方是哪里？\n 3.  处方打印，不同格式如何设置？\n 4.  离线缓存 存在什么问题？\n 5.  讲一讲权限系统？除了 rbac，还了解哪些权限设计吗？rbac 的优点？\n 6.  给你一个需求：除了预设角色，某个人可以单独做其他的事情，怎么办？\n 7.  讲一讲你们做的微前端？ 父应用如何加载多个子应用？ 路由整合是如何做的？\n 8.  讲一讲局部打印的实现？\n 9.  api-proxy 是如何实现的？业务越来越复杂，nginx 是不是每次都要改？怎么解决？怎么做一个全局代理？在本地如何调试线上代码？\n 10. 讲一下项目中定制化需求如何处理？更优雅的方式？面试官举了一个有赞的场景例子：关于不同商家后台，某个商家多了一个菜单？某个商家在通用页面 a 中有特殊的两个按钮？如何处理这种个性化的问题？深入一点，如何把个性化需求开放给其他商家自己开发？\n 11. 如果让你写一个 single-spa，你怎么做？两个子应用的 app.js 如何切换？js、css 如何隔离？作为攻击者，如何突破用 proxy 实现的一个沙箱环境，或者说子应用如何才能访问父应用的 window 对象？\n 12. 讲一讲项目中的全键盘操作？keyup 监听怎么做的？addeventlistener 第三个参数?如何阻止冒泡事件？怎么阻止部分按键？\n 13. 讲一讲 oauth 2.0\n 14. 你为什么想出来看机会？对下一份工作期望是怎么样的？你现在是怎么学习的？\n 15. 你有什么想问的？\n\n接着就让我等一下，估计是去讨论去了，自己也知道，接下来如果有 hr 来，就 80%过了。找个理由说 hr 不在的，基本就凉了。。。\n\n\n# 四面（hr 40mins）\n\n等待的时间是非常煎熬的~ 一会（忘记了是多久，差不多 10 分钟？），hr 小姐姐来了，换了个位置，开始面对面谈。\n\n 1. 刚刚聊下来感觉怎么样？\n 2. 对自己 1-3 年的规划\n 3. 前端方面有没有犯过比较大的故障？绩效好的情况下为什么要考虑机会？\n 4. 你觉得自己还能在现在的业务中成长多少？或者说你还能为现在的业务做什么？\n 5. 平时自己的学习方式？\n 6. 你希望自己 3 年以后能达到什么水平？你觉得自己和 p6 差距在哪？\n 7. 平时的工作节奏？\n 8. 你对加入有赞的一些期待是什么？薪资是怎么样的期待？有没有其他 offer？\n 9. 你有什么想问的？",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "React Diff",
+      "frontmatter": {
+        "title": "React Diff",
+        "date": "2021-11-02T21:09:23.000Z",
+        "permalink": "/pages/3ecb42/",
+        "categories": [
+          "interview"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/React/React%20Diff.html",
+      "relativePath": "interview/React/React Diff.md",
+      "key": "v-6c1df683",
+      "path": "/pages/3ecb42/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是Diff",
+          "slug": "shi-me-shi-diff",
+          "normalizedTitle": "什么是diff",
+          "charIndex": 15
+        },
+        {
+          "level": 2,
+          "title": "Diff 策略",
+          "slug": "diff-ce-lue",
+          "normalizedTitle": "diff 策略",
+          "charIndex": 231
+        }
+      ],
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
+      "headersStr": "什么是Diff Diff 策略",
+      "content": "React Diff\n\n\n# 什么是Diff\n\n在调用 React 的 render() 方法，会创建一棵由 React 元素组成的树。更新时，相同的 render() 方法会返回一棵不同的树。React 需要基于这两棵树之间的差别来进行比较，这个比较的过程就是俗称的 diff 算法。\n\nDiff 算法的本质就是对比 current Fiber（页面中） 和 ReactElement 对象，生成 workInProgress Fiber（内存中）。\n\n\n# Diff 策略\n\nReact 文档中提到，即使在最前沿的算法中，将前后两棵树完全比对的算法的复杂程度为 O(n 3 )，其中 n 是树中元素的数量。如果在 React 中使用了该算法，那么展示 1000 个元素所需要执行的计算量将在十亿的量级范围。\n\n * 只对同级元素进行 Diff，如果某一个节点在一次更新中跨域了层级，React 不会复用该节点，而是重新创建生成新的节点。\n * 两个不同类型的元素会产生出不同的树，如果元素由 div 变为 p，React 会销毁 div 及其子孙节节点，并新建 p 及其子孙节点。\n * 开发者可以通过 key prop 来暗示哪些子元素在不同的渲染下能保持稳定；",
+      "normalizedContent": "react diff\n\n\n# 什么是diff\n\n在调用 react 的 render() 方法，会创建一棵由 react 元素组成的树。更新时，相同的 render() 方法会返回一棵不同的树。react 需要基于这两棵树之间的差别来进行比较，这个比较的过程就是俗称的 diff 算法。\n\ndiff 算法的本质就是对比 current fiber（页面中） 和 reactelement 对象，生成 workinprogress fiber（内存中）。\n\n\n# diff 策略\n\nreact 文档中提到，即使在最前沿的算法中，将前后两棵树完全比对的算法的复杂程度为 o(n 3 )，其中 n 是树中元素的数量。如果在 react 中使用了该算法，那么展示 1000 个元素所需要执行的计算量将在十亿的量级范围。\n\n * 只对同级元素进行 diff，如果某一个节点在一次更新中跨域了层级，react 不会复用该节点，而是重新创建生成新的节点。\n * 两个不同类型的元素会产生出不同的树，如果元素由 div 变为 p，react 会销毁 div 及其子孙节节点，并新建 p 及其子孙节点。\n * 开发者可以通过 key prop 来暗示哪些子元素在不同的渲染下能保持稳定；",
+      "charsets": {
+        "cjk": true
+      }
     },
     {
       "title": "JavaScript Interview",
@@ -1422,133 +1681,6 @@ export const siteData = {
       }
     },
     {
-      "title": "分类",
-      "frontmatter": {
-        "categoriesPage": true,
-        "title": "分类",
-        "permalink": "/categories/",
-        "article": false
-      },
-      "regularPath": "/@pages/categoriesPage.html",
-      "relativePath": "@pages/categoriesPage.md",
-      "key": "v-0cebcc02",
-      "path": "/categories/",
-      "lastUpdated": "7/26/2021, 2:08:25 PM",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
-    },
-    {
-      "title": "Question library",
-      "frontmatter": {
-        "title": "Question library",
-        "date": "2021-10-28T21:54:19.000Z",
-        "permalink": "/pages/50ebbe/",
-        "categories": [
-          "interview"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/interview/Library/Questionlibrary.html",
-      "relativePath": "interview/Library/Questionlibrary.md",
-      "key": "v-16de60e2",
-      "path": "/pages/50ebbe/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "有赞",
-          "slug": "you-zan",
-          "normalizedTitle": "有赞",
-          "charIndex": 7
-        },
-        {
-          "level": 3,
-          "title": "一面电话 (1h)",
-          "slug": "yi-mian-dian-hua-1h",
-          "normalizedTitle": "一面电话 (1h)",
-          "charIndex": 61
-        },
-        {
-          "level": 3,
-          "title": "一面视频 coding（45mins）",
-          "slug": "yi-mian-shi-pin-coding-45mins",
-          "normalizedTitle": "一面视频 coding（45mins）",
-          "charIndex": 822
-        },
-        {
-          "level": 3,
-          "title": "二面现场（ 1h20mins）",
-          "slug": "er-mian-xian-chang-1h20mins",
-          "normalizedTitle": "二面现场（ 1h20mins）",
-          "charIndex": 2341
-        },
-        {
-          "level": 3,
-          "title": "三面（50mins）",
-          "slug": "san-mian-50mins",
-          "normalizedTitle": "三面（50mins）",
-          "charIndex": 3169
-        },
-        {
-          "level": 3,
-          "title": "四面（HR 40mins）",
-          "slug": "si-mian-hr-40mins",
-          "normalizedTitle": "四面（hr 40mins）",
-          "charIndex": 3936
-        }
-      ],
-      "lastUpdated": "10/28/2021, 10:36:24 PM",
-      "headersStr": "有赞 一面电话 (1h) 一面视频 coding（45mins） 二面现场（ 1h20mins） 三面（50mins） 四面（HR 40mins）",
-      "content": "题库\n\n\n# 有赞\n\n> https://juejin.cn/user/3386151545609837 @俊劫\n\n\n# 一面电话 (1h)\n\n 1.  讲讲最近写的项目\n 2.  讲讲自己写的打印插件，vue-iframe-print，和其他打印方式对比。分页问题，默认背景图如何显示（知道有 css，但是记不住是那个），自定义样式等等\n 3.  权限系统（RBAC），具体实现，接口权限校验。通用接口如何校验，可复用的业务接口如何校验\n 4.  讲一讲 OAuth\n 5.  微前端（项目在用） 为什么要用微前端，和 iframe 对比了一下。\n 6.  实现一个水平垂直居中？flex:1 含义? 一道场景题\n 7.  margin 塌陷？有没有遇到过其他 css 问题？\n 8.  vue 响应式原理\n 9.  组件 data 为什么是一个函数？\n 10. vue Object.defineProperty 缺陷？数组 7 个方法怎么重写的？\n 11. dep 依赖搜集与 watcher 派发更新流程？dep 是发布者还是订阅者？怎么知道每一个 watcher 要通知哪一个 dep？\n 12. keep-alive 原理？\n 13. 讲一讲虚拟 dom\n 14. 讲一讲 vue diff 算法\n 15. 为什么使用 key 能提升 diff 性能\n 16. this 指向的理解？声明时和运行时指向？箭头函数指向？修改 this 指向？\n 17. call,apply,bind 区别？讲一下实现一个 bind 的思路\n 18. 函数柯里化概念，常用场景？\n 19. 关于缓存的一些东西？如何提高缓存命中率？\n 20. 详细描述一下输入 URL 到页面打开的过程，尽量详细些？\n 21. 数组和链表在计算机中存储的方式？计算机中增加一个数组元素的方式？\n 22. 你有什么想问我的？\n\n然后约了二面，视频 coding\n\n\n# 一面视频 coding（45mins）\n\n/**\n * 1. 实现一个函数，判断两个变量值是否相等\n *\n * 注意\n * - 数据类型不限于示例，尽可能考虑边界\n * - function 引用相等即可\n */\nconst foo1 = {\n  a: 1,\n  b: '1',\n  c: NaN,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nconst foo2 = {\n  a: 1,\n  b: '1',\n  c: NaN,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nfunction isEqual(target1, target2) {}\nconsole.log(isEqual(foo1, foo2), 'isEqual');\n\n/**\n * 2. 实现 getValue 函数来获取path对应的值\n */\nvar object = { a: [{ b: { c: 3 } }] }; // path: 'a[0].b.c'\nvar array = [{ a: { b: [1] } }]; // path: '[0].a.b[0]'\n\nfunction getValue(target, valuePath, defaultValue) {}\n\nconsole.log(getValue(object, 'a[0].b.c', 0)); // 输出3\nconsole.log(getValue(array, '[0].a.b[0]', 12)); // 输出 1\nconsole.log(getValue(array, '[0].a.b[0].c', 12)); // 输出 12\n\n/**\n * 问题 3\n * 将一天24小时按每半小划分成48段，我们用一个位图表示选中的时间区间，例如`110000000000000000000000000000000000000000000000`，\n * 表示第一个半小时和第二个半小时被选中了，其余时间段都没有被选中，也就是对应00:00~01:00这个时间区间。一个位图中可能有多个不连续的\n * 时间区间被选中，例如`110010000000000000000000000000000000000000000000`，表示00:00-1:00和02:00-02:30这两个时间区间被选中了。\n *\n * 要求：写一个函数timeBitmapToRanges，将上述规则描述的时间位图转换成一个选中时间区间的数组。\n * 示例输入：`\"110010000000000000000000000000000000000000000000\"`\n * 示例输出：`[\"00:00~01:00\", \"02:00~02:30\"]`\n */\nfunction timeBitmapToRanges(str) {}\n\nconsole.log(\n  timeBitmapToRanges(\n    '110010000000000000000000000000000000000000000000',\n  ),\n);\nconsole.log(\n  timeBitmapToRanges(\n    '110011000000110000000000000000000000000000001111',\n  ),\n);\n复制代码;\n\n\n\n# 二面现场（ 1h20mins）\n\n 1.  大数相加: 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。leetcode 415. 字符串相加\n 2.  写一个事件 Event 类，实现 on，off，emit，once 功能，同时 on 要支持 debounce。eg：on('click',function(){},500)\n 3.  介绍下让自己成长最大的项目？\n 4.  你觉得现在遇到的最难的问题是什么？\n 5.  为什么要做微前端？\n 6.  回到写的第二道题，说到了 setTimeout 设定的时间，函数能准确按时执行吗？setTimeout 怎么能做到准时？\n 7.  js 是单线程还是多线程？为什么？支不支持多线程？支持多线程的方式有哪些？node 端多线程知不知道？进程和线程的区别？进程内存计算机如何分配？线程资源如何分配？\n 8.  跨域的解决方案\n 9.  如何实现移动端 1px 边框\n 10. 什么是 html 可替换元素？\n 11. 一个图片对应多个 cdn 地址，如果第一个地址不能用了，需要换成下一个，怎么做？\n 12. vue 生命周期详细描述下？改变组件 data 里面的东西会触发什么生命周期？\n 13. vue2.x 响应式原理？Object.defineProperty 的一些参数？\n 14. for in 可以遍历出来那些东西？for in 可以遍历数组吗？可以遍历出那些东西？\n 15. vue 组件 scoped 作用？实现原理？其他的 css 隔离方案？\n 16. 怎么用 ES5 去实现 ES6 类的继承？\n 17. 你觉得 eslint 有哪些规则比较有用？\n 18. http1.1 和 http2 的区别？http1.1 中做了哪些项目优化？http1.1 中用的哪些优化手段，会在 http2 中失效？http2.0 还存在什么问题？http3 了解吗？\n\n\n# 三面（50mins）\n\n 1.  自我介绍\n 2.  说一说最近一年做的最好的业务？你觉得你做的最出彩的地方是哪里？\n 3.  处方打印，不同格式如何设置？\n 4.  离线缓存 存在什么问题？\n 5.  讲一讲权限系统？除了 RBAC，还了解哪些权限设计吗？RBAC 的优点？\n 6.  给你一个需求：除了预设角色，某个人可以单独做其他的事情，怎么办？\n 7.  讲一讲你们做的微前端？ 父应用如何加载多个子应用？ 路由整合是如何做的？\n 8.  讲一讲局部打印的实现？\n 9.  api-proxy 是如何实现的？业务越来越复杂，nginx 是不是每次都要改？怎么解决？怎么做一个全局代理？在本地如何调试线上代码？\n 10. 讲一下项目中定制化需求如何处理？更优雅的方式？面试官举了一个有赞的场景例子：关于不同商家后台，某个商家多了一个菜单？某个商家在通用页面 A 中有特殊的两个按钮？如何处理这种个性化的问题？深入一点，如何把个性化需求开放给其他商家自己开发？\n 11. 如果让你写一个 single-spa，你怎么做？两个子应用的 app.js 如何切换？js、css 如何隔离？作为攻击者，如何突破用 proxy 实现的一个沙箱环境，或者说子应用如何才能访问父应用的 window 对象？\n 12. 讲一讲项目中的全键盘操作？keyup 监听怎么做的？addEventListener 第三个参数?如何阻止冒泡事件？怎么阻止部分按键？\n 13. 讲一讲 oAuth 2.0\n 14. 你为什么想出来看机会？对下一份工作期望是怎么样的？你现在是怎么学习的？\n 15. 你有什么想问的？\n\n接着就让我等一下，估计是去讨论去了，自己也知道，接下来如果有 hr 来，就 80%过了。找个理由说 hr 不在的，基本就凉了。。。\n\n\n# 四面（HR 40mins）\n\n等待的时间是非常煎熬的~ 一会（忘记了是多久，差不多 10 分钟？），HR 小姐姐来了，换了个位置，开始面对面谈。\n\n 1. 刚刚聊下来感觉怎么样？\n 2. 对自己 1-3 年的规划\n 3. 前端方面有没有犯过比较大的故障？绩效好的情况下为什么要考虑机会？\n 4. 你觉得自己还能在现在的业务中成长多少？或者说你还能为现在的业务做什么？\n 5. 平时自己的学习方式？\n 6. 你希望自己 3 年以后能达到什么水平？你觉得自己和 P6 差距在哪？\n 7. 平时的工作节奏？\n 8. 你对加入有赞的一些期待是什么？薪资是怎么样的期待？有没有其他 offer？\n 9. 你有什么想问的？",
-      "normalizedContent": "题库\n\n\n# 有赞\n\n> https://juejin.cn/user/3386151545609837 @俊劫\n\n\n# 一面电话 (1h)\n\n 1.  讲讲最近写的项目\n 2.  讲讲自己写的打印插件，vue-iframe-print，和其他打印方式对比。分页问题，默认背景图如何显示（知道有 css，但是记不住是那个），自定义样式等等\n 3.  权限系统（rbac），具体实现，接口权限校验。通用接口如何校验，可复用的业务接口如何校验\n 4.  讲一讲 oauth\n 5.  微前端（项目在用） 为什么要用微前端，和 iframe 对比了一下。\n 6.  实现一个水平垂直居中？flex:1 含义? 一道场景题\n 7.  margin 塌陷？有没有遇到过其他 css 问题？\n 8.  vue 响应式原理\n 9.  组件 data 为什么是一个函数？\n 10. vue object.defineproperty 缺陷？数组 7 个方法怎么重写的？\n 11. dep 依赖搜集与 watcher 派发更新流程？dep 是发布者还是订阅者？怎么知道每一个 watcher 要通知哪一个 dep？\n 12. keep-alive 原理？\n 13. 讲一讲虚拟 dom\n 14. 讲一讲 vue diff 算法\n 15. 为什么使用 key 能提升 diff 性能\n 16. this 指向的理解？声明时和运行时指向？箭头函数指向？修改 this 指向？\n 17. call,apply,bind 区别？讲一下实现一个 bind 的思路\n 18. 函数柯里化概念，常用场景？\n 19. 关于缓存的一些东西？如何提高缓存命中率？\n 20. 详细描述一下输入 url 到页面打开的过程，尽量详细些？\n 21. 数组和链表在计算机中存储的方式？计算机中增加一个数组元素的方式？\n 22. 你有什么想问我的？\n\n然后约了二面，视频 coding\n\n\n# 一面视频 coding（45mins）\n\n/**\n * 1. 实现一个函数，判断两个变量值是否相等\n *\n * 注意\n * - 数据类型不限于示例，尽可能考虑边界\n * - function 引用相等即可\n */\nconst foo1 = {\n  a: 1,\n  b: '1',\n  c: nan,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nconst foo2 = {\n  a: 1,\n  b: '1',\n  c: nan,\n  d: [\n    {\n      a: 1,\n      b: 2,\n    },\n  ],\n  f: {\n    a: 1,\n  },\n  g: null,\n};\n\nfunction isequal(target1, target2) {}\nconsole.log(isequal(foo1, foo2), 'isequal');\n\n/**\n * 2. 实现 getvalue 函数来获取path对应的值\n */\nvar object = { a: [{ b: { c: 3 } }] }; // path: 'a[0].b.c'\nvar array = [{ a: { b: [1] } }]; // path: '[0].a.b[0]'\n\nfunction getvalue(target, valuepath, defaultvalue) {}\n\nconsole.log(getvalue(object, 'a[0].b.c', 0)); // 输出3\nconsole.log(getvalue(array, '[0].a.b[0]', 12)); // 输出 1\nconsole.log(getvalue(array, '[0].a.b[0].c', 12)); // 输出 12\n\n/**\n * 问题 3\n * 将一天24小时按每半小划分成48段，我们用一个位图表示选中的时间区间，例如`110000000000000000000000000000000000000000000000`，\n * 表示第一个半小时和第二个半小时被选中了，其余时间段都没有被选中，也就是对应00:00~01:00这个时间区间。一个位图中可能有多个不连续的\n * 时间区间被选中，例如`110010000000000000000000000000000000000000000000`，表示00:00-1:00和02:00-02:30这两个时间区间被选中了。\n *\n * 要求：写一个函数timebitmaptoranges，将上述规则描述的时间位图转换成一个选中时间区间的数组。\n * 示例输入：`\"110010000000000000000000000000000000000000000000\"`\n * 示例输出：`[\"00:00~01:00\", \"02:00~02:30\"]`\n */\nfunction timebitmaptoranges(str) {}\n\nconsole.log(\n  timebitmaptoranges(\n    '110010000000000000000000000000000000000000000000',\n  ),\n);\nconsole.log(\n  timebitmaptoranges(\n    '110011000000110000000000000000000000000000001111',\n  ),\n);\n复制代码;\n\n\n\n# 二面现场（ 1h20mins）\n\n 1.  大数相加: 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。leetcode 415. 字符串相加\n 2.  写一个事件 event 类，实现 on，off，emit，once 功能，同时 on 要支持 debounce。eg：on('click',function(){},500)\n 3.  介绍下让自己成长最大的项目？\n 4.  你觉得现在遇到的最难的问题是什么？\n 5.  为什么要做微前端？\n 6.  回到写的第二道题，说到了 settimeout 设定的时间，函数能准确按时执行吗？settimeout 怎么能做到准时？\n 7.  js 是单线程还是多线程？为什么？支不支持多线程？支持多线程的方式有哪些？node 端多线程知不知道？进程和线程的区别？进程内存计算机如何分配？线程资源如何分配？\n 8.  跨域的解决方案\n 9.  如何实现移动端 1px 边框\n 10. 什么是 html 可替换元素？\n 11. 一个图片对应多个 cdn 地址，如果第一个地址不能用了，需要换成下一个，怎么做？\n 12. vue 生命周期详细描述下？改变组件 data 里面的东西会触发什么生命周期？\n 13. vue2.x 响应式原理？object.defineproperty 的一些参数？\n 14. for in 可以遍历出来那些东西？for in 可以遍历数组吗？可以遍历出那些东西？\n 15. vue 组件 scoped 作用？实现原理？其他的 css 隔离方案？\n 16. 怎么用 es5 去实现 es6 类的继承？\n 17. 你觉得 eslint 有哪些规则比较有用？\n 18. http1.1 和 http2 的区别？http1.1 中做了哪些项目优化？http1.1 中用的哪些优化手段，会在 http2 中失效？http2.0 还存在什么问题？http3 了解吗？\n\n\n# 三面（50mins）\n\n 1.  自我介绍\n 2.  说一说最近一年做的最好的业务？你觉得你做的最出彩的地方是哪里？\n 3.  处方打印，不同格式如何设置？\n 4.  离线缓存 存在什么问题？\n 5.  讲一讲权限系统？除了 rbac，还了解哪些权限设计吗？rbac 的优点？\n 6.  给你一个需求：除了预设角色，某个人可以单独做其他的事情，怎么办？\n 7.  讲一讲你们做的微前端？ 父应用如何加载多个子应用？ 路由整合是如何做的？\n 8.  讲一讲局部打印的实现？\n 9.  api-proxy 是如何实现的？业务越来越复杂，nginx 是不是每次都要改？怎么解决？怎么做一个全局代理？在本地如何调试线上代码？\n 10. 讲一下项目中定制化需求如何处理？更优雅的方式？面试官举了一个有赞的场景例子：关于不同商家后台，某个商家多了一个菜单？某个商家在通用页面 a 中有特殊的两个按钮？如何处理这种个性化的问题？深入一点，如何把个性化需求开放给其他商家自己开发？\n 11. 如果让你写一个 single-spa，你怎么做？两个子应用的 app.js 如何切换？js、css 如何隔离？作为攻击者，如何突破用 proxy 实现的一个沙箱环境，或者说子应用如何才能访问父应用的 window 对象？\n 12. 讲一讲项目中的全键盘操作？keyup 监听怎么做的？addeventlistener 第三个参数?如何阻止冒泡事件？怎么阻止部分按键？\n 13. 讲一讲 oauth 2.0\n 14. 你为什么想出来看机会？对下一份工作期望是怎么样的？你现在是怎么学习的？\n 15. 你有什么想问的？\n\n接着就让我等一下，估计是去讨论去了，自己也知道，接下来如果有 hr 来，就 80%过了。找个理由说 hr 不在的，基本就凉了。。。\n\n\n# 四面（hr 40mins）\n\n等待的时间是非常煎熬的~ 一会（忘记了是多久，差不多 10 分钟？），hr 小姐姐来了，换了个位置，开始面对面谈。\n\n 1. 刚刚聊下来感觉怎么样？\n 2. 对自己 1-3 年的规划\n 3. 前端方面有没有犯过比较大的故障？绩效好的情况下为什么要考虑机会？\n 4. 你觉得自己还能在现在的业务中成长多少？或者说你还能为现在的业务做什么？\n 5. 平时自己的学习方式？\n 6. 你希望自己 3 年以后能达到什么水平？你觉得自己和 p6 差距在哪？\n 7. 平时的工作节奏？\n 8. 你对加入有赞的一些期待是什么？薪资是怎么样的期待？有没有其他 offer？\n 9. 你有什么想问的？",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
-      "title": "React Diff",
-      "frontmatter": {
-        "title": "React Diff",
-        "date": "2021-11-02T21:09:23.000Z",
-        "permalink": "/pages/3ecb42/",
-        "categories": [
-          "interview"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/interview/React/React%20Diff.html",
-      "relativePath": "interview/React/React Diff.md",
-      "key": "v-6c1df683",
-      "path": "/pages/3ecb42/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "什么是Diff",
-          "slug": "shi-me-shi-diff",
-          "normalizedTitle": "什么是diff",
-          "charIndex": 15
-        },
-        {
-          "level": 2,
-          "title": "Diff 策略",
-          "slug": "diff-ce-lue",
-          "normalizedTitle": "diff 策略",
-          "charIndex": 231
-        }
-      ],
-      "headersStr": "什么是Diff Diff 策略",
-      "content": "React Diff\n\n\n# 什么是Diff\n\n在调用 React 的 render() 方法，会创建一棵由 React 元素组成的树。更新时，相同的 render() 方法会返回一棵不同的树。React 需要基于这两棵树之间的差别来进行比较，这个比较的过程就是俗称的 diff 算法。\n\nDiff 算法的本质就是对比 current Fiber（页面中） 和 ReactElement 对象，生成 workInProgress Fiber（内存中）。\n\n\n# Diff 策略\n\nReact 文档中提到，即使在最前沿的算法中，将前后两棵树完全比对的算法的复杂程度为 O(n 3 )，其中 n 是树中元素的数量。如果在 React 中使用了该算法，那么展示 1000 个元素所需要执行的计算量将在十亿的量级范围。\n\n * 只对同级元素进行 Diff，如果某一个节点在一次更新中跨域了层级，React 不会复用该节点，而是重新创建生成新的节点。\n * 两个不同类型的元素会产生出不同的树，如果元素由 div 变为 p，React 会销毁 div 及其子孙节节点，并新建 p 及其子孙节点。\n * 开发者可以通过 key prop 来暗示哪些子元素在不同的渲染下能保持稳定；",
-      "normalizedContent": "react diff\n\n\n# 什么是diff\n\n在调用 react 的 render() 方法，会创建一棵由 react 元素组成的树。更新时，相同的 render() 方法会返回一棵不同的树。react 需要基于这两棵树之间的差别来进行比较，这个比较的过程就是俗称的 diff 算法。\n\ndiff 算法的本质就是对比 current fiber（页面中） 和 reactelement 对象，生成 workinprogress fiber（内存中）。\n\n\n# diff 策略\n\nreact 文档中提到，即使在最前沿的算法中，将前后两棵树完全比对的算法的复杂程度为 o(n 3 )，其中 n 是树中元素的数量。如果在 react 中使用了该算法，那么展示 1000 个元素所需要执行的计算量将在十亿的量级范围。\n\n * 只对同级元素进行 diff，如果某一个节点在一次更新中跨域了层级，react 不会复用该节点，而是重新创建生成新的节点。\n * 两个不同类型的元素会产生出不同的树，如果元素由 div 变为 p，react 会销毁 div 及其子孙节节点，并新建 p 及其子孙节点。\n * 开发者可以通过 key prop 来暗示哪些子元素在不同的渲染下能保持稳定；",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
       "title": "React Hook",
       "frontmatter": {
         "title": "React Hook",
@@ -1566,6 +1698,7 @@ export const siteData = {
       "relativePath": "interview/React/React Hook.md",
       "key": "v-45f121c7",
       "path": "/pages/923ecd/",
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
       "headersStr": null,
       "content": "React Hook",
       "normalizedContent": "react hook",
@@ -1674,6 +1807,7 @@ export const siteData = {
           "charIndex": 1865
         }
       ],
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
       "headersStr": "为什么需要 Fiber 什么是 Fiber 一个执行单元 一种数据结构 Fiber 执行原理 render 阶段 commit 阶段 其他 双缓冲 Fiber tree 遍历流程 requestAnimationFrame requestIdleCallback",
       "content": "React Fiber\n\n\n# 为什么需要 Fiber\n\n首先，在浏览器中，页面是一帧一帧绘制出来的，目前浏览器大多是 60Hz（60 帧/s），每一帧耗时也就是在 16ms 左右，js 引擎和页面渲染引擎是在同一个渲染线程之内，两者是互斥关系。如果在某个阶段执行任务特别长，超过了 16ms，那么就会阻塞页面的渲染，从而出现卡顿现象。\n\n在未引入 Fiber 架构之前，react 会采用递归对比虚拟 DOM 树，找出需要变动的节点，然后同步更新它们，这种遍历是递归调用，执行栈会越来越深，而且不能中断，中断后就不能恢复了。递归如果非常深，就会十分卡顿。\n\nFiber ，把渲染/更新过程拆分为一个个小块的任务，再将多个粒度小的任务放入一个时间切片（一帧）中执行的一种方案，合理的调度机制来调控时间，适时地让出 CPU 执行权，可以让浏览器及时地响应用户的交互。\n\n\n# 什么是 Fiber\n\nFiber 可以理解为是一个执行单元，也可以理解为是一种数据结构。\n\n\n# 一个执行单元\n\nFiber 可以理解为一个执行单元，每次执行完一个执行单元，react 就会检查现在还剩多少时间，如果没有时间则将控制权让出去。\n\n首先 React 向浏览器请求调度，浏览器在一帧中如果还有空闲时间，会去判断是否存在待执行任务，不存在就直接将控制权交给浏览器，如果存在就会执行对应的任务，执行完成后会判断是否还有时间，有时间且有待执行任务则会继续执行下一个任务，否则就会将控制权交给浏览器。\n\n\n# 一种数据结构\n\nFiber 还可以理解为是一种数据结构，React Fiber 就是采用链表实现的。每个 Virtual DOM 都可以表示为一个 fiber，每个节点都是一个 fiber。\n\n\n# Fiber 执行原理\n\n从根节点开始渲染和调度的过程可以分为两个阶段：render 阶段、commit 阶段。\n\n * render 阶段：这个阶段是可中断的，会找出所有节点的变更\n * commit 阶段：这个阶段是不可中断的，会执行所有的变更\n\n\n# render 阶段\n\n此阶段会找出所有节点的变更，如节点新增、删除、属性变更等，这些变更 react 统称为副作用（effect），此阶段会构建一棵Fiber tree，以虚拟 dom 节点为维度对任务进行拆分，即一个虚拟 dom 节点对应一个任务，最后产出的结果是effect list，从中可以知道哪些节点更新、哪些节点增加、哪些节点删除了。\n\n\n# commit 阶段\n\ncommit 阶段需要将上阶段计算出来的需要处理的副作用一次性执行，此阶段不能暂停，否则会出现 UI 更新不连续的现象。此阶段需要根据effect list，将所有更新都 commit 到 DOM 树上。\n\n\n# 其他\n\n\n# 双缓冲 Fiber tree\n\n在 React 中最多会同时存在两棵fiber tree。当前屏幕上显示内容对应的fiber tree称为current fiber tree，正在内存中构建的fiber tree称为workInProgress fiber tree\n\nReact 应用的根节点通过current指针在不同fiber tree的rootFiber间切换来实现fiber tree的切换。双缓冲指的是当workInProgress fiber tree构建完成交给Renderer渲染在页面上后，应用根节点的current指针指向workInProgress fiber tree，此时workInProgress fiber tree就变为current fiber tree。每次状态更新都会产生新的workInProgress fiber tree，通过current与workInProgress的替换，完成 DOM 更新。\n\n这样做的好处是：能够复用内部对象（fiber）；节省内存分配、GC 的时间开销。\n\n\n# 遍历流程\n\nReact Fiber首先是将虚拟 DOM 树转化为Fiber tree，遍历Fiber tree时采用的是后序遍历方法：\n\n先遍历儿子，再在弟弟，最后叔叔，完成说有的子节点后，自己才完成\n\n\n# requestAnimationFrame\n\n在 Fiber 中使用到了requestAnimationFrame，它是浏览器提供的绘制动画的 api 。它要求浏览器在下次重绘之前（即下一帧）调用指定的回调函数更新动画。\n\n\n# requestIdleCallback\n\nrequestIdleCallback 也是 react Fiber 实现的基础 api ，就是指在浏览器的空闲时段内调用的一些函数的回调。React 实现了功能更完备的 requestIdleCallbackpolyfill，这就是Scheduler。除了在空闲时触发回调的功能外，Scheduler（调度器）还提供了多种调度优先级供任务设置",
       "normalizedContent": "react fiber\n\n\n# 为什么需要 fiber\n\n首先，在浏览器中，页面是一帧一帧绘制出来的，目前浏览器大多是 60hz（60 帧/s），每一帧耗时也就是在 16ms 左右，js 引擎和页面渲染引擎是在同一个渲染线程之内，两者是互斥关系。如果在某个阶段执行任务特别长，超过了 16ms，那么就会阻塞页面的渲染，从而出现卡顿现象。\n\n在未引入 fiber 架构之前，react 会采用递归对比虚拟 dom 树，找出需要变动的节点，然后同步更新它们，这种遍历是递归调用，执行栈会越来越深，而且不能中断，中断后就不能恢复了。递归如果非常深，就会十分卡顿。\n\nfiber ，把渲染/更新过程拆分为一个个小块的任务，再将多个粒度小的任务放入一个时间切片（一帧）中执行的一种方案，合理的调度机制来调控时间，适时地让出 cpu 执行权，可以让浏览器及时地响应用户的交互。\n\n\n# 什么是 fiber\n\nfiber 可以理解为是一个执行单元，也可以理解为是一种数据结构。\n\n\n# 一个执行单元\n\nfiber 可以理解为一个执行单元，每次执行完一个执行单元，react 就会检查现在还剩多少时间，如果没有时间则将控制权让出去。\n\n首先 react 向浏览器请求调度，浏览器在一帧中如果还有空闲时间，会去判断是否存在待执行任务，不存在就直接将控制权交给浏览器，如果存在就会执行对应的任务，执行完成后会判断是否还有时间，有时间且有待执行任务则会继续执行下一个任务，否则就会将控制权交给浏览器。\n\n\n# 一种数据结构\n\nfiber 还可以理解为是一种数据结构，react fiber 就是采用链表实现的。每个 virtual dom 都可以表示为一个 fiber，每个节点都是一个 fiber。\n\n\n# fiber 执行原理\n\n从根节点开始渲染和调度的过程可以分为两个阶段：render 阶段、commit 阶段。\n\n * render 阶段：这个阶段是可中断的，会找出所有节点的变更\n * commit 阶段：这个阶段是不可中断的，会执行所有的变更\n\n\n# render 阶段\n\n此阶段会找出所有节点的变更，如节点新增、删除、属性变更等，这些变更 react 统称为副作用（effect），此阶段会构建一棵fiber tree，以虚拟 dom 节点为维度对任务进行拆分，即一个虚拟 dom 节点对应一个任务，最后产出的结果是effect list，从中可以知道哪些节点更新、哪些节点增加、哪些节点删除了。\n\n\n# commit 阶段\n\ncommit 阶段需要将上阶段计算出来的需要处理的副作用一次性执行，此阶段不能暂停，否则会出现 ui 更新不连续的现象。此阶段需要根据effect list，将所有更新都 commit 到 dom 树上。\n\n\n# 其他\n\n\n# 双缓冲 fiber tree\n\n在 react 中最多会同时存在两棵fiber tree。当前屏幕上显示内容对应的fiber tree称为current fiber tree，正在内存中构建的fiber tree称为workinprogress fiber tree\n\nreact 应用的根节点通过current指针在不同fiber tree的rootfiber间切换来实现fiber tree的切换。双缓冲指的是当workinprogress fiber tree构建完成交给renderer渲染在页面上后，应用根节点的current指针指向workinprogress fiber tree，此时workinprogress fiber tree就变为current fiber tree。每次状态更新都会产生新的workinprogress fiber tree，通过current与workinprogress的替换，完成 dom 更新。\n\n这样做的好处是：能够复用内部对象（fiber）；节省内存分配、gc 的时间开销。\n\n\n# 遍历流程\n\nreact fiber首先是将虚拟 dom 树转化为fiber tree，遍历fiber tree时采用的是后序遍历方法：\n\n先遍历儿子，再在弟弟，最后叔叔，完成说有的子节点后，自己才完成\n\n\n# requestanimationframe\n\n在 fiber 中使用到了requestanimationframe，它是浏览器提供的绘制动画的 api 。它要求浏览器在下次重绘之前（即下一帧）调用指定的回调函数更新动画。\n\n\n# requestidlecallback\n\nrequestidlecallback 也是 react fiber 实现的基础 api ，就是指在浏览器的空闲时段内调用的一些函数的回调。react 实现了功能更完备的 requestidlecallbackpolyfill，这就是scheduler。除了在空闲时触发回调的功能外，scheduler（调度器）还提供了多种调度优先级供任务设置",
@@ -1728,9 +1862,121 @@ export const siteData = {
           "charIndex": 930
         }
       ],
+      "lastUpdated": "11/2/2021, 10:25:17 PM",
       "headersStr": "操作 DOM 是耗费性能的 什么是 Virtual DOM React Virtual DOM 是如何实现的 Virtual DOM 的工作流程",
       "content": "Virtual DOM\n\n\n# 操作 DOM 是耗费性能的\n\n浏览器的 渲染线程 与 JS 引擎线程。\n\n我们在操作 DOM 时，任何 DOM API 调用都要先将 JS 数据结构转为 DOM 数据结构，再挂起 JS 引擎线程，启动渲染引擎线程，执行过后再把可能的返回值反转数据结构，再重启 JS 引擎继续执行。这种两个线程之间的上下文切换势必会很耗性能。\n\n另外很多 DOM API 的读写都涉及页面布局的 重绘（repaint）和回流（reflow） ，这会更加的耗费性能。\n\n\n# 什么是 Virtual DOM\n\nVirtualDom 的本质是利用 JS 变量 对真实 DOM 进行抽象，使用 VirtualDom 来缓存当前组件状态，对用户交互和数据的变动进行批次处理，直接计算出每一帧页面应该呈现的最终状态，而这个状态是以 JS 变量 的形式存在于内存中的。所以通过 VirtualDom 既能够保证用户看到的每一帧都响应了数据的变化，又能节约性能保证浏览器不出现卡顿。\n\nReact VirtualDom 相对于直接操作原生 DOM 最大的优势在于 batching(批处理) 和 diff。\ndiff: 为了尽量减少不必要的 DOM 操作， Virtual DOM 在执行 DOM 的更新操作后，不会直接操作真实 DOM，而是根据当前应用状态的数据，生成一个全新的 Virtual DOM，然后跟上一次生成 的 Virtual DOM 去 diff，得到一个 Patch（补丁），这样就可以找到变化了的 DOM 节点，只对变化的部分进行 DOM 更新，而不是重新渲染整个 DOM 树，这个过程就是 diff。\n\nbatching： 还有所谓的 batching 就是将多次比较的结果合并后一次性更新到页面，从而有效地减少页面渲染的次数。\n\n\n# React Virtual DOM 是如何实现的\n\n * ReactElement：ReactElement 即 react 元素，描述了我们在屏幕上所看到的内容，它是构成 React 应用的最小单元\n\n * Fiber：Fiber 可以理解为是一个执行单元，也可以理解为是一种数据结构。\n\n\n# Virtual DOM 的工作流程\n\n * 初始化渲染，将 JSX 代码编译成 ReactELement 对象，它描述当前组件内容的数据结构。\n\n * 根据生产的 ReactELement 对象构建 Fiber tree，它包含了组件 schedule、reconciler、render 所需的相关信息。\n\n * 一旦有状态变化，触发更新，Scheduler 在接收到更新后，根据任务的优先级高低来进行调度，决定要执行的任务是什么。\n\n * 接下来的工作交给 Reconciler 处理，Reconciler 通过对比找出变化了的 Virtual DOM ，为其打上代表增/删/更新的标记，当所有组件都完成 Reconciler 的工作，才会统一交给 Renderer。\n\n * Renderer 根据 Reconciler 为 Virtual DOM 打的标记，同步执行对应的 DOM 更新操作。",
       "normalizedContent": "virtual dom\n\n\n# 操作 dom 是耗费性能的\n\n浏览器的 渲染线程 与 js 引擎线程。\n\n我们在操作 dom 时，任何 dom api 调用都要先将 js 数据结构转为 dom 数据结构，再挂起 js 引擎线程，启动渲染引擎线程，执行过后再把可能的返回值反转数据结构，再重启 js 引擎继续执行。这种两个线程之间的上下文切换势必会很耗性能。\n\n另外很多 dom api 的读写都涉及页面布局的 重绘（repaint）和回流（reflow） ，这会更加的耗费性能。\n\n\n# 什么是 virtual dom\n\nvirtualdom 的本质是利用 js 变量 对真实 dom 进行抽象，使用 virtualdom 来缓存当前组件状态，对用户交互和数据的变动进行批次处理，直接计算出每一帧页面应该呈现的最终状态，而这个状态是以 js 变量 的形式存在于内存中的。所以通过 virtualdom 既能够保证用户看到的每一帧都响应了数据的变化，又能节约性能保证浏览器不出现卡顿。\n\nreact virtualdom 相对于直接操作原生 dom 最大的优势在于 batching(批处理) 和 diff。\ndiff: 为了尽量减少不必要的 dom 操作， virtual dom 在执行 dom 的更新操作后，不会直接操作真实 dom，而是根据当前应用状态的数据，生成一个全新的 virtual dom，然后跟上一次生成 的 virtual dom 去 diff，得到一个 patch（补丁），这样就可以找到变化了的 dom 节点，只对变化的部分进行 dom 更新，而不是重新渲染整个 dom 树，这个过程就是 diff。\n\nbatching： 还有所谓的 batching 就是将多次比较的结果合并后一次性更新到页面，从而有效地减少页面渲染的次数。\n\n\n# react virtual dom 是如何实现的\n\n * reactelement：reactelement 即 react 元素，描述了我们在屏幕上所看到的内容，它是构成 react 应用的最小单元\n\n * fiber：fiber 可以理解为是一个执行单元，也可以理解为是一种数据结构。\n\n\n# virtual dom 的工作流程\n\n * 初始化渲染，将 jsx 代码编译成 reactelement 对象，它描述当前组件内容的数据结构。\n\n * 根据生产的 reactelement 对象构建 fiber tree，它包含了组件 schedule、reconciler、render 所需的相关信息。\n\n * 一旦有状态变化，触发更新，scheduler 在接收到更新后，根据任务的优先级高低来进行调度，决定要执行的任务是什么。\n\n * 接下来的工作交给 reconciler 处理，reconciler 通过对比找出变化了的 virtual dom ，为其打上代表增/删/更新的标记，当所有组件都完成 reconciler 的工作，才会统一交给 renderer。\n\n * renderer 根据 reconciler 为 virtual dom 打的标记，同步执行对应的 dom 更新操作。",
+      "charsets": {
+        "cjk": true
+      }
+    },
+    {
+      "title": "webpack",
+      "frontmatter": {
+        "title": "webpack",
+        "date": "2021-11-08T21:15:50.000Z",
+        "permalink": "/pages/6a9523/",
+        "categories": [
+          "interview",
+          "Webpack"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/interview/Webpack/webpack.html",
+      "relativePath": "interview/Webpack/webpack.md",
+      "key": "v-4909e8bc",
+      "path": "/pages/6a9523/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "webpack 的工作原理?",
+          "slug": "webpack-de-gong-zuo-yuan-li",
+          "normalizedTitle": "webpack 的工作原理?",
+          "charIndex": 12
+        },
+        {
+          "level": 2,
+          "title": "webpack 打包原理",
+          "slug": "webpack-da-bao-yuan-li",
+          "normalizedTitle": "webpack 打包原理",
+          "charIndex": 167
+        },
+        {
+          "level": 2,
+          "title": "webpack 的构建流程是什么",
+          "slug": "webpack-de-gou-jian-liu-cheng-shi-shi-me",
+          "normalizedTitle": "webpack 的构建流程是什么",
+          "charIndex": 425
+        },
+        {
+          "level": 2,
+          "title": "webpack 有哪些常⻅的 Loader",
+          "slug": "webpack-you-na-xie-chang-de-loader",
+          "normalizedTitle": "webpack 有哪些常⻅的 loader",
+          "charIndex": 1052
+        },
+        {
+          "level": 2,
+          "title": "webpack 常见的 plugin 有哪些",
+          "slug": "webpack-chang-jian-de-plugin-you-na-xie",
+          "normalizedTitle": "webpack 常见的 plugin 有哪些",
+          "charIndex": 1309
+        },
+        {
+          "level": 2,
+          "title": "Loader 和 Plugin 的不同？",
+          "slug": "loader-he-plugin-de-bu-tong",
+          "normalizedTitle": "loader 和 plugin 的不同？",
+          "charIndex": 1558
+        },
+        {
+          "level": 2,
+          "title": "webpack 的热更新原理",
+          "slug": "webpack-de-re-geng-xin-yuan-li",
+          "normalizedTitle": "webpack 的热更新原理",
+          "charIndex": 1781
+        },
+        {
+          "level": 2,
+          "title": "如何⽤webpack来优化前端性能？",
+          "slug": "ru-he-webpacklai-you-hua-qian-duan-xing-neng",
+          "normalizedTitle": "如何⽤webpack来优化前端性能？",
+          "charIndex": 2088
+        },
+        {
+          "level": 2,
+          "title": "你是如何提高 webpack 构件速度的?",
+          "slug": "ni-shi-ru-he-ti-gao-webpack-gou-jian-su-du-de",
+          "normalizedTitle": "你是如何提高 webpack 构件速度的?",
+          "charIndex": 2619
+        },
+        {
+          "level": 2,
+          "title": "sourceMap",
+          "slug": "sourcemap",
+          "normalizedTitle": "sourcemap",
+          "charIndex": 2970
+        },
+        {
+          "level": 2,
+          "title": "前端为什么要进行打包和构建？",
+          "slug": "qian-duan-wei-shi-me-yao-jin-xing-da-bao-he-gou-jian",
+          "normalizedTitle": "前端为什么要进行打包和构建？",
+          "charIndex": 3016
+        },
+        {
+          "level": 2,
+          "title": "聊一聊 Babel 原理吧",
+          "slug": "liao-yi-liao-babel-yuan-li-ba",
+          "normalizedTitle": "聊一聊 babel 原理吧",
+          "charIndex": 3202
+        }
+      ],
+      "headersStr": "webpack 的工作原理? webpack 打包原理 webpack 的构建流程是什么 webpack 有哪些常⻅的 Loader webpack 常见的 plugin 有哪些 Loader 和 Plugin 的不同？ webpack 的热更新原理 如何⽤webpack来优化前端性能？ 你是如何提高 webpack 构件速度的? sourceMap 前端为什么要进行打包和构建？ 聊一聊 Babel 原理吧",
+      "content": "webpack\n\n\n# webpack 的工作原理?\n\nWebPack 可以看做是模块打包机：它做的事情是，分析你的项目结构，找到 JavaScript 模块以及其它的一些浏览器不能直接运行的拓展语言（Sass，TypeScript 等），并将其转换和打包为合适的格式供浏览器使用。Webpack 还肩负起了优化项目的责任。\n\n\n# webpack 打包原理\n\n把一切都视为模块：不管是 css、JS、Image 还是 html 都可以互相引用，通过定义 entry.js，对所有依赖的文件进行跟踪，将各个模块通过 loader 和 plugins 处理，然后打包在一起。\n\n按需加载：打包过程中 Webpack 通过 Code Splitting 功能将文件分为多个 chunks，还可以将重复的部分单独提取出来作为commonChunk，从而实现按需加载。把所有依赖打包成一个 bundle.js 文件，通过代码分割成单元片段并按需加载\n\n\n# webpack 的构建流程是什么\n\n * 初始化参数：解析 webpack 配置参数，合并 shell 传入和 webpack.config.js 文件配置的参数,形成最后的配置结果；\n * 开始编译：上一步得到的参数初始化 compiler 对象，注册所有配置的插件，插件 监听 webpack 构建生命周期的事件节点，做出相应的反应，执行对象的 run 方法开始执行编译；\n * 确定入口：从配置的 entry 入口，开始解析文件构建 AST 语法树，找出依赖，递归下去；\n * 编译模块：递归中根据文件类型和 loader 配置，调用所有配置的 loader 对文件进行转换，再找出该模块依赖的模块，再递归本步骤直到所有入口依赖的文件都经过了本步骤的处理；\n * 完成模块编译并输出：递归完事后，得到每个文件结果，包含每个模块以及他们之间的依赖关系，根据 entry 或分包配置生成代码块 chunk;\n * 输出完成：输出所有的 chunk 到文件系统；\n\n# 简单说\n\n * 初始化：启动构建，读取与合并配置参数，加载 Plugin，实例化 Compiler\n * 编译：从 Entry 出发，针对每个 Module 串行调用对应的 Loader 去翻译文件的内容，再找到该 Module 依赖的 Module，递归地进行编译处理\n * 输出：将编译后的 Module 组合成 Chunk，将 Chunk 转换成文件，输出到文件系统中\n\n\n# webpack 有哪些常⻅的 Loader\n\n * file-loader：把⽂件输出到⼀个⽂件夹中，在代码中通过相对 URL 去引⽤输出的⽂件\n * url-loader：和 file-loader 类似，但是能在⽂件很⼩的情况下以 base64 的⽅式把⽂件内容注⼊到代码中去\n * babel-loader：把 ES6 转换成 ES5\n * css-loader：加载 CSS，⽀持模块化、压缩、⽂件导⼊等特性\n * eslint-loader：通过 ESLint 检查 JavaScript 代码\n\n\n# webpack 常见的 plugin 有哪些\n\n * html-webpack-plugin可以根据模板自动生成 html 代码，并自动引用 css 和 js 文件\n * HotModuleReplacementPlugin 热更新\n * happypack：通过多进程模型，来加速代码构建\n * clean-wenpack-plugin 清理每次打包下没有使用的文件\n * webpack-bundle-analyzer:可视化 Webpack 输出文件的体积（业务组件、依赖第三方模块\n\n\n# Loader 和 Plugin 的不同？\n\n# Loader\n\nWebpack 将一切文件视为模块，但是 webpack 原生是只能解析 js 文件，配置里的module.rules数组配置了一组规则，告诉 Webpack 在遇到哪些文件时使用哪些 Loader 去加载和转换打包成 js。\n\n# Plugin\n\nPlugin 是用来扩展 Webpack 功能的，通过在构建流程里注入钩子实现，它给 Webpack 带来了很大的灵活性。\n\n\n# webpack 的热更新原理\n\n模块热更新是 webpack 的一个功能，它可以使得代码修改之后，不用刷新浏览器就可以更新。\n\n在应用过程中替换添加删出模块，无需重新加载整个页面，是高级版的自动刷新浏览器。\n\n其实是自己开启了express应用，添加了对 webpack 编译的监听，添加了和浏览器的 websocket 长连接，当文件变化触发 webpack 进行编译并完成后，会通过sokcet消息告诉浏览器准备刷新。而为了减少刷新的代价，就是不用刷新网页，而是刷新某个模块，webpack-dev-server 可以支持热更新，通过生成 文件的 hash 值来比对需要更新的模块，浏览器再进行热替换\n\n\n# 如何⽤webpack来优化前端性能？\n\n⽤ webpack 优化前端性能是指优化 webpack 的输出结果，让打包的最终结果在浏览器运⾏快速⾼效。\n\n * 压缩代码：删除多余的代码、注释、简化代码的写法等等⽅式。可以利⽤ webpack 的 UglifyJsPlugin 和 ParallelUglifyPlugin 来压缩 JS ⽂件， 利⽤ cssnano （css-loader?minimize）来压缩 css\n * 利⽤CDN加速: 在构建过程中，将引⽤的静态资源路径修改为 CDN 上对应的路径。可以利⽤ webpack 对于 output 参数和各 loader 的 publicPath 参数来修改资源路径\n * Tree Shaking: 将代码中永远不会⾛到的⽚段删除掉。可以通过在启动 webpack 时追加参数 --optimize-minimize 来实现\n * Code Splitting: 将代码按路由维度或者组件分块(chunk),这样做到按需加载,同时可以充分利⽤浏览器缓存\n * 提取公共第三⽅库: SplitChunksPlugin 插件来进⾏公共模块抽取,利⽤浏览器缓存可以⻓期缓存这些⽆需频繁变动的公共代码\n\n\n# 你是如何提高 webpack 构件速度的?\n\n多入口情况下，使用CommonsChunkPlugin来提取公共代码\n\n通过externals配置来提取常用库\n\n利用DllPlugin和DllReferencePlugin预编译资源模块通过DllPlugin来对那些我们\n\n引用但是绝对不会修改的 npm 包来进行预编译，再通过DllReferencePlugin将预编译的模块加载进来。\n\n使用Happypack实现多线程加速编译\n\n使用webpack-uglify-paralle来提升uglifyPlugin的压缩速度。\n\n原理上 webpack-uglify-parallel 采用了多核并行压缩来提升压缩速度\n\n使用Tree-shaking和Scope Hoisting来剔除多余代码\n\n\n# sourceMap\n\n是一个映射关系，将打包后的文件隐射到源代码，用于定位报错位置\n\n\n# 前端为什么要进行打包和构建？\n\n代码层面：\n\n * 体积更小（Tree-shaking、压缩、合并），加载更快\n * 编译高级语言和语法（TS、ES6、模块化、scss）\n * 兼容性和错误检查（polyfill,postcss,eslint）\n\n研发流程层面：\n\n * 统一、高效的开发环境\n * 统一的构建流程和产出标准\n * 集成公司构建规范（提测、上线）\n\n\n# 聊一聊 Babel 原理吧\n\n * 解析：将源代码转换成 AST\n * 转换：访问 AST 的节点进行变换操作生产新的 AST\n * 生成：以新的 AST 为基础生成代码\n\n# AST 是什么\n\n抽象语法树（Abstract Syntax Tree，AST）是源代码语法结构的一种抽象表示。它以树状的形式表现编程语言的语法结构，树上的每个节点都表示源代码中的一种结构。\n\n功能：css 预处理器、开发 WebPack 插件、cli 前端自动化工具等等，这些底层原理都是基于 AST 来实现的\n\n * https://www.mybj123.com/12007.html",
+      "normalizedContent": "webpack\n\n\n# webpack 的工作原理?\n\nwebpack 可以看做是模块打包机：它做的事情是，分析你的项目结构，找到 javascript 模块以及其它的一些浏览器不能直接运行的拓展语言（sass，typescript 等），并将其转换和打包为合适的格式供浏览器使用。webpack 还肩负起了优化项目的责任。\n\n\n# webpack 打包原理\n\n把一切都视为模块：不管是 css、js、image 还是 html 都可以互相引用，通过定义 entry.js，对所有依赖的文件进行跟踪，将各个模块通过 loader 和 plugins 处理，然后打包在一起。\n\n按需加载：打包过程中 webpack 通过 code splitting 功能将文件分为多个 chunks，还可以将重复的部分单独提取出来作为commonchunk，从而实现按需加载。把所有依赖打包成一个 bundle.js 文件，通过代码分割成单元片段并按需加载\n\n\n# webpack 的构建流程是什么\n\n * 初始化参数：解析 webpack 配置参数，合并 shell 传入和 webpack.config.js 文件配置的参数,形成最后的配置结果；\n * 开始编译：上一步得到的参数初始化 compiler 对象，注册所有配置的插件，插件 监听 webpack 构建生命周期的事件节点，做出相应的反应，执行对象的 run 方法开始执行编译；\n * 确定入口：从配置的 entry 入口，开始解析文件构建 ast 语法树，找出依赖，递归下去；\n * 编译模块：递归中根据文件类型和 loader 配置，调用所有配置的 loader 对文件进行转换，再找出该模块依赖的模块，再递归本步骤直到所有入口依赖的文件都经过了本步骤的处理；\n * 完成模块编译并输出：递归完事后，得到每个文件结果，包含每个模块以及他们之间的依赖关系，根据 entry 或分包配置生成代码块 chunk;\n * 输出完成：输出所有的 chunk 到文件系统；\n\n# 简单说\n\n * 初始化：启动构建，读取与合并配置参数，加载 plugin，实例化 compiler\n * 编译：从 entry 出发，针对每个 module 串行调用对应的 loader 去翻译文件的内容，再找到该 module 依赖的 module，递归地进行编译处理\n * 输出：将编译后的 module 组合成 chunk，将 chunk 转换成文件，输出到文件系统中\n\n\n# webpack 有哪些常⻅的 loader\n\n * file-loader：把⽂件输出到⼀个⽂件夹中，在代码中通过相对 url 去引⽤输出的⽂件\n * url-loader：和 file-loader 类似，但是能在⽂件很⼩的情况下以 base64 的⽅式把⽂件内容注⼊到代码中去\n * babel-loader：把 es6 转换成 es5\n * css-loader：加载 css，⽀持模块化、压缩、⽂件导⼊等特性\n * eslint-loader：通过 eslint 检查 javascript 代码\n\n\n# webpack 常见的 plugin 有哪些\n\n * html-webpack-plugin可以根据模板自动生成 html 代码，并自动引用 css 和 js 文件\n * hotmodulereplacementplugin 热更新\n * happypack：通过多进程模型，来加速代码构建\n * clean-wenpack-plugin 清理每次打包下没有使用的文件\n * webpack-bundle-analyzer:可视化 webpack 输出文件的体积（业务组件、依赖第三方模块\n\n\n# loader 和 plugin 的不同？\n\n# loader\n\nwebpack 将一切文件视为模块，但是 webpack 原生是只能解析 js 文件，配置里的module.rules数组配置了一组规则，告诉 webpack 在遇到哪些文件时使用哪些 loader 去加载和转换打包成 js。\n\n# plugin\n\nplugin 是用来扩展 webpack 功能的，通过在构建流程里注入钩子实现，它给 webpack 带来了很大的灵活性。\n\n\n# webpack 的热更新原理\n\n模块热更新是 webpack 的一个功能，它可以使得代码修改之后，不用刷新浏览器就可以更新。\n\n在应用过程中替换添加删出模块，无需重新加载整个页面，是高级版的自动刷新浏览器。\n\n其实是自己开启了express应用，添加了对 webpack 编译的监听，添加了和浏览器的 websocket 长连接，当文件变化触发 webpack 进行编译并完成后，会通过sokcet消息告诉浏览器准备刷新。而为了减少刷新的代价，就是不用刷新网页，而是刷新某个模块，webpack-dev-server 可以支持热更新，通过生成 文件的 hash 值来比对需要更新的模块，浏览器再进行热替换\n\n\n# 如何⽤webpack来优化前端性能？\n\n⽤ webpack 优化前端性能是指优化 webpack 的输出结果，让打包的最终结果在浏览器运⾏快速⾼效。\n\n * 压缩代码：删除多余的代码、注释、简化代码的写法等等⽅式。可以利⽤ webpack 的 uglifyjsplugin 和 paralleluglifyplugin 来压缩 js ⽂件， 利⽤ cssnano （css-loader?minimize）来压缩 css\n * 利⽤cdn加速: 在构建过程中，将引⽤的静态资源路径修改为 cdn 上对应的路径。可以利⽤ webpack 对于 output 参数和各 loader 的 publicpath 参数来修改资源路径\n * tree shaking: 将代码中永远不会⾛到的⽚段删除掉。可以通过在启动 webpack 时追加参数 --optimize-minimize 来实现\n * code splitting: 将代码按路由维度或者组件分块(chunk),这样做到按需加载,同时可以充分利⽤浏览器缓存\n * 提取公共第三⽅库: splitchunksplugin 插件来进⾏公共模块抽取,利⽤浏览器缓存可以⻓期缓存这些⽆需频繁变动的公共代码\n\n\n# 你是如何提高 webpack 构件速度的?\n\n多入口情况下，使用commonschunkplugin来提取公共代码\n\n通过externals配置来提取常用库\n\n利用dllplugin和dllreferenceplugin预编译资源模块通过dllplugin来对那些我们\n\n引用但是绝对不会修改的 npm 包来进行预编译，再通过dllreferenceplugin将预编译的模块加载进来。\n\n使用happypack实现多线程加速编译\n\n使用webpack-uglify-paralle来提升uglifyplugin的压缩速度。\n\n原理上 webpack-uglify-parallel 采用了多核并行压缩来提升压缩速度\n\n使用tree-shaking和scope hoisting来剔除多余代码\n\n\n# sourcemap\n\n是一个映射关系，将打包后的文件隐射到源代码，用于定位报错位置\n\n\n# 前端为什么要进行打包和构建？\n\n代码层面：\n\n * 体积更小（tree-shaking、压缩、合并），加载更快\n * 编译高级语言和语法（ts、es6、模块化、scss）\n * 兼容性和错误检查（polyfill,postcss,eslint）\n\n研发流程层面：\n\n * 统一、高效的开发环境\n * 统一的构建流程和产出标准\n * 集成公司构建规范（提测、上线）\n\n\n# 聊一聊 babel 原理吧\n\n * 解析：将源代码转换成 ast\n * 转换：访问 ast 的节点进行变换操作生产新的 ast\n * 生成：以新的 ast 为基础生成代码\n\n# ast 是什么\n\n抽象语法树（abstract syntax tree，ast）是源代码语法结构的一种抽象表示。它以树状的形式表现编程语言的语法结构，树上的每个节点都表示源代码中的一种结构。\n\n功能：css 预处理器、开发 webpack 插件、cli 前端自动化工具等等，这些底层原理都是基于 ast 来实现的\n\n * https://www.mybj123.com/12007.html",
       "charsets": {
         "cjk": true
       }
@@ -1854,32 +2100,6 @@ export const siteData = {
       "headersStr": "👨🏻‍💻 导图 📒 整理",
       "content": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * JavaScript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 作用域链\n\n * JavaScript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/Blog/issues/6\n\n# 闭包\n\n * JavaScript 深入之闭包——冴羽 https://github.com/mqyqingfeng/Blog/issues/9\n\n# this\n\n * JavaScript深入之从ECMAScript规范解读this——冴羽 https://github.com/mqyqingfeng/Blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * JavaScript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/Blog/issues/12\n\n# 原型\n\n * JavaScript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/Blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# Promise\n\n * 这一次，彻底弄懂 Promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# Event Loop\n\n * 详解JavaScript中的Event Loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
       "normalizedContent": "# 👨🏻‍💻 导图\n\n\n# 📒 整理\n\n# 执行上下文\n\n * javascript 深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 作用域链\n\n * javascript 深入之作用域链——冴羽 https://github.com/mqyqingfeng/blog/issues/6\n\n# 闭包\n\n * javascript 深入之闭包——冴羽 https://github.com/mqyqingfeng/blog/issues/9\n\n# this\n\n * javascript深入之从ecmascript规范解读this——冴羽 https://github.com/mqyqingfeng/blog/issues/7\n\n# call/apply/bind\n\n * 细说 call、apply 以及 bind 的区别和用法——segmentfault https://segmentfault.com/a/1190000018017796\n * javascript深入之bind的模拟实现——冴羽 https://github.com/mqyqingfeng/blog/issues/12\n\n# 原型\n\n * javascript深入之从原型到原型链——冴羽 https://github.com/mqyqingfeng/blog/issues/2\n\n# 继承\n\n# 深浅拷贝\n\n# promise\n\n * 这一次，彻底弄懂 promise 原理——掘金 https://juejin.cn/post/6844904063570542599\n\n# event loop\n\n * 详解javascript中的event loop（事件循环）机制——知乎 https://zhuanlan.zhihu.com/p/33058983",
-      "charsets": {
-        "cjk": true
-      }
-    },
-    {
-      "title": "List",
-      "frontmatter": {
-        "title": "List",
-        "date": "2021-10-28T22:18:53.000Z",
-        "permalink": "/pages/f86881/",
-        "categories": [
-          "interview",
-          "Library"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/interview/Library/List.html",
-      "relativePath": "interview/Library/List.md",
-      "key": "v-145c61a4",
-      "path": "/pages/f86881/",
-      "lastUpdated": "10/28/2021, 10:42:07 PM",
-      "headersStr": null,
-      "content": "# 阿里同学整理的面试题 有深度\n\n * https://juejin.cn/post/6987549240436195364\n * https://juejin.cn/post/6996815121855021087\n * https://juejin.cn/post/6844904093425598471\n\n# 不错的面试整理 2021年10月28日\n\n * https://juejin.cn/post/7016593221815910408\n * https://juejin.cn/post/7021173142890479630\n\n# TODO\n\n * https://juejin.cn/post/7013953652578582558\n * https://juejin.cn/post/7004638318843412493\n * https://cloud.tencent.com/developer/article/1856568",
-      "normalizedContent": "# 阿里同学整理的面试题 有深度\n\n * https://juejin.cn/post/6987549240436195364\n * https://juejin.cn/post/6996815121855021087\n * https://juejin.cn/post/6844904093425598471\n\n# 不错的面试整理 2021年10月28日\n\n * https://juejin.cn/post/7016593221815910408\n * https://juejin.cn/post/7021173142890479630\n\n# todo\n\n * https://juejin.cn/post/7013953652578582558\n * https://juejin.cn/post/7004638318843412493\n * https://cloud.tencent.com/developer/article/1856568",
       "charsets": {
         "cjk": true
       }
@@ -2299,56 +2519,6 @@ export const siteData = {
       "charsets": {
         "cjk": true
       }
-    },
-    {
-      "title": "标签",
-      "frontmatter": {
-        "tagsPage": true,
-        "title": "标签",
-        "permalink": "/tags/",
-        "article": false
-      },
-      "regularPath": "/@pages/tagsPage.html",
-      "relativePath": "@pages/tagsPage.md",
-      "key": "v-2e8e39a2",
-      "path": "/tags/",
-      "lastUpdated": "7/26/2021, 2:08:25 PM",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "actionText": "→ 开始阅读 ←",
-        "actionLink": "/note/typescript.md",
-        "features": [
-          {
-            "title": "Ecosystem",
-            "details": "精通 VS Code、NodeJS、Webpack、Lottie 等软件与工具包的安装与卸载，配套设施也是必不可少的。"
-          },
-          {
-            "title": "JavaScript",
-            "details": "熟练掌握 React、TypeScript、Rax（H5）等单词的拼写，熟练使用ES6语法编程，追求代码高质量可维护性。"
-          },
-          {
-            "title": "Motto",
-            "details": "程序就像女人的裙子，越短才越好"
-          }
-        ],
-        "footer": "Powered By VuePress | 2021 ErDong"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-f3fec70e",
-      "path": "/",
-      "lastUpdated": "10/28/2021, 10:36:24 PM",
-      "headersStr": null,
-      "content": "",
-      "normalizedContent": "",
-      "charsets": {}
     }
   ],
   "themeConfig": {
@@ -2474,6 +2644,13 @@ export const siteData = {
             "/interview/React/ReactFiber.md",
             "/interview/React/Virtual DOM.md",
             "/interview/React/React Diff.md"
+          ],
+          "collapsable": false
+        },
+        {
+          "title": "Webpack",
+          "children": [
+            "/interview/Webpack/webpack.md"
           ],
           "collapsable": false
         },
